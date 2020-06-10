@@ -1,0 +1,43 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:03.534000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:03.295000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-09T20:36:15+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/AWSGlueServiceRole-MasterDataProduction",
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-09T20:37:25+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/AWSGlueServiceRole-MasterDataProduction",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-09T20:35:29+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/AWSGlueServiceRole-MasterDataProduction",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

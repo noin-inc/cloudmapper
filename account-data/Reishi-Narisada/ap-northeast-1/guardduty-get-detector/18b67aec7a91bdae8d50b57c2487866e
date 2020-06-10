@@ -1,0 +1,8 @@
+{
+    "CreatedAt": "2019-09-03T06:38:52.992Z",
+    "FindingPublishingFrequency": "SIX_HOURS",
+    "ServiceRole": "arn:aws:iam::416817624313:role/aws-service-role/guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDuty",
+    "Status": "ENABLED",
+    "Tags": {},
+    "UpdatedAt": "2019-09-04T02:44:59.950Z"
+}

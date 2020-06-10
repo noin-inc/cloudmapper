@@ -1,0 +1,16 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PythonRequirementsLambdaLayer",
+            "PhysicalResourceId": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::LayerVersion",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/requirements-layer-personalize-service-production/1ce7f560-98f3-11ea-baee-0ae3ffe7265e",
+            "StackName": "requirements-layer-personalize-service-production",
+            "Timestamp": "2020-05-18T10:34:31.617000+00:00"
+        }
+    ]
+}

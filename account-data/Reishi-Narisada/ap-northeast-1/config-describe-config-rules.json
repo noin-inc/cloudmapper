@@ -1,0 +1,519 @@
+{
+    "ConfigRules": [
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-xzffem",
+            "ConfigRuleId": "config-rule-xzffem",
+            "ConfigRuleName": "securityhub-access-keys-rotated-chakpu",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the active access keys are rotated within the number of days specified in maxAccessKeyAge",
+            "InputParameters": "{\"maxAccessKeyAge\":\"90\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "ACCESS_KEYS_ROTATED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-f5aiuv",
+            "ConfigRuleId": "config-rule-f5aiuv",
+            "ConfigRuleName": "securityhub-cloud-trail-cloud-watch-logs-enabled-zp2i4",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether AWS CloudTrail trails are configured to send logs to Amazon CloudWatch logs.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::CloudTrail::Trail"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "CLOUD_TRAIL_CLOUD_WATCH_LOGS_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-pwxl9k",
+            "ConfigRuleId": "config-rule-pwxl9k",
+            "ConfigRuleName": "securityhub-cloud-trail-encryption-enabled-pfsma6",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Ensure CloudTrail logs are encrypted at rest using KMS CMKs",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::CloudTrail::Trail"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "CLOUD_TRAIL_ENCRYPTION_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-qaxusk",
+            "ConfigRuleId": "config-rule-qaxusk",
+            "ConfigRuleName": "securityhub-cloud-trail-log-file-validation-enabled-019x2",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether AWS CloudTrail creates a signed digest file with logs.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::CloudTrail::Trail"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "CLOUD_TRAIL_LOG_FILE_VALIDATION_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-plmzgl",
+            "ConfigRuleId": "config-rule-plmzgl",
+            "ConfigRuleName": "securityhub-cmk-backing-key-rotation-enabled-gusu4x",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks that key rotation is enabled for customer created customer master key (CMK)",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::KMS::Key"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "CMK_BACKING_KEY_ROTATION_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-uoqvu5",
+            "ConfigRuleId": "config-rule-uoqvu5",
+            "ConfigRuleName": "securityhub-iam-password-policy-ensure-expires-b83cz8",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users expires passwords within certain days",
+            "InputParameters": "{\"MaxPasswordAge\":\"90\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-ciwiac",
+            "ConfigRuleId": "config-rule-ciwiac",
+            "ConfigRuleName": "securityhub-iam-password-policy-lowercase-letter-check-tay1k",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users requires at least one lowercase character in password.",
+            "InputParameters": "{\"RequireLowercaseCharacters\":\"true\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-1vbie4",
+            "ConfigRuleId": "config-rule-1vbie4",
+            "ConfigRuleName": "securityhub-iam-password-policy-minimum-length-check-11uw5c",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users requires minimum password length.",
+            "InputParameters": "{\"MinimumPasswordLength\":\"14\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-iualbo",
+            "ConfigRuleId": "config-rule-iualbo",
+            "ConfigRuleName": "securityhub-iam-password-policy-number-check-0p0qc",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users requires at least one number in password.",
+            "InputParameters": "{\"RequireNumbers\":\"true\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-i990xa",
+            "ConfigRuleId": "config-rule-i990xa",
+            "ConfigRuleName": "securityhub-iam-password-policy-prevent-reuse-check-o4glxc",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users prevents password reuse.",
+            "InputParameters": "{\"PasswordReusePrevention\":\"24\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-0y6joh",
+            "ConfigRuleId": "config-rule-0y6joh",
+            "ConfigRuleName": "securityhub-iam-password-policy-symbol-check-jcwkdf",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users requires at least one symbol in password.",
+            "InputParameters": "{\"RequireSymbols\":\"true\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-rylv33",
+            "ConfigRuleId": "config-rule-rylv33",
+            "ConfigRuleName": "securityhub-iam-password-policy-uppercase-letter-check-5iwhd",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the account password policy for IAM users requires at least one uppercase character in password.",
+            "InputParameters": "{\"RequireUppercaseCharacters\":\"true\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_PASSWORD_POLICY"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-gxdmoz",
+            "ConfigRuleId": "config-rule-gxdmoz",
+            "ConfigRuleName": "securityhub-iam-policy-no-statements-with-admin-access-781azf",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the default version of IAM policies have administrator access",
+            "InputParameters": "{}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::Policy"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_POLICY_NO_STATEMENTS_WITH_ADMIN_ACCESS"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-6iiijd",
+            "ConfigRuleId": "config-rule-6iiijd",
+            "ConfigRuleName": "securityhub-iam-root-access-key-check-9wbz6k",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the root user access key is available.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_ROOT_ACCESS_KEY_CHECK"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-tbxhag",
+            "ConfigRuleId": "config-rule-tbxhag",
+            "ConfigRuleName": "securityhub-iam-support-policy-in-use-3f48cd12",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks that the 'AWSSupportAccess' managed policy is attached to any IAM user, group, or role.",
+            "InputParameters": "{\"policyARN\":\"arn:aws:iam::aws:policy/AWSSupportAccess\",\"policyUsageType\":\"ANY\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_POLICY_IN_USE"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-jm4o0i",
+            "ConfigRuleId": "config-rule-jm4o0i",
+            "ConfigRuleName": "securityhub-iam-user-no-policies-check-gyn5kn",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks that none of your IAM users have policies attached. IAM users must inherit permissions from IAM groups or roles.",
+            "InputParameters": "{}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_USER_NO_POLICIES_CHECK"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-87sqvu",
+            "ConfigRuleId": "config-rule-87sqvu",
+            "ConfigRuleName": "securityhub-iam-user-unused-credentials-check-dntoeg",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether AWS Identity and Access Management (IAM) users have passwords or active access keys that have not been used within the specified number of days you provided.",
+            "InputParameters": "{\"maxCredentialUsageAge\":\"90\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "IAM_USER_UNUSED_CREDENTIALS_CHECK"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-n8ndhx",
+            "ConfigRuleId": "config-rule-n8ndhx",
+            "ConfigRuleName": "securityhub-mfa-enabled-for-iam-console-access-7z1ve4",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether AWS Multi-Factor Authentication (MFA) is enabled for all AWS Identity and Access Management (IAM) users that use a console password.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::IAM::User"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "MFA_ENABLED_FOR_IAM_CONSOLE_ACCESS"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-juxnow",
+            "ConfigRuleId": "config-rule-juxnow",
+            "ConfigRuleName": "securityhub-multi-region-cloud-trail-enabled-ffec43de",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether AWS CloudTrail is enabled in your AWS account. Optionally, you can specify which S3 bucket, SNS topic, and Amazon CloudWatch Logs ARN to use.",
+            "InputParameters": "{\"readWriteType\":\"ALL\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "MULTI_REGION_CLOUD_TRAIL_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-xuwfcs",
+            "ConfigRuleId": "config-rule-xuwfcs",
+            "ConfigRuleName": "securityhub-restricted-rdp-lxwiqn",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the incoming RDP traffic is Allowed from 0.0.0.0/0. This rule is compliant when incoming RDP traffic is restricted.",
+            "InputParameters": "{\"blockedPort1\":\"3389\"}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::EC2::SecurityGroup"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "RESTRICTED_INCOMING_TRAFFIC"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-jpqxzr",
+            "ConfigRuleId": "config-rule-jpqxzr",
+            "ConfigRuleName": "securityhub-restricted-ssh-d7nwqf",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether the incoming SSH traffic for the security groups is accessible. The rule is compliant when the IP addresses of the incoming SSH traffic in the security groups are restricted. This rule applies only to IPv4.",
+            "InputParameters": "{}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::EC2::SecurityGroup"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "INCOMING_SSH_DISABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-su8phz",
+            "ConfigRuleId": "config-rule-su8phz",
+            "ConfigRuleName": "securityhub-root-account-hardware-mfa-enabled-odah3g",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether users of your AWS account require a hardware multi-factor authentication (MFA) device to sign in with root credentials.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "ROOT_ACCOUNT_HARDWARE_MFA_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-ovujq7",
+            "ConfigRuleId": "config-rule-ovujq7",
+            "ConfigRuleName": "securityhub-root-account-mfa-enabled-rtvvs",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether users of your AWS account require a multi-factor authentication (MFA) device to sign in with root credentials.",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": []
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "ROOT_ACCOUNT_MFA_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-m1iiv0",
+            "ConfigRuleId": "config-rule-m1iiv0",
+            "ConfigRuleName": "securityhub-s3-bucket-logging-enabled-x1c4s8",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether logging is enabled for your S3 buckets.",
+            "InputParameters": "{}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::S3::Bucket"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "S3_BUCKET_LOGGING_ENABLED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-twpfs3",
+            "ConfigRuleId": "config-rule-twpfs3",
+            "ConfigRuleName": "securityhub-s3-bucket-public-read-prohibited-a77tl",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks to see if S3 buckets are publicly readable",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::S3::Bucket"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "S3_BUCKET_PUBLIC_READ_PROHIBITED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-nymqai",
+            "ConfigRuleId": "config-rule-nymqai",
+            "ConfigRuleName": "securityhub-s3-bucket-public-write-prohibited-xhnyev",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks to see if S3 buckets allow public write",
+            "InputParameters": "{}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::S3::Bucket"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "S3_BUCKET_PUBLIC_WRITE_PROHIBITED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-3krzrg",
+            "ConfigRuleId": "config-rule-3krzrg",
+            "ConfigRuleName": "securityhub-vpc-default-security-group-closed-d1qnn",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether default security group for VPC is closed",
+            "InputParameters": "{}",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::EC2::SecurityGroup"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "VPC_DEFAULT_SECURITY_GROUP_CLOSED"
+            }
+        },
+        {
+            "ConfigRuleArn": "arn:aws:config:ap-northeast-1:416817624313:config-rule/aws-service-rule/securityhub.amazonaws.com/config-rule-tx52si",
+            "ConfigRuleId": "config-rule-tx52si",
+            "ConfigRuleName": "securityhub-vpc-flow-logs-enabled-oi0rx",
+            "ConfigRuleState": "ACTIVE",
+            "CreatedBy": "securityhub.amazonaws.com",
+            "Description": "Checks whether default security group for VPC is closed",
+            "InputParameters": "{\"trafficType\":\"REJECT\"}",
+            "MaximumExecutionFrequency": "Twelve_Hours",
+            "Scope": {
+                "ComplianceResourceTypes": [
+                    "AWS::EC2::VPC"
+                ]
+            },
+            "Source": {
+                "Owner": "AWS",
+                "SourceIdentifier": "VPC_FLOW_LOGS_ENABLED"
+            }
+        }
+    ],
+    "NextToken": "eyJlbmNyeXB0ZWREYXRhIjpbNDQsLTEyNCwxMDYsLTk0LC01Myw4OCwtNyw0MCwxMjUsNTMsMTE1LC05NSwtMSwzNCw3NSw3MiwxMDUsLTEyMiwtMTIsNTcsOTYsLTEwNCwtODQsOTksNTUsMTMsMTIsMTUsMTE4LDExOSwtMTIwLDM1LDk2LC05OCwtOTIsNzMsMTE0LDk5LDEyNywtODcsLTIsLTM5LDEyMywtOSwtMTE3LDk1LDgsNTMsLTc3LC01NSw0NiwtMTI1LDEwOCwxMjcsLTI1LDg2LC0xMCw2MiwtMjEsNDAsLTg1LDE1LDk2LC0yMCwxMTYsLTg1LDc4LC0xNyw2MSw4NywxMDQsLTEyNSw1OCwtMTE1LDI5LDIwLC02MCwtODMsNzcsLTg2LC0xMDEsLTIzLC0zOSwzMywtMTI1LDMsLTcxLC04LC01OCwtOTUsLTI5LC0zOSw1MSwtMjcsLTU1LC02Niw1NSwxMTQsLTExNSw2OSwxMTUsLTEwNSw0NSwxMTYsNjQsNzAsMTA4LC05Niw5MiwzMCw3NCw5LDgxLDI4LDU3LDU3LDEyMCwxMDYsLTk5LDEwMCwtNTgsOTgsLTI0LC0zNiwtMTEyLC0yMyw5MSw0NCwxMjUsLTc0LDExOSwxMDQsLTEyLDEyMSwtNDQsODUsNDEsLTgxLC03Myw4LC04NiwyMywtODUsLTE1LC0zNiwtMiwyMiwxMTIsNzMsNzgsLTcxLDE0LC05MywtNDksLTY5LC02NywtMTIyLC05NCwxMDcsLTY2LC05Miw1MSwtNDIsLTcsLTU2LDIzLC0xMjYsMTI1LDg4LC01NSw2OSw4MiwxMiwtMTE5LDQ5LC04OSwxMTksLTM3LC02OSwtNDIsLTY0LC0xMTcsLTEsNTQsNzUsMTE0LC0yOCw5Miw1Niw3MywzNSwxMjQsODAsLTEwMSwtNTMsLTYyLC05NiwtMTIxLC03NCwxMywtNiwzMSw3NiwxMjUsNzMsMTE3LDUxLDcwLC0xMDAsMSw3OCwxMDYsMTAyLC01MywyLC0zLDExOCw0Niw2NSw5OSwtMTgsLTc1LDQ2LC0xMjAsLTE5LDkzLDEwMiwxMDksMTE2LC02MSwxNyw2OSwtMTA5LC0xMDIsOTcsLTEyNiwtMjQsODgsLTM4LC03MSwtMzksLTMwLDkyLC02Miw3OSw5OSwyOF0sIm1hdGVyaWFsU2V0U2VyaWFsTnVtYmVyIjoxLCJpdlBhcmFtZXRlclNwZWMiOnsiaXYiOlstMTAzLDY4LC0xMCwtMjgsLTkzLDcyLC0xOSwtNjQsLTEyMCwyNyw0MiwxMTQsLTg5LDExLDkxLC0yMF19fQ=="
+}

@@ -1,0 +1,33 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/Mackerel",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "ufNQMCsLGXj1jDF60fPtWiML3GYHEz8kqz3Dbhf2"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::217452466226:root"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-06-13T09:11:02+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4R7M2SGWO6",
+        "RoleName": "Mackerel",
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "Mackerel"
+            }
+        ]
+    }
+}

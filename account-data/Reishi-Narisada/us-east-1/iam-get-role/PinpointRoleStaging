@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/PinpointRoleStaging",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "pinpoint.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-08-20T02:04:37+00:00",
+        "Description": "Allows S3 to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4U3YPIQMDS",
+        "RoleName": "PinpointRoleStaging"
+    }
+}

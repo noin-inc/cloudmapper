@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin_noin_admin",
+        "CreateDate": "2018-03-06T04:54:22+00:00",
+        "PasswordLastUsed": "2018-04-27T17:28:43+00:00",
+        "Path": "/",
+        "UserId": "AIDAII6Z6RDMPALDVZ2BA",
+        "UserName": "noin_noin_admin"
+    }
+}

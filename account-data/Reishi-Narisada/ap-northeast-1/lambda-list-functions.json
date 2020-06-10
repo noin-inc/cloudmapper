@@ -1,0 +1,1375 @@
+{
+    "Functions": [
+        {
+            "CodeSha256": "9l07clluf0F9e49YR0EWZDaTepCiDKdrHjdFLiGCY5A=",
+            "CodeSize": 7251115,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PARTITION_DATETIME_FIELD_NAME": "requested_at",
+                    "S3_BUCKET_NAME": "apilog.production.noin.tv",
+                    "S3_OBJECT_KEY_PREFIX": "apilog"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-apilogger-production",
+            "FunctionName": "kinesis-apilogger-production",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2018-08-07T17:01:20.344+0000",
+            "MemorySize": 128,
+            "RevisionId": "2cc31007-0aa5-4439-8d1e-f718d56f9a54",
+            "Role": "arn:aws:iam::416817624313:role/KinesisReaderLambdaProduction",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "GZoS+VyYunUjzGuIEPub7kQM9/gcWrrmyplEnjmOmPU=",
+            "CodeSize": 2441880,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PARTITION_DATETIME_FIELD_NAME": "requested_at",
+                    "S3_BUCKET_NAME": "apilog.staging.noin.tv",
+                    "S3_OBJECT_KEY_PREFIX": "apilog"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-apilogger-staging",
+            "FunctionName": "kinesis-apilogger-staging",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2019-10-21T07:15:04.575+0000",
+            "MemorySize": 128,
+            "RevisionId": "e73de930-e055-4e28-8431-eb1a25213084",
+            "Role": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "Runtime": "python2.7",
+            "Timeout": 3,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "dMcDgHWLmctW5St7YdJs+iU03b8k1xLXY+W9T6TjCAI=",
+            "CodeSize": 5817,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeLearningTrigger",
+            "FunctionName": "dev-AmazonPersonalizeLearningTrigger",
+            "Handler": "src/workflow/personalize/learning_trigger/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.510+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "eb5435b7-9cc0-4a69-93fc-7962e90dcd13",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "RsAtH0Us875yWZPFrhSq5aL9uiTZRR0UwtSRh+9pDHQ=",
+            "CodeSize": 1327,
+            "Description": "nontv video transcode for development",
+            "Environment": {
+                "Variables": {
+                    "PIPELINE_ID": "1504894557369-eb5lf5",
+                    "REGION_NAME": "ap-northeast-1"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-development",
+            "FunctionName": "nontv-video-transcode-development",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-11-06T03:28:02.509+0000",
+            "MemorySize": 128,
+            "RevisionId": "2b7b7a9f-cb84-4976-8cb7-a0fcaa8139c2",
+            "Role": "arn:aws:iam::416817624313:role/service-role/Lambda_Video_Transcode_Role",
+            "Runtime": "python3.6",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "+Ir1U2zWVs5VvRkHSgm8/1AdhrlYIyUaZA5cLGT6AwA=",
+            "CodeSize": 5558,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizePrepareUserJsonl",
+            "FunctionName": "production-AmazonPersonalizePrepareUserJsonl",
+            "Handler": "src/workflow/personalize/prepare_user_jsonl/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.566+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "a8d808e2-ac59-4906-a247-39dfeaea0bce",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "unClATrFJZAiN9ShKcUFcXmmUh4Lksl1Y8Ddc2h/e0g=",
+            "CodeSize": 5402,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeDeployCheck",
+            "FunctionName": "production-AmazonPersonalizeDeployCheck",
+            "Handler": "src/workflow/personalize/deploy_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.430+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "b87bf9eb-6f52-47b8-8264-a6c187348025",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "p0tfmtNhUWm2ZLPd0j1udLJGvf6dHggRpD6v0t5vfYw=",
+            "CodeSize": 7655,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeExecuteQuery",
+            "FunctionName": "dev-AmazonPersonalizeExecuteQuery",
+            "Handler": "src/workflow/personalize/execute_query/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.410+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "11ff80ec-e7da-47c3-94f2-4446a883b2ff",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "r21aMmOxHhIEoNVoWVPuBa3Gv3R1TtYKKrbrOXxqBlg=",
+            "CodeSize": 5450,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeSolutionCheck",
+            "FunctionName": "production-AmazonPersonalizeSolutionCheck",
+            "Handler": "src/workflow/personalize/solution_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.431+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "a1622cec-9b28-4c4b-b427-2b20b432d0a9",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "r31NMD1AWiCe/H2jssEJv4QjwEt077N769M1UGDpQOQ=",
+            "CodeSize": 5517,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeSolutionCheck",
+            "FunctionName": "dev-AmazonPersonalizeSolutionCheck",
+            "Handler": "src/workflow/personalize/solution_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:45.328+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "c5f07ef2-0142-4a72-906b-4a253e9c3693",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "aE3arNSuOsRUs3PPCoWigLx1PTLO2vofxcjQGJaUVrw=",
+            "CodeSize": 4938188,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification_dev",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-web-codepipeline-approve-notification",
+            "FunctionName": "noin-web-codepipeline-approve-notification",
+            "Handler": "bundle",
+            "LastModified": "2019-07-01T11:16:33.712+0000",
+            "MemorySize": 512,
+            "RevisionId": "99ae28be-da9c-4fb7-bb57-8998fecde90a",
+            "Role": "arn:aws:iam::416817624313:role/service-role/noin-web-codepipeline-approve-notification-role-jh4a37i7",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "IMVSyW1SPD9CG58DPGZfBt7XHsVXZVj2gEudZuw9yo0=",
+            "CodeSize": 5809,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeImportDataCheck",
+            "FunctionName": "production-AmazonPersonalizeImportDataCheck",
+            "Handler": "src/workflow/personalize/import_data_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.203+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "c8eec7f3-db12-4b78-80b8-022e33ab0004",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "z0PL2G8G51IDaRWOpLE5WwG2e1vP6Yv+vujTvqmLkMM=",
+            "CodeSize": 5780,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeImportData",
+            "FunctionName": "dev-AmazonPersonalizeImportData",
+            "Handler": "src/workflow/personalize/import_data/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.608+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "db4a6aaf-1f83-44dc-bee7-8d5e20898714",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "OiU0k4AIGa36OIoQD6NbFvJufIlDMRXZ9fEKuDCGvsA=",
+            "CodeSize": 730972,
+            "Description": "S3\u306e\u30c7\u30a3\u30ec\u30af\u30c8\u30ea\u69cb\u9020\u3092\u898b\u3066Athena\u306e\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30cb\u30f3\u30b0\u3092\u884c\u3046",
+            "Environment": {
+                "Variables": {
+                    "ATHENA_DATABASE": "noin_staging",
+                    "PREFIX": "actionlog/",
+                    "S3BUCKET": "actionlog.staging.noin.tv",
+                    "TABLE": "actionlog"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:athena-partitioning",
+            "FunctionName": "athena-partitioning",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2018-07-22T13:50:25.734+0000",
+            "MemorySize": 128,
+            "RevisionId": "f1bdd70a-ce79-4548-a629-ac1cdae74f7f",
+            "Role": "arn:aws:iam::416817624313:role/service-role/AthenaPartitioning",
+            "Runtime": "python3.6",
+            "Timeout": 180,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "8oMXq8hOCYeOUP7Hswz9EENkSFy7qO197xfle0E+xqc=",
+            "CodeSize": 73927,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "ENVIRONMENT": "staging",
+                    "S3_BUCKET_NAME": "staging.noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-staging",
+            "FunctionName": "image-resizer-staging",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-10-26T09:41:59.674+0000",
+            "MemorySize": 512,
+            "RevisionId": "2dd4dcf4-d829-41ea-959d-152b62823f0a",
+            "Role": "arn:aws:iam::416817624313:role/service-role/ImageResizerLambdaStaging",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "i/znmLttKBKvIcqDQ6spXPhQNPsJUUotoKqVAjrfh1o=",
+            "CodeSize": 5750,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeLearningTrigger",
+            "FunctionName": "production-AmazonPersonalizeLearningTrigger",
+            "Handler": "src/workflow/personalize/learning_trigger/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.657+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "6e25a349-7c8d-4454-a9ee-e2604157349e",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "IlasL6AGR7fqOi4fpAaXV/Nc97wN/X/k6MbkEjzP9Ng=",
+            "CodeSize": 4344026,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification_dev",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codedeploy-notification",
+            "FunctionName": "codedeploy-notification",
+            "Handler": "handler",
+            "LastModified": "2019-06-23T13:57:49.904+0000",
+            "MemorySize": 512,
+            "RevisionId": "f8ff14b4-5c92-4730-ae8b-1da87e9dd0c3",
+            "Role": "arn:aws:iam::416817624313:role/service-role/CodeDeployNotificationLambdaRoll",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "/v7Y/SFCQxs5EQZxtej752bpd4iAY/OfRUbX5k4SC4w=",
+            "CodeSize": 5469,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeDeployCheck",
+            "FunctionName": "dev-AmazonPersonalizeDeployCheck",
+            "Handler": "src/workflow/personalize/deploy_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.221+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "c5262c83-e9db-4277-9ada-9ce36323cd8a",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "V4XvFXGJZVubhP9DarESK7vY2WZPA/gzFdMVPqyiBO8=",
+            "CodeSize": 2444805,
+            "Description": "An Amazon Kinesis stream processor that logs the data being published.",
+            "Environment": {
+                "Variables": {
+                    "S3_BUCKET_NAME": "actionlog.production.noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-logger-production",
+            "FunctionName": "kinesis-logger-production",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2019-12-24T13:11:31.518+0000",
+            "MemorySize": 192,
+            "RevisionId": "cf36582e-2b28-4407-a6be-cb32acad5a1c",
+            "Role": "arn:aws:iam::416817624313:role/KinesisReaderLambdaProduction",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "rYLbrG+M0EEStdSkiB8mJvi3fkZ+DzbIKVqMB6l9Xw4=",
+            "CodeSize": 6618973,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "SLACK_VERIFICATION_TOKEN": "8CbOcdLQP7suJxIriLNC8rUu"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-web-pipeline-approve",
+            "FunctionName": "noin-web-pipeline-approve",
+            "Handler": "bundle",
+            "LastModified": "2019-07-01T16:52:21.066+0000",
+            "MemorySize": 512,
+            "RevisionId": "79b0b9c4-b434-4d00-b9cb-5ec5689a6396",
+            "Role": "arn:aws:iam::416817624313:role/service-role/noin-web-pipeline-approve-role-nrn5rmue",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "RsAtH0Us875yWZPFrhSq5aL9uiTZRR0UwtSRh+9pDHQ=",
+            "CodeSize": 1327,
+            "Description": "nontv video transcode for staging",
+            "Environment": {
+                "Variables": {
+                    "PIPELINE_ID": "1504975575266-ey2ixa",
+                    "REGION_NAME": "ap-northeast-1"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-staging",
+            "FunctionName": "nontv-video-transcode-staging",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-11-06T03:28:38.724+0000",
+            "MemorySize": 128,
+            "RevisionId": "a4471007-2bb4-4621-a841-0a33b0a42513",
+            "Role": "arn:aws:iam::416817624313:role/service-role/Lambda_Video_Transcode_Role",
+            "Runtime": "python3.6",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "sHGdnABDnHQufk7UXiQGf4HivyzIvOsKg8dvj6N2K1Q=",
+            "CodeSize": 5814,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeDeployTrigger",
+            "FunctionName": "dev-AmazonPersonalizeDeployTrigger",
+            "Handler": "src/workflow/personalize/deploy_trigger/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.292+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "8c6a1c6a-1856-4547-82ab-b015f032f180",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "PgX73TDRN1YfKCT8AmRd1GusHKkuNPIBTTi2fRG9EDQ=",
+            "CodeSize": 4937465,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification_dev",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codepipeline_notification",
+            "FunctionName": "codepipeline_notification",
+            "Handler": "bundle",
+            "LastModified": "2019-06-28T17:01:04.956+0000",
+            "MemorySize": 512,
+            "RevisionId": "ea5e7879-05a1-4d6f-911a-a40200de1d3a",
+            "Role": "arn:aws:iam::416817624313:role/service-role/codepipeline_notification-role-7tpbu595",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "UquGRT4JGrV3bljNnONNB06fnatY8ndaWPnWUYCEweg=",
+            "CodeSize": 753679,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "ACCESS_CONTROL_ALLOW_ORIGIN": "*",
+                    "ACCESS_TOKEN": "4520012591.2de43b0.3a622e562889414b9ca27019d57abdc9"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-instagram-wrapper",
+            "FunctionName": "noin-instagram-wrapper",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-12-15T14:55:24.360+0000",
+            "MemorySize": 128,
+            "RevisionId": "be1ce984-b658-4c6f-a26f-0a8e2c014d4d",
+            "Role": "arn:aws:iam::416817624313:role/InstagramWrapper",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "zHyDglTdmL4y7oqQCQfhPluPOnvb93LLi08GI+LoUBo=",
+            "CodeSize": 5625,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizePrepareUserJsonl",
+            "FunctionName": "dev-AmazonPersonalizePrepareUserJsonl",
+            "Handler": "src/workflow/personalize/prepare_user_jsonl/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.159+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "4ab89d53-511b-4fa3-876a-5deb6308acbf",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "Ob4lGkEo7QOA+89hIIOp+sSALZwIOBC2o6Q1fwsDXOw=",
+            "CodeSize": 4932499,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification_dev",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:ecs-notification",
+            "FunctionName": "ecs-notification",
+            "Handler": "bundle",
+            "LastModified": "2019-06-26T17:40:43.867+0000",
+            "MemorySize": 512,
+            "RevisionId": "5342b997-0fba-4f4d-814f-2bf8763cdd36",
+            "Role": "arn:aws:iam::416817624313:role/service-role/ecs-notification-role-t31vht1p",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "V4XvFXGJZVubhP9DarESK7vY2WZPA/gzFdMVPqyiBO8=",
+            "CodeSize": 2444805,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "S3_BUCKET_NAME": "actionlog.staging.noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-logger-staging",
+            "FunctionName": "kinesis-logger-staging",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2019-11-12T06:45:27.483+0000",
+            "MemorySize": 128,
+            "RevisionId": "b1b5331d-f27d-4b4e-be32-56e9527ab45b",
+            "Role": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "sUyInN2MdXjV9K63Z8pPKwtDD7iS4lHeJkwLoD3wBpA=",
+            "CodeSize": 635,
+            "Description": "A starter AWS Lambda function.",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:athena-table-repair",
+            "FunctionName": "athena-table-repair",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-11-06T03:44:51.149+0000",
+            "MemorySize": 128,
+            "RevisionId": "4389d378-a6bf-4720-83ad-65fe5dff0793",
+            "Role": "arn:aws:iam::416817624313:role/service-role/AthenaTableRepair",
+            "Runtime": "python3.6",
+            "Timeout": 300,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "aDfG9RUwRp/r7so46DxuPp6BYJJirj+JgZc2N8hcdjM=",
+            "CodeSize": 7588,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeExecuteQuery",
+            "FunctionName": "production-AmazonPersonalizeExecuteQuery",
+            "Handler": "src/workflow/personalize/execute_query/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.661+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "5202650d-2db9-4a6e-a0dc-db1bec93ac44",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST"
+        },
+        {
+            "CodeSha256": "u/1Ie4eW7Tovfzas+OK4greQMsjkWUx6bHuHC/mXIO4=",
+            "CodeSize": 1670,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "ADMIN_EMAIL": "info@noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-contact-sender",
+            "FunctionName": "noin-contact-sender",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2018-03-20T04:04:33.964+0000",
+            "MemorySize": 128,
+            "RevisionId": "5bfad175-8a39-4608-9568-846768bb6f23",
+            "Role": "arn:aws:iam::416817624313:role/SESSenderLambda",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "zPAdMt8q1nmoyqWFnghHgxS8ip+7izNFTZPfd4FqMkU=",
+            "CodeSize": 5402,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeCheckExecuteQueryStatus",
+            "FunctionName": "dev-AmazonPersonalizeCheckExecuteQueryStatus",
+            "Handler": "src/workflow/personalize/query_status_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.762+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "96f49a93-96b9-42a5-949e-81375e27660a",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "8oMXq8hOCYeOUP7Hswz9EENkSFy7qO197xfle0E+xqc=",
+            "CodeSize": 73927,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "S3_BUCKET_NAME": "development.noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-development",
+            "FunctionName": "image-resizer-development",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-10-27T01:36:11.321+0000",
+            "MemorySize": 512,
+            "RevisionId": "37ba7932-e3f1-4ca0-aeac-7fdd85db025a",
+            "Role": "arn:aws:iam::416817624313:role/service-role/ImageResizerLambdaDevelopment",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "xYQkRAJFEXPnmb22BrpST3NhL2fGz4LUOS4bopbi66M=",
+            "CodeSize": 729,
+            "Description": "",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:personalize",
+            "FunctionName": "personalize",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2019-03-11T05:50:23.004+0000",
+            "MemorySize": 128,
+            "RevisionId": "30133c53-d111-4669-b49e-c95a33e2a0a8",
+            "Role": "arn:aws:iam::416817624313:role/PersonalizeLambda",
+            "Runtime": "python3.6",
+            "Timeout": 3,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST"
+        },
+        {
+            "CodeSha256": "BLihX/y8sl7lcBhRL//miCBqIejp6tmNDjXG8JY/hWU=",
+            "CodeSize": 5335,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "FunctionName": "production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "Handler": "src/workflow/personalize/query_status_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.576+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "980a8302-1070-446b-9d98-8b3af87bc014",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST"
+        },
+        {
+            "CodeSha256": "DTIweUDChhTIJcjO42ZHZn4wtQYl8unzShNT8a4EqYU=",
+            "CodeSize": 521,
+            "Description": "",
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:athena-execution-checker",
+            "FunctionName": "athena-execution-checker",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2018-07-24T16:11:45.632+0000",
+            "MemorySize": 128,
+            "RevisionId": "ac970fca-2436-4ab3-b411-e0ae31b8ab1c",
+            "Role": "arn:aws:iam::416817624313:role/AthenaExecutionChecker",
+            "Runtime": "python3.6",
+            "Timeout": 20,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "67CNsiOIZ7HUPSnud+vgKeEVFaHDx/aaA9BEYKutm9k=",
+            "CodeSize": 4338645,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification_dev",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codebuild-notification",
+            "FunctionName": "codebuild-notification",
+            "Handler": "bundle",
+            "LastModified": "2018-12-04T08:52:24.425+0000",
+            "MemorySize": 512,
+            "RevisionId": "c81e6bfb-0b2a-45af-a82a-b793d07a8bf4",
+            "Role": "arn:aws:iam::416817624313:role/service-role/CodeBuildNotificationLambdaRoll",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "RsAtH0Us875yWZPFrhSq5aL9uiTZRR0UwtSRh+9pDHQ=",
+            "CodeSize": 1327,
+            "Description": "nontv video transcode for production",
+            "Environment": {
+                "Variables": {
+                    "PIPELINE_ID": "1504975785889-sb3y2e",
+                    "REGION_NAME": "ap-northeast-1"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-production",
+            "FunctionName": "nontv-video-transcode-production",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-11-06T03:33:33.377+0000",
+            "MemorySize": 128,
+            "RevisionId": "e9a98c68-96e1-4f55-95c8-70f7d6024d45",
+            "Role": "arn:aws:iam::416817624313:role/service-role/Lambda_Video_Transcode_Role",
+            "Runtime": "python3.6",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "75a0cSVSTxzN3eMMZwAGXZOT+g4l9XE0EHfVTx1mflg=",
+            "CodeSize": 5747,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeDeployTrigger",
+            "FunctionName": "production-AmazonPersonalizeDeployTrigger",
+            "Handler": "src/workflow/personalize/deploy_trigger/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.566+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "0d019e1e-6930-422e-930e-54a535dc9f16",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "8oMXq8hOCYeOUP7Hswz9EENkSFy7qO197xfle0E+xqc=",
+            "CodeSize": 73927,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "ENVIRONMENT": "production",
+                    "S3_BUCKET_NAME": "production.noin.tv"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-production",
+            "FunctionName": "image-resizer-production",
+            "Handler": "lambda_function.lambda_handler",
+            "LastModified": "2017-10-26T10:04:56.126+0000",
+            "MemorySize": 1024,
+            "RevisionId": "6573818a-42a4-435a-b550-e2caa2e5aab0",
+            "Role": "arn:aws:iam::416817624313:role/service-role/ImageResizerLambdaProduction",
+            "Runtime": "python2.7",
+            "Timeout": 60,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "gNQ6rn0vOdynmEWjUVh0fxqZrIICJMGC7QrEcRCT0e8=",
+            "CodeSize": 5876,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/dev-noin-pv-base-metadata-dataset-group",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/dev-noin-pv-base-metadata-dataset-group/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-51386",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeImportDataCheck",
+            "FunctionName": "dev-AmazonPersonalizeImportDataCheck",
+            "Handler": "src/workflow/personalize/import_data_check/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:17:44.683+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "4de647b1-f60b-4c3d-ba56-6b7df4a24854",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "fcPfojjMVrV+YkTRFumPYQh+2NYljskmW7fy0+E8hoE=",
+            "CodeSize": 5713,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                    "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                    "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                    "PERSONALIZE_DIR": "first_release",
+                    "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                    "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                    "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                    "SLACK_PATH": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeImportData",
+            "FunctionName": "production-AmazonPersonalizeImportData",
+            "Handler": "src/workflow/personalize/import_data/handler.lambda_handler",
+            "LastModified": "2020-05-22T03:33:45.198+0000",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2",
+                    "CodeSize": 23816959
+                }
+            ],
+            "MemorySize": 3008,
+            "RevisionId": "6b331e71-a761-4bc5-8083-5f7486c311ea",
+            "Role": "arn:aws:iam::416817624313:role/noin-personalize-workflow-production",
+            "Runtime": "python3.8",
+            "Timeout": 900,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        },
+        {
+            "CodeSha256": "EirHWkhu7pe2+qE6k67L3WTPlhYMuQlTHx57qBXxqj4=",
+            "CodeSize": 4343064,
+            "Description": "",
+            "Environment": {
+                "Variables": {
+                    "CHANNEL": "#dev_notification",
+                    "HOOK_URL": "https://hooks.slack.com/services/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"
+                }
+            },
+            "FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:sendgrid-notification",
+            "FunctionName": "sendgrid-notification",
+            "Handler": "handler",
+            "LastModified": "2018-12-10T06:24:09.445+0000",
+            "MemorySize": 512,
+            "RevisionId": "58c527b6-f428-4b5c-bfc6-ccacccbd8f35",
+            "Role": "arn:aws:iam::416817624313:role/service-role/SendGridNotificationLambdaRoll",
+            "Runtime": "go1.x",
+            "Timeout": 15,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SecurityGroupIds": [],
+                "SubnetIds": [],
+                "VpcId": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "TargetGroups": [
+        {
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckPath": "/healthcheck.html",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-web-staging-nginx/c7a2037dc740a176"
+            ],
+            "Matcher": {
+                "HttpCode": "200,304"
+            },
+            "Port": 80,
+            "Protocol": "HTTP",
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:targetgroup/noin-web-nginx-tg-1/4cda2842ffc40e3c",
+            "TargetGroupName": "noin-web-nginx-tg-1",
+            "TargetType": "instance",
+            "UnhealthyThresholdCount": 10,
+            "VpcId": "vpc-4ec1e72a"
+        }
+    ]
+}

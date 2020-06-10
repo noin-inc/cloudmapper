@@ -1,0 +1,74 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:37.317000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:37.094000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:12:14+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:18:19+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:03:41+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:17:18+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:05:24+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-07T11:13:10+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Ai-Fukuda",
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

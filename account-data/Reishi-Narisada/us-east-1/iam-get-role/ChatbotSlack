@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/ChatbotSlack",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "chatbot.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-08-10T01:33:19+00:00",
+        "Description": "AWS Chatbot Execution Role",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAWCDCEGT4YWEZVEJWL",
+        "RoleName": "ChatbotSlack"
+    }
+}

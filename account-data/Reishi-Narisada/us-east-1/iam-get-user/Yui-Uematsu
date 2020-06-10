@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Yui-Uematsu",
+        "CreateDate": "2019-10-01T02:17:56+00:00",
+        "PasswordLastUsed": "2020-06-08T14:01:19+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4Z3RY2ZB4K",
+        "UserName": "Yui-Uematsu"
+    }
+}

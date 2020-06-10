@@ -1,0 +1,726 @@
+{
+    "logGroups": [
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws-glue/crawlers:*",
+            "creationTime": 1515498534873,
+            "logGroupName": "/aws-glue/crawlers",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 211428
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws-glue/jobs/error:*",
+            "creationTime": 1515567028224,
+            "logGroupName": "/aws-glue/jobs/error",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws-glue/jobs/output:*",
+            "creationTime": 1515566411996,
+            "logGroupName": "/aws-glue/jobs/output",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/codebuild/noin-web-sample:*",
+            "creationTime": 1543389731106,
+            "logGroupName": "/aws/codebuild/noin-web-sample",
+            "metricFilterCount": 0,
+            "storedBytes": 140888
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/codebuild/noin-web-sample2:*",
+            "creationTime": 1543493019367,
+            "logGroupName": "/aws/codebuild/noin-web-sample2",
+            "metricFilterCount": 0,
+            "storedBytes": 104241
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/kinesisfirehose/production-actionlog-backup-firehose:*",
+            "creationTime": 1506794525072,
+            "logGroupName": "/aws/kinesisfirehose/production-actionlog-backup-firehose",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/kinesisfirehose/production-apilog-backup-firehose:*",
+            "creationTime": 1533660746715,
+            "logGroupName": "/aws/kinesisfirehose/production-apilog-backup-firehose",
+            "metricFilterCount": 0,
+            "storedBytes": 734
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/kinesisfirehose/staging-actionlog-backup-firehose:*",
+            "creationTime": 1509502713449,
+            "logGroupName": "/aws/kinesisfirehose/staging-actionlog-backup-firehose",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/kinesisfirehose/staging-apilog-backup-firehose:*",
+            "creationTime": 1533655435386,
+            "logGroupName": "/aws/kinesisfirehose/staging-apilog-backup-firehose",
+            "metricFilterCount": 0,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/athena-execution-checker:*",
+            "creationTime": 1532441252696,
+            "logGroupName": "/aws/lambda/athena-execution-checker",
+            "metricFilterCount": 0,
+            "storedBytes": 14350
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/athena-partitioning:*",
+            "creationTime": 1531902334544,
+            "logGroupName": "/aws/lambda/athena-partitioning",
+            "metricFilterCount": 0,
+            "storedBytes": 579175
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/athena-table-repair:*",
+            "creationTime": 1507652037634,
+            "logGroupName": "/aws/lambda/athena-table-repair",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/codebuild-notification:*",
+            "creationTime": 1543903006250,
+            "logGroupName": "/aws/lambda/codebuild-notification",
+            "metricFilterCount": 0,
+            "storedBytes": 187717
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/codedeploy-notification:*",
+            "creationTime": 1543913171682,
+            "logGroupName": "/aws/lambda/codedeploy-notification",
+            "metricFilterCount": 0,
+            "storedBytes": 24032
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/codepipeline_notification:*",
+            "creationTime": 1561740306669,
+            "logGroupName": "/aws/lambda/codepipeline_notification",
+            "metricFilterCount": 0,
+            "storedBytes": 6387713
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeCheckExecuteQueryStatus:*",
+            "creationTime": 1589888624705,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeCheckExecuteQueryStatus",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 31399
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeDeployCheck:*",
+            "creationTime": 1589798324048,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeDeployCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 574
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeDeployTrigger:*",
+            "creationTime": 1589798323596,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeDeployTrigger",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 592
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeExecuteQuery:*",
+            "creationTime": 1589874685851,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeExecuteQuery",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 12839
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeImportData:*",
+            "creationTime": 1589798323878,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeImportData",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 3413
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeImportDataCheck:*",
+            "creationTime": 1589798323897,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeImportDataCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 2832
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeLearningTrigger:*",
+            "creationTime": 1589798324214,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeLearningTrigger",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1962
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizePrepareUserJsonl:*",
+            "creationTime": 1589798323973,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizePrepareUserJsonl",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 3409
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/dev-AmazonPersonalizeSolutionCheck:*",
+            "creationTime": 1589798323986,
+            "logGroupName": "/aws/lambda/dev-AmazonPersonalizeSolutionCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1142
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/ecs-notification:*",
+            "creationTime": 1561570748744,
+            "logGroupName": "/aws/lambda/ecs-notification",
+            "metricFilterCount": 0,
+            "storedBytes": 100099
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/image-resizer-development:*",
+            "creationTime": 1509011478499,
+            "logGroupName": "/aws/lambda/image-resizer-development",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 4612709
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/image-resizer-production:*",
+            "creationTime": 1509013396927,
+            "logGroupName": "/aws/lambda/image-resizer-production",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 130012187
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/image-resizer-staging:*",
+            "creationTime": 1509002227147,
+            "logGroupName": "/aws/lambda/image-resizer-staging",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 4436909
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/kinesis-apilogger-production:*",
+            "creationTime": 1533668146751,
+            "logGroupName": "/aws/lambda/kinesis-apilogger-production",
+            "metricFilterCount": 0,
+            "storedBytes": 4730370332
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/kinesis-apilogger-staging:*",
+            "creationTime": 1533657051508,
+            "logGroupName": "/aws/lambda/kinesis-apilogger-staging",
+            "metricFilterCount": 0,
+            "storedBytes": 292399406
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/kinesis-logger-production:*",
+            "creationTime": 1507213711214,
+            "logGroupName": "/aws/lambda/kinesis-logger-production",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1134437211
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/kinesis-logger-staging:*",
+            "creationTime": 1509504625158,
+            "logGroupName": "/aws/lambda/kinesis-logger-staging",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 5792572
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/noin-contact-sender:*",
+            "creationTime": 1513263751820,
+            "logGroupName": "/aws/lambda/noin-contact-sender",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/noin-instagram-wrapper:*",
+            "creationTime": 1513278937606,
+            "logGroupName": "/aws/lambda/noin-instagram-wrapper",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/noin-web-codepipeline-approve-notification:*",
+            "creationTime": 1561618500937,
+            "logGroupName": "/aws/lambda/noin-web-codepipeline-approve-notification",
+            "metricFilterCount": 0,
+            "storedBytes": 811239
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/noin-web-pipeline-approve:*",
+            "creationTime": 1561970344689,
+            "logGroupName": "/aws/lambda/noin-web-pipeline-approve",
+            "metricFilterCount": 0,
+            "storedBytes": 331768
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/nontv-video-transcode-development:*",
+            "creationTime": 1504977565481,
+            "logGroupName": "/aws/lambda/nontv-video-transcode-development",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1114
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/nontv-video-transcode-production:*",
+            "creationTime": 1504977670419,
+            "logGroupName": "/aws/lambda/nontv-video-transcode-production",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/nontv-video-transcode-staging:*",
+            "creationTime": 1504977652993,
+            "logGroupName": "/aws/lambda/nontv-video-transcode-staging",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeCheckExecuteQueryStatus:*",
+            "creationTime": 1589972481339,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 3128
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeDeployCheck:*",
+            "creationTime": 1589798609308,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeDeployCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1140
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeDeployTrigger:*",
+            "creationTime": 1589798609463,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeDeployTrigger",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1177
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeExecuteQuery:*",
+            "creationTime": 1589972481187,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeExecuteQuery",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 814
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeImportData:*",
+            "creationTime": 1589798609359,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeImportData",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 3699
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeImportDataCheck:*",
+            "creationTime": 1589798609237,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeImportDataCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 5682
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeLearningTrigger:*",
+            "creationTime": 1589798609472,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeLearningTrigger",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 3945
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizePrepareUserJsonl:*",
+            "creationTime": 1589798609357,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizePrepareUserJsonl",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 1524
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/production-AmazonPersonalizeSolutionCheck:*",
+            "creationTime": 1589798610128,
+            "logGroupName": "/aws/lambda/production-AmazonPersonalizeSolutionCheck",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 2279
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/lambda/sendgrid-notification:*",
+            "creationTime": 1544087083504,
+            "logGroupName": "/aws/lambda/sendgrid-notification",
+            "metricFilterCount": 0,
+            "storedBytes": 878744
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/rds/instance/noin-corp-production/error:*",
+            "creationTime": 1559634216300,
+            "logGroupName": "/aws/rds/instance/noin-corp-production/error",
+            "metricFilterCount": 0,
+            "storedBytes": 8022
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/rds/instance/noin-corp/error:*",
+            "creationTime": 1559659800263,
+            "logGroupName": "/aws/rds/instance/noin-corp/error",
+            "metricFilterCount": 0,
+            "storedBytes": 5174
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/rds/instance/noin-production-20190617/error:*",
+            "creationTime": 1560722105626,
+            "logGroupName": "/aws/rds/instance/noin-production-20190617/error",
+            "metricFilterCount": 0,
+            "storedBytes": 34845
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/rds/instance/noin-production/error:*",
+            "creationTime": 1561318640164,
+            "logGroupName": "/aws/rds/instance/noin-production/error",
+            "metricFilterCount": 0,
+            "storedBytes": 58414
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/rds/instance/noin-staging-estest/error:*",
+            "creationTime": 1539747146050,
+            "logGroupName": "/aws/rds/instance/noin-staging-estest/error",
+            "metricFilterCount": 0,
+            "storedBytes": 2460
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/factorization-machines-2020-03-25-10-19-32-417:*",
+            "creationTime": 1585132332238,
+            "logGroupName": "/aws/sagemaker/Endpoints/factorization-machines-2020-03-25-10-19-32-417",
+            "metricFilterCount": 0,
+            "storedBytes": 2353
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/factorization-machines-2020-04-01-07-27-18-652:*",
+            "creationTime": 1585726971007,
+            "logGroupName": "/aws/sagemaker/Endpoints/factorization-machines-2020-04-01-07-27-18-652",
+            "metricFilterCount": 0,
+            "storedBytes": 5054
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/factorization-machines-2020-04-01-08-47-36-561:*",
+            "creationTime": 1585731528841,
+            "logGroupName": "/aws/sagemaker/Endpoints/factorization-machines-2020-04-01-08-47-36-561",
+            "metricFilterCount": 0,
+            "storedBytes": 3190
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/factorization-machines-2020-04-02-06-24-48-166:*",
+            "creationTime": 1585809528290,
+            "logGroupName": "/aws/sagemaker/Endpoints/factorization-machines-2020-04-02-06-24-48-166",
+            "metricFilterCount": 0,
+            "storedBytes": 2918
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-01-20-06-34-51-757:*",
+            "creationTime": 1579502753180,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-01-20-06-34-51-757",
+            "metricFilterCount": 0,
+            "storedBytes": 1957
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-02-06-08-06-04-775:*",
+            "creationTime": 1580976952062,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-02-06-08-06-04-775",
+            "metricFilterCount": 0,
+            "storedBytes": 1961
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-02-07-02-53-25-827:*",
+            "creationTime": 1581045697780,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-02-07-02-53-25-827",
+            "metricFilterCount": 0,
+            "storedBytes": 2198
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-02-07-04-42-00-867:*",
+            "creationTime": 1581051098986,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-02-07-04-42-00-867",
+            "metricFilterCount": 0,
+            "storedBytes": 2178
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-02-07-05-46-51-827:*",
+            "creationTime": 1581055271430,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-02-07-05-46-51-827",
+            "metricFilterCount": 0,
+            "storedBytes": 2185
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/kmeans-2020-02-07-07-03-26-095:*",
+            "creationTime": 1581059825665,
+            "logGroupName": "/aws/sagemaker/Endpoints/kmeans-2020-02-07-07-03-26-095",
+            "metricFilterCount": 0,
+            "storedBytes": 1952
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-01-20-05-48-34-567:*",
+            "creationTime": 1579500955180,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-01-20-05-48-34-567",
+            "metricFilterCount": 0,
+            "storedBytes": 2214
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-01-22-09-02-21-861:*",
+            "creationTime": 1579684601818,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-01-22-09-02-21-861",
+            "metricFilterCount": 0,
+            "storedBytes": 4009
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-06-06-58-03-233:*",
+            "creationTime": 1580973746199,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-06-06-58-03-233",
+            "metricFilterCount": 0,
+            "storedBytes": 2203
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-06-10-24-03-969:*",
+            "creationTime": 1580985936387,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-06-10-24-03-969",
+            "metricFilterCount": 0,
+            "storedBytes": 2212
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-07-02-26-11-330:*",
+            "creationTime": 1581043215201,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-07-02-26-11-330",
+            "metricFilterCount": 0,
+            "storedBytes": 3882
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-07-03-36-55-186:*",
+            "creationTime": 1581047520763,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-07-03-36-55-186",
+            "metricFilterCount": 0,
+            "storedBytes": 2449
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-07-04-21-05-609:*",
+            "creationTime": 1581049901107,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-07-04-21-05-609",
+            "metricFilterCount": 0,
+            "storedBytes": 2218
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/Endpoints/pca-2020-02-07-05-02-09-703:*",
+            "creationTime": 1581052569919,
+            "logGroupName": "/aws/sagemaker/Endpoints/pca-2020-02-07-05-02-09-703",
+            "metricFilterCount": 0,
+            "storedBytes": 2435
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/NotebookInstances:*",
+            "creationTime": 1579250620429,
+            "logGroupName": "/aws/sagemaker/NotebookInstances",
+            "metricFilterCount": 0,
+            "storedBytes": 2138914
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/TrainingJobs:*",
+            "creationTime": 1579495792172,
+            "logGroupName": "/aws/sagemaker/TrainingJobs",
+            "metricFilterCount": 0,
+            "storedBytes": 6783153
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/aws/sagemaker/TransformJobs:*",
+            "creationTime": 1585742666812,
+            "logGroupName": "/aws/sagemaker/TransformJobs",
+            "metricFilterCount": 0,
+            "storedBytes": 282130
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-production-ecs-task-definition:*",
+            "creationTime": 1562266640946,
+            "logGroupName": "/ecs/noin-web-production-ecs-task-definition",
+            "metricFilterCount": 0,
+            "storedBytes": 19936100594
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-production-task-definition:*",
+            "creationTime": 1561107387762,
+            "logGroupName": "/ecs/noin-web-production-task-definition",
+            "metricFilterCount": 0,
+            "retentionInDays": 365,
+            "storedBytes": 1086825
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-staging-ecs-task-definition:*",
+            "creationTime": 1562266532501,
+            "logGroupName": "/ecs/noin-web-staging-ecs-task-definition",
+            "metricFilterCount": 0,
+            "retentionInDays": 60,
+            "storedBytes": 285844908
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-staging-nginx-nginx:*",
+            "creationTime": 1579705117549,
+            "logGroupName": "/ecs/noin-web-staging-nginx-nginx",
+            "metricFilterCount": 0,
+            "storedBytes": 464496648
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-staging-nginx-task-definition:*",
+            "creationTime": 1575462212316,
+            "logGroupName": "/ecs/noin-web-staging-nginx-task-definition",
+            "metricFilterCount": 0,
+            "storedBytes": 475880637
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-staging-sk2-task-definition:*",
+            "creationTime": 1576473426287,
+            "logGroupName": "/ecs/noin-web-staging-sk2-task-definition",
+            "metricFilterCount": 0,
+            "storedBytes": 1892802
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:/ecs/noin-web-staging-task-definition:*",
+            "creationTime": 1560960292300,
+            "logGroupName": "/ecs/noin-web-staging-task-definition",
+            "metricFilterCount": 0,
+            "retentionInDays": 60,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:Linux-bastion-noin-BastionMainLogGroup-1XGLFV6PYG16I:*",
+            "creationTime": 1564022254895,
+            "logGroupName": "Linux-bastion-noin-BastionMainLogGroup-1XGLFV6PYG16I",
+            "metricFilterCount": 1,
+            "storedBytes": 131390
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:Linux-bastion02-BastionMainLogGroup-KOM3OP4GPTEM:*",
+            "creationTime": 1568363606505,
+            "logGroupName": "Linux-bastion02-BastionMainLogGroup-KOM3OP4GPTEM",
+            "metricFilterCount": 1,
+            "storedBytes": 42762
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:RDSOSMetrics:*",
+            "creationTime": 1507183692188,
+            "logGroupName": "RDSOSMetrics",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 52765884
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:code-pipeline/code-build/noin-web-production:*",
+            "creationTime": 1561619013785,
+            "logGroupName": "code-pipeline/code-build/noin-web-production",
+            "metricFilterCount": 0,
+            "storedBytes": 37722456
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:code-pipeline/code-build/noin-web-staging:*",
+            "creationTime": 1561012962645,
+            "logGroupName": "code-pipeline/code-build/noin-web-staging",
+            "metricFilterCount": 0,
+            "storedBytes": 26343717
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:noin-web-staging:*",
+            "creationTime": 1560838024998,
+            "logGroupName": "noin-web-staging",
+            "metricFilterCount": 0,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:noin-web-staging-sample-build:*",
+            "creationTime": 1561012701510,
+            "logGroupName": "noin-web-staging-sample-build",
+            "metricFilterCount": 0,
+            "storedBytes": 41666
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/APNS/noin-ios-production:*",
+            "creationTime": 1507261185441,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/APNS/noin-ios-production",
+            "metricFilterCount": 0,
+            "storedBytes": 76435987223
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/APNS/noin-ios-production/Failure:*",
+            "creationTime": 1507213842271,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/APNS/noin-ios-production/Failure",
+            "metricFilterCount": 0,
+            "storedBytes": 83960962967
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/APNS_SANDBOX/noin-ios-staging:*",
+            "creationTime": 1506574658188,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/APNS_SANDBOX/noin-ios-staging",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/APNS_SANDBOX/noin-ios-staging/Failure:*",
+            "creationTime": 1506574658976,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/APNS_SANDBOX/noin-ios-staging/Failure",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 0
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/GCM/noin-android-production:*",
+            "creationTime": 1524880813944,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/GCM/noin-android-production",
+            "metricFilterCount": 0,
+            "storedBytes": 30429313525
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/GCM/noin-android-production/Failure:*",
+            "creationTime": 1524880813483,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/GCM/noin-android-production/Failure",
+            "metricFilterCount": 0,
+            "storedBytes": 64267360081
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/GCM/noin-android-staging:*",
+            "creationTime": 1523529011300,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/GCM/noin-android-staging",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 164721
+        },
+        {
+            "arn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:sns/ap-northeast-1/416817624313/app/GCM/noin-android-staging/Failure:*",
+            "creationTime": 1523528286335,
+            "logGroupName": "sns/ap-northeast-1/416817624313/app/GCM/noin-android-staging/Failure",
+            "metricFilterCount": 0,
+            "retentionInDays": 30,
+            "storedBytes": 285260
+        }
+    ],
+    "nextToken": "/aws/rds/instance/noin-corp-production/error"
+}

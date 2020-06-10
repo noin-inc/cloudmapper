@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/Elastic_Transcoder_Default_Role",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "elastictranscoder.amazonaws.com"
+                    },
+                    "Sid": "1"
+                }
+            ],
+            "Version": "2008-10-17"
+        },
+        "CreateDate": "2017-08-22T01:10:47+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAIPDGWS5TFOLGVA52U",
+        "RoleName": "Elastic_Transcoder_Default_Role"
+    }
+}

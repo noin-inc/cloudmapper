@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/nontv-step-functions-development-client",
+        "CreateDate": "2020-02-28T08:42:41+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4YNN6F3ODJ",
+        "UserName": "nontv-step-functions-development-client"
+    }
+}

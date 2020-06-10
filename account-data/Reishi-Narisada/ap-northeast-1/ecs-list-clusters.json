@@ -1,0 +1,7 @@
+{
+    "clusterArns": [
+        "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-production-ecs",
+        "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-staging-nginx",
+        "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-staging-ecs"
+    ]
+}

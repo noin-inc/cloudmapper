@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "config.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-03-06T04:34:32+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJWJEJIBMXHZFQYP6E",
+        "RoleName": "cm-config-role-all-regions"
+    }
+}

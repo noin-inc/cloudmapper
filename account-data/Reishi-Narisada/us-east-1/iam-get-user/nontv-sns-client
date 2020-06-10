@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/nontv-sns-client",
+        "CreateDate": "2017-09-05T09:20:35+00:00",
+        "Path": "/",
+        "UserId": "AIDAJCIH3XFWIX3SG3Z2G",
+        "UserName": "nontv-sns-client"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Reishi-Narisada",
+        "CreateDate": "2019-07-30T02:01:38+00:00",
+        "PasswordLastUsed": "2020-06-10T14:09:20+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4WMEQX5VII",
+        "UserName": "Reishi-Narisada"
+    }
+}

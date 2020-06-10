@@ -1,0 +1,11 @@
+{
+    "DBSnapshotAttributesResult": {
+        "DBSnapshotAttributes": [
+            {
+                "AttributeName": "restore",
+                "AttributeValues": []
+            }
+        ],
+        "DBSnapshotIdentifier": "category-test2-final-snapshot"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "sagemaker.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2020-01-17T08:39:02+00:00",
+        "Description": "SageMaker execution role created from the SageMaker AWS Management Console.",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAWCDCEGT4ZGDPXARNV",
+        "RoleName": "AmazonSageMaker-ExecutionRole-20200117T173921"
+    }
+}

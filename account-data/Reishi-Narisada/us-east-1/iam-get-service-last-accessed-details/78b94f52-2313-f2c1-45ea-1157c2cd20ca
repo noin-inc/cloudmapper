@@ -1,0 +1,55 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:05.652000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:05.511000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Auto Scaling",
+            "ServiceNamespace": "autoscaling-plans",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-09T05:29:52+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:07:23+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-12-05T03:01:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+            "ServiceName": "Amazon Route 53",
+            "ServiceNamespace": "route53",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-12-13T02:50:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+            "ServiceName": "AWS Cloud Map",
+            "ServiceNamespace": "servicediscovery",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

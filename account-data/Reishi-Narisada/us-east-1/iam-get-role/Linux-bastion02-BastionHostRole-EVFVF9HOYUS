@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/Linux-bastion02-BastionHostRole-EVFVF9HOYUS",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-09-13T08:33:28+00:00",
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT46XSM2E4PC",
+        "RoleName": "Linux-bastion02-BastionHostRole-EVFVF9HOYUS"
+    }
+}

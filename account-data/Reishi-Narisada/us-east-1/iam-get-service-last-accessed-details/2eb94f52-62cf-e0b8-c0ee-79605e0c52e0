@@ -1,0 +1,64 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:38.388000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:38.143000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-09-05T03:50:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Fuka-Noda",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

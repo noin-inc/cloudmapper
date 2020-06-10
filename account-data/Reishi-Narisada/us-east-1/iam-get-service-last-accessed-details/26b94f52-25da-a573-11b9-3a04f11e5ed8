@@ -1,0 +1,12 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:07.056000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:06.933000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "TagDescriptions": [
+        {
+            "ResourceArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-production-api-test/ae903403cb827072",
+            "Tags": []
+        }
+    ]
+}

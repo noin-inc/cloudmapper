@@ -1,0 +1,26 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:06.270000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:06.140000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-09T13:14:58+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-06-06T08:53:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Outposts",
+            "ServiceNamespace": "outposts",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

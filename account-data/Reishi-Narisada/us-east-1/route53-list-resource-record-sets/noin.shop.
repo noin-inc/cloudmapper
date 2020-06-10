@@ -1,0 +1,248 @@
+{
+    "MaxItems": "100",
+    "ResourceRecordSets": [
+        {
+            "AliasTarget": {
+                "DNSName": "dualstack.noin-web-production-899978300.ap-northeast-1.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false,
+                "HostedZoneId": "Z14GRHDCWA56QT"
+            },
+            "Name": "noin.shop.",
+            "Type": "A"
+        },
+        {
+            "Name": "noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "1 ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "5 ALT1.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "5 ALT2.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "10 ALT3.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "10 ALT4.ASPMX.L.GOOGLE.COM."
+                }
+            ],
+            "TTL": 3600,
+            "Type": "MX"
+        },
+        {
+            "Name": "noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "ns-766.awsdns-31.net."
+                },
+                {
+                    "Value": "ns-1652.awsdns-14.co.uk."
+                },
+                {
+                    "Value": "ns-1421.awsdns-49.org."
+                },
+                {
+                    "Value": "ns-20.awsdns-02.com."
+                }
+            ],
+            "TTL": 172800,
+            "Type": "NS"
+        },
+        {
+            "Name": "noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "ns-766.awsdns-31.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ],
+            "TTL": 900,
+            "Type": "SOA"
+        },
+        {
+            "Name": "noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "\"google-site-verification=IV0vDSX8neofHtNlDfpusEpNmt2bs54uPqgQOgPClXs\""
+                },
+                {
+                    "Value": "\"google-site-verification=kfb9iIx4eUNyxnYOOlWRuOMt61_n-hdD1-NPC1JXpLY\""
+                },
+                {
+                    "Value": "\"v=spf1 include:mail.zendesk.com ?all\""
+                },
+                {
+                    "Value": "\"v=spf1 include:_spf.firebasemail.com ~all\""
+                },
+                {
+                    "Value": "\"firebase=noin-652e8\""
+                },
+                {
+                    "Value": "\"google-site-verification=AL-FOqDj5Ekh_5cG6ifxbfU8t6yKvvKF5LDBnHfnCDE\""
+                }
+            ],
+            "TTL": 60,
+            "Type": "TXT"
+        },
+        {
+            "Name": "_40191c90f6f0e48fba787dc8f9604567.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "_11dc49e1af77cb36adb1f0e60c4efe6d.acm-validations.aws."
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "firebase1._domainkey.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail-noin-shop.dkim1._domainkey.firebasemail.com"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "firebase2._domainkey.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail-noin-shop.dkim2._domainkey.firebasemail.com"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "s1._domainkey.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "s1.domainkey.u7889237.wl238.sendgrid.net"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "s2._domainkey.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "s2.domainkey.u7889237.wl238.sendgrid.net"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "em8904.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "u7889237.wl238.sendgrid.net"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "guide.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "noin-shop.zendesk.com"
+                }
+            ],
+            "TTL": 3600,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "sb.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "article.squadbeyond.com"
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "AliasTarget": {
+                "DNSName": "dualstack.noin-web-staging-nginx-1490043558.ap-northeast-1.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false,
+                "HostedZoneId": "Z14GRHDCWA56QT"
+            },
+            "Name": "st-nginx.noin.shop.",
+            "Type": "A"
+        },
+        {
+            "AliasTarget": {
+                "DNSName": "dualstack.noin-web-staging-1033345549.ap-northeast-1.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false,
+                "HostedZoneId": "Z14GRHDCWA56QT"
+            },
+            "Name": "st.noin.shop.",
+            "Type": "A"
+        },
+        {
+            "Name": "_e109e85b6c74be849496f7f4f48fc6a9.www.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "_a8d8e70355bbb1a78faf66385c31ae58.acm-validations.aws."
+                }
+            ],
+            "TTL": 300,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "zendesk1.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail1.zendesk.com"
+                }
+            ],
+            "TTL": 3600,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "zendesk2.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail2.zendesk.com"
+                }
+            ],
+            "TTL": 3600,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "zendesk3.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail3.zendesk.com"
+                }
+            ],
+            "TTL": 3600,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "zendesk4.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "mail4.zendesk.com"
+                }
+            ],
+            "TTL": 3600,
+            "Type": "CNAME"
+        },
+        {
+            "Name": "zendeskverification.noin.shop.",
+            "ResourceRecords": [
+                {
+                    "Value": "\"9797493c1f1c1b0a\""
+                }
+            ],
+            "TTL": 3600,
+            "Type": "TXT"
+        }
+    ]
+}

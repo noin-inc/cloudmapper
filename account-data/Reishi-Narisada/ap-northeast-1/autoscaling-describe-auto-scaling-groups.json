@@ -1,0 +1,375 @@
+{
+    "AutoScalingGroups": [
+        {
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-northeast-1:416817624313:autoScalingGroup:5f0978d8-6d66-4d77-a189-fde24740b2fe:autoScalingGroupName/EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+            "AutoScalingGroupName": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+            "AvailabilityZones": [
+                "ap-northeast-1a",
+                "ap-northeast-1c"
+            ],
+            "CreatedTime": "2019-06-24T06:13:43.181000+00:00",
+            "DefaultCooldown": 300,
+            "DesiredCapacity": 2,
+            "EnabledMetrics": [],
+            "HealthCheckGracePeriod": 0,
+            "HealthCheckType": "EC2",
+            "Instances": [
+                {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-000dd34b945a9e56b",
+                    "LaunchConfigurationName": "EC2ContainerService-noin-web-production-ecs-EcsInstanceLc-1XG1BXY5BBP6E",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                },
+                {
+                    "AvailabilityZone": "ap-northeast-1c",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-0bd6231d28770755c",
+                    "LaunchConfigurationName": "EC2ContainerService-noin-web-production-ecs-EcsInstanceLc-1XG1BXY5BBP6E",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "LaunchConfigurationName": "EC2ContainerService-noin-web-production-ecs-EcsInstanceLc-1XG1BXY5BBP6E",
+            "LoadBalancerNames": [],
+            "MaxSize": 3,
+            "MinSize": 0,
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::416817624313:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "SuspendedProcesses": [],
+            "Tags": [
+                {
+                    "Key": "Description",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console"
+                },
+                {
+                    "Key": "Name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "ECS Instance - EC2ContainerService-noin-web-production-ecs"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EcsInstanceAsg"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-production-ecs/31a01550-9647-11e9-9a3f-0a4b1943673a"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EC2ContainerService-noin-web-production-ecs"
+                }
+            ],
+            "TargetGroupARNs": [],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "VPCZoneIdentifier": "subnet-bfb8a7e7,subnet-c156f288"
+        },
+        {
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-northeast-1:416817624313:autoScalingGroup:088873a3-e026-4ca2-8444-472f43bacd67:autoScalingGroupName/EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+            "AutoScalingGroupName": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+            "AvailabilityZones": [
+                "ap-northeast-1a"
+            ],
+            "CreatedTime": "2019-06-25T05:12:07.954000+00:00",
+            "DefaultCooldown": 300,
+            "DesiredCapacity": 2,
+            "EnabledMetrics": [],
+            "HealthCheckGracePeriod": 0,
+            "HealthCheckType": "EC2",
+            "Instances": [
+                {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-0ca2d267cbf2fb6b4",
+                    "LaunchConfigurationName": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceLc-1MJBFZS1V3YC6",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                },
+                {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-0eb30733665ed789a",
+                    "LaunchConfigurationName": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceLc-1MJBFZS1V3YC6",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "LaunchConfigurationName": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceLc-1MJBFZS1V3YC6",
+            "LoadBalancerNames": [],
+            "MaxSize": 2,
+            "MinSize": 0,
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::416817624313:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "SuspendedProcesses": [],
+            "Tags": [
+                {
+                    "Key": "Description",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console"
+                },
+                {
+                    "Key": "Name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "ECS Instance - EC2ContainerService-noin-web-staging-ecs"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EcsInstanceAsg"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-ecs/c15c07b0-9707-11e9-82b2-0e7851ff27a6"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EC2ContainerService-noin-web-staging-ecs"
+                }
+            ],
+            "TargetGroupARNs": [],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "VPCZoneIdentifier": "subnet-4d669404"
+        },
+        {
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-northeast-1:416817624313:autoScalingGroup:284403f8-df8f-458f-9604-7290af745ecb:autoScalingGroupName/EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+            "AutoScalingGroupName": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+            "AvailabilityZones": [
+                "ap-northeast-1a"
+            ],
+            "CreatedTime": "2019-12-18T04:20:04.973000+00:00",
+            "DefaultCooldown": 300,
+            "DesiredCapacity": 1,
+            "EnabledMetrics": [],
+            "HealthCheckGracePeriod": 0,
+            "HealthCheckType": "EC2",
+            "Instances": [
+                {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-03e25bdd67b6a2bbc",
+                    "LaunchConfigurationName": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceLc-1GNEAOP67P4UF",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "LaunchConfigurationName": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceLc-1GNEAOP67P4UF",
+            "LoadBalancerNames": [],
+            "MaxSize": 1,
+            "MinSize": 0,
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::416817624313:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "SuspendedProcesses": [],
+            "Tags": [
+                {
+                    "Key": "Description",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console"
+                },
+                {
+                    "Key": "Name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "ECS Instance - EC2ContainerService-noin-web-staging-nginx"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EcsInstanceAsg"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-nginx/a3c29c20-214d-11ea-a617-0e36924addac"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "EC2ContainerService-noin-web-staging-nginx"
+                }
+            ],
+            "TargetGroupARNs": [],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "VPCZoneIdentifier": "subnet-4d669404"
+        },
+        {
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-northeast-1:416817624313:autoScalingGroup:2fef54ff-1bc7-4222-bc11-c9b00a8f0468:autoScalingGroupName/Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+            "AutoScalingGroupName": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+            "AvailabilityZones": [
+                "ap-northeast-1a",
+                "ap-northeast-1c"
+            ],
+            "CreatedTime": "2019-07-25T02:40:29.530000+00:00",
+            "DefaultCooldown": 300,
+            "DesiredCapacity": 2,
+            "EnabledMetrics": [],
+            "HealthCheckGracePeriod": 0,
+            "HealthCheckType": "EC2",
+            "Instances": [
+                {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-07dd5e5b60b8de5d6",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                },
+                {
+                    "AvailabilityZone": "ap-northeast-1c",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-0e9bf017d8fa41237",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "LaunchConfigurationName": "Linux-bastion-noin-BastionLaunchConfiguration-13ZD9A2KLE8I0",
+            "LoadBalancerNames": [],
+            "MaxSize": 2,
+            "MinSize": 2,
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::416817624313:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "SuspendedProcesses": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "LinuxBastion"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "BastionAutoScalingGroup"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "Linux-bastion-noin"
+                }
+            ],
+            "TargetGroupARNs": [],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "VPCZoneIdentifier": "subnet-bfb8a7e7,subnet-c156f288"
+        },
+        {
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-northeast-1:416817624313:autoScalingGroup:88014820-50f3-4e6a-a9d9-2c60b9a28fea:autoScalingGroupName/Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+            "AutoScalingGroupName": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+            "AvailabilityZones": [
+                "ap-northeast-1a",
+                "ap-northeast-1c"
+            ],
+            "CreatedTime": "2019-09-13T08:36:19.019000+00:00",
+            "DefaultCooldown": 300,
+            "DesiredCapacity": 1,
+            "EnabledMetrics": [],
+            "HealthCheckGracePeriod": 0,
+            "HealthCheckType": "EC2",
+            "Instances": [
+                {
+                    "AvailabilityZone": "ap-northeast-1c",
+                    "HealthStatus": "Healthy",
+                    "InstanceId": "i-055bad53476805e89",
+                    "LaunchConfigurationName": "Linux-bastion02-BastionLaunchConfiguration-1QRBJATJPVE2O",
+                    "LifecycleState": "InService",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "LaunchConfigurationName": "Linux-bastion02-BastionLaunchConfiguration-1QRBJATJPVE2O",
+            "LoadBalancerNames": [],
+            "MaxSize": 1,
+            "MinSize": 1,
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::416817624313:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "SuspendedProcesses": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "LinuxBastion"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "BastionAutoScalingGroup"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "PropagateAtLaunch": true,
+                    "ResourceId": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+                    "ResourceType": "auto-scaling-group",
+                    "Value": "Linux-bastion02"
+                }
+            ],
+            "TargetGroupARNs": [],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "VPCZoneIdentifier": "subnet-4d669404,subnet-7ce2d424"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-unauthRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRoleWithWebIdentity",
+                    "Condition": {
+                        "ForAnyValue:StringLike": {
+                            "cognito-identity.amazonaws.com:amr": "unauthenticated"
+                        },
+                        "StringEquals": {
+                            "cognito-identity.amazonaws.com:aud": "us-east-1:781f3531-fe14-452c-8626-4a86a1816a31"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Federated": "cognito-identity.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-11-25T05:07:41+00:00",
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4TGGZOXAA6",
+        "RoleName": "amplify-noin-android-production-140736-unauthRole"
+    }
+}

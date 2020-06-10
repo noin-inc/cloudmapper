@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/PostmanUser",
+        "CreateDate": "2019-08-09T04:13:40+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4TE7S3O5ED",
+        "UserName": "PostmanUser"
+    }
+}

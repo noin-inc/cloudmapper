@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:47.703000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:47.561000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-03-06T12:02:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/nontv-step-functions-production-client",
+            "ServiceName": "AWS Step Functions",
+            "ServiceNamespace": "states",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

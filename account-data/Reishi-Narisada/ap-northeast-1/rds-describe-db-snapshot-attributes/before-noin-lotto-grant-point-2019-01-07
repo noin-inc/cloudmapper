@@ -1,0 +1,11 @@
+{
+    "DBSnapshotAttributesResult": {
+        "DBSnapshotAttributes": [
+            {
+                "AttributeName": "restore",
+                "AttributeValues": []
+            }
+        ],
+        "DBSnapshotIdentifier": "before-noin-lotto-grant-point-2019-01-07"
+    }
+}

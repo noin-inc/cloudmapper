@@ -1,0 +1,32 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:01.008000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:00.875000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

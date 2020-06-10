@@ -1,0 +1,37 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:16.984000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:16.815000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

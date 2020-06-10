@@ -1,0 +1,21 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:22.427000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:22.304000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-10T14:13:29+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/ImageResizerLambdaProduction",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:09:10+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/ImageResizerLambdaProduction",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/ecs-notification-role-t31vht1p",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-06-26T17:33:11+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAWCDCEGT473D3W5PDV",
+        "RoleName": "ecs-notification-role-t31vht1p"
+    }
+}

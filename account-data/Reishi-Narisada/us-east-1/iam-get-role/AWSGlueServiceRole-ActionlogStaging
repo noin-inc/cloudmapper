@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/AWSGlueServiceRole-ActionlogStaging",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "glue.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-10T05:42:13+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAIMYAALEZG3J36P6Y4",
+        "RoleName": "AWSGlueServiceRole-ActionlogStaging"
+    }
+}

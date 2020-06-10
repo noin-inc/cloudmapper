@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Koki-Hayashi",
+        "CreateDate": "2020-03-25T01:55:52+00:00",
+        "PasswordLastUsed": "2020-05-28T16:22:44+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4UZ5H666LJ",
+        "UserName": "Koki-Hayashi"
+    }
+}

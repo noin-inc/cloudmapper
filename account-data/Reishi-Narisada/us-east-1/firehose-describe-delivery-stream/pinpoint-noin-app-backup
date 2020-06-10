@@ -1,0 +1,70 @@
+{
+    "DeliveryStreamDescription": {
+        "CreateTimestamp": "2019-07-29T12:13:18.818000+09:00",
+        "DeliveryStreamARN": "arn:aws:firehose:us-east-1:416817624313:deliverystream/pinpoint-noin-app-backup",
+        "DeliveryStreamName": "pinpoint-noin-app-backup",
+        "DeliveryStreamStatus": "ACTIVE",
+        "DeliveryStreamType": "KinesisStreamAsSource",
+        "Destinations": [
+            {
+                "DestinationId": "destinationId-000000000001",
+                "ExtendedS3DestinationDescription": {
+                    "BucketARN": "arn:aws:s3:::noin.pinpointlog",
+                    "BufferingHints": {
+                        "IntervalInSeconds": 300,
+                        "SizeInMBs": 5
+                    },
+                    "CloudWatchLoggingOptions": {
+                        "Enabled": true,
+                        "LogGroupName": "/aws/kinesisfirehose/pinpoint-noin-app-backup",
+                        "LogStreamName": "S3Delivery"
+                    },
+                    "CompressionFormat": "UNCOMPRESSED",
+                    "DataFormatConversionConfiguration": {
+                        "Enabled": false
+                    },
+                    "EncryptionConfiguration": {
+                        "NoEncryptionConfig": "NoEncryption"
+                    },
+                    "ErrorOutputPrefix": "",
+                    "Prefix": "",
+                    "ProcessingConfiguration": {
+                        "Enabled": false,
+                        "Processors": []
+                    },
+                    "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_pinpointlog",
+                    "S3BackupMode": "Disabled"
+                },
+                "S3DestinationDescription": {
+                    "BucketARN": "arn:aws:s3:::noin.pinpointlog",
+                    "BufferingHints": {
+                        "IntervalInSeconds": 300,
+                        "SizeInMBs": 5
+                    },
+                    "CloudWatchLoggingOptions": {
+                        "Enabled": true,
+                        "LogGroupName": "/aws/kinesisfirehose/pinpoint-noin-app-backup",
+                        "LogStreamName": "S3Delivery"
+                    },
+                    "CompressionFormat": "UNCOMPRESSED",
+                    "EncryptionConfiguration": {
+                        "NoEncryptionConfig": "NoEncryption"
+                    },
+                    "ErrorOutputPrefix": "",
+                    "Prefix": "",
+                    "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_pinpointlog"
+                }
+            }
+        ],
+        "HasMoreDestinations": false,
+        "LastUpdateTimestamp": "2019-07-29T13:41:34.309000+09:00",
+        "Source": {
+            "KinesisStreamSourceDescription": {
+                "DeliveryStartTimestamp": "2019-07-29T12:13:18.818000+09:00",
+                "KinesisStreamARN": "arn:aws:kinesis:us-east-1:416817624313:stream/pinpoint-noin-app",
+                "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_pinpointlog"
+            }
+        },
+        "VersionId": "2"
+    }
+}

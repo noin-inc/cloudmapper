@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-ssm-client",
+        "CreateDate": "2019-01-24T11:36:26+00:00",
+        "Path": "/",
+        "UserId": "AIDAJQVPXSNLAU2OTPVKU",
+        "UserName": "noin-ssm-client"
+    }
+}

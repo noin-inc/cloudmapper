@@ -1,0 +1,223 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:09.997000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:09.837000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-10T13:40:06+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS Certificate Manager",
+            "ServiceNamespace": "acm",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:22:51+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Backup",
+            "ServiceNamespace": "backup",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudFormation",
+            "ServiceNamespace": "cloudformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudFront",
+            "ServiceNamespace": "cloudfront",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:41:39+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS CloudTrail",
+            "ServiceNamespace": "cloudtrail",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:40:05+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:40:43+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS CodePipeline",
+            "ServiceNamespace": "codepipeline",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:07:04+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS Config",
+            "ServiceNamespace": "config",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Database Migration Service",
+            "ServiceNamespace": "dms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:40:22+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon DynamoDB",
+            "ServiceNamespace": "dynamodb",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:40:32+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Elastic Container Service for Kubernetes",
+            "ServiceNamespace": "eks",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon ElastiCache",
+            "ServiceNamespace": "elasticache",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic File System",
+            "ServiceNamespace": "elasticfilesystem",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:40:33+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Elastic MapReduce",
+            "ServiceNamespace": "elasticmapreduce",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T10:39:07+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon Elasticsearch Service",
+            "ServiceNamespace": "es",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon GuardDuty",
+            "ServiceNamespace": "guardduty",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T11:12:06+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T10:41:18+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T08:40:54+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "AWS Lambda",
+            "ServiceNamespace": "lambda",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:39:57+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon RDS",
+            "ServiceNamespace": "rds",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T11:41:52+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon Redshift",
+            "ServiceNamespace": "redshift",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:59:17+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SageMaker",
+            "ServiceNamespace": "sagemaker",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Secrets Manager",
+            "ServiceNamespace": "secretsmanager",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Security Hub",
+            "ServiceNamespace": "securityhub",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Shield",
+            "ServiceNamespace": "shield",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:39:21+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:41:06+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-config-role-all-regions",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Support",
+            "ServiceNamespace": "support",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF Regional",
+            "ServiceNamespace": "waf-regional",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

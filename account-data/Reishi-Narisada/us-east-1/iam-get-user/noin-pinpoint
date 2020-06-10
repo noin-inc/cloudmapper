@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-pinpoint",
+        "CreateDate": "2019-07-23T09:47:46+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4TA6W5MKA2",
+        "UserName": "noin-pinpoint"
+    }
+}

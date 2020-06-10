@@ -1,0 +1,9 @@
+{
+    "DeliveryStreamNames": [
+        "production-actionlog-backup-firehose",
+        "production-apilog-backup-firehose",
+        "staging-actionlog-backup-firehose",
+        "staging-apilog-backup-firehose"
+    ],
+    "HasMoreDeliveryStreams": false
+}

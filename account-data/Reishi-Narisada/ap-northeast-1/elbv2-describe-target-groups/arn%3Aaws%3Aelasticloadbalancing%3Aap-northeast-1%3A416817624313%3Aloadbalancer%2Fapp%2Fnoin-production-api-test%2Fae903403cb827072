@@ -1,0 +1,26 @@
+{
+    "TargetGroups": [
+        {
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckPath": "/api/v1/support_version",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-production-api-test/ae903403cb827072"
+            ],
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "Port": 80,
+            "Protocol": "HTTP",
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:targetgroup/noin-production-app-api-test/12c6eea4ecc65473",
+            "TargetGroupName": "noin-production-app-api-test",
+            "TargetType": "instance",
+            "UnhealthyThresholdCount": 2,
+            "VpcId": "vpc-b0eae7d4"
+        }
+    ]
+}

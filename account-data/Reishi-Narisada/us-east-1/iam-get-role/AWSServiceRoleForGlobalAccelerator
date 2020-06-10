@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/globalaccelerator.amazonaws.com/AWSServiceRoleForGlobalAccelerator",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "globalaccelerator.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2020-02-02T08:38:38+00:00",
+        "Description": "Allows Global Accelerator to call AWS services on customer's behalf",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/globalaccelerator.amazonaws.com/",
+        "RoleId": "AROAWCDCEGT46AAGNIMZM",
+        "RoleName": "AWSServiceRoleForGlobalAccelerator"
+    }
+}

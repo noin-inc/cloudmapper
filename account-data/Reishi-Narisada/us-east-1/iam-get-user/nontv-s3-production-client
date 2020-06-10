@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/nontv-s3-production-client",
+        "CreateDate": "2017-09-07T13:40:24+00:00",
+        "Path": "/",
+        "UserId": "AIDAILN7NDVTQ6LGHJJO6",
+        "UserName": "nontv-s3-production-client"
+    }
+}

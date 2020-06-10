@@ -1,0 +1,24 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "personalize.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2020-03-06T06:46:23+00:00",
+        "Description": "s3 access authority of production personalize service",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4RGCVJELMW",
+        "RoleName": "NoinPersonalizeS3Role-prod"
+    }
+}

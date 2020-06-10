@@ -1,0 +1,26 @@
+{
+    "trailList": [
+        {
+            "HasCustomEventSelectors": true,
+            "HomeRegion": "ap-northeast-1",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "IsOrganizationTrail": false,
+            "LogFileValidationEnabled": false,
+            "Name": "Members",
+            "S3BucketName": "cm-members-416817624313",
+            "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:416817624313:trail/Members"
+        },
+        {
+            "HasCustomEventSelectors": true,
+            "HomeRegion": "ap-northeast-1",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "IsOrganizationTrail": false,
+            "LogFileValidationEnabled": true,
+            "Name": "S3EventAmazonPersonalize",
+            "S3BucketName": "noin-personalize-metadata-logs",
+            "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:416817624313:trail/S3EventAmazonPersonalize"
+        }
+    ]
+}

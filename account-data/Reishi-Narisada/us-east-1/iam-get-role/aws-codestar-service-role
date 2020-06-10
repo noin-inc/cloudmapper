@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/aws-codestar-service-role",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "codestar.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-06-21T08:34:41+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAWCDCEGT46NM5DSP42",
+        "RoleName": "aws-codestar-service-role"
+    }
+}

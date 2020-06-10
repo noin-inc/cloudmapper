@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/EMR_EC2_DefaultRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2008-10-17"
+        },
+        "CreateDate": "2018-01-11T02:48:45+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJSCYV7TQDPF4QMTT4",
+        "RoleName": "EMR_EC2_DefaultRole"
+    }
+}

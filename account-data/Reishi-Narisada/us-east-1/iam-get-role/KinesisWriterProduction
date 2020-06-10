@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/KinesisWriterProduction",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2017-09-30T17:58:36+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAI6R7ODZIXRLODMMHC",
+        "RoleName": "KinesisWriterProduction"
+    }
+}

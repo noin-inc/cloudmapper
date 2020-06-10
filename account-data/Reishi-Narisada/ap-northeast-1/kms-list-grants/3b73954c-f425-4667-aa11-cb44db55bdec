@@ -1,0 +1,1338 @@
+{
+    "Grants": [
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codepipeline_notification"
+                }
+            },
+            "CreationDate": "2019-06-29T02:01:05+09:00",
+            "GrantId": "02819338a2bf5d6baaaff4a62ccbc3ee06e3cb6e943ea79cdcf37369d787a4ea",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/codepipeline_notification-role-7tpbu595/codepipeline_notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "codepipeline_notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/codepipeline_notification-role-7tpbu595/codepipeline_notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-Hello"
+                }
+            },
+            "CreationDate": "2020-01-24T14:59:23+09:00",
+            "GrantId": "07c4ba39bc2d2c73a66beaf12d1596b9467eaa1d610fd9efad095138718d7da7",
+            "GranteePrincipal": "AROAWCDCEGT452EZ7ZD2Q:dev-Hello",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-Hello",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT452EZ7ZD2Q:dev-Hello"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeImportDataCheck"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:56+09:00",
+            "GrantId": "08fc619d7830c824ee7d804841e63704176f40a28ecf27ccb824ecce80fd5163",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeImportDataCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeImportDataCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeImportDataCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeImportData"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:51+09:00",
+            "GrantId": "0c686edcb808ad36b024480538fb359336cb8e8fd3b378a15d8cbff10ce3004d",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeImportData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeImportData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeImportData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-instagram-wrapper"
+                }
+            },
+            "CreationDate": "2017-12-15T04:15:02+09:00",
+            "GrantId": "13fe43170629fe920f60e10a5c8f9770ba20fc2fbb2220375dd14d6821fba3c1",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/InstagramWrapper/noin-instagram-wrapper",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "noin-instagram-wrapper",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/InstagramWrapper/noin-instagram-wrapper"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-05T12:21:53+09:00",
+            "GrantId": "14706f80f96a1ae486c3bb85b0bab0e391610f18d63d65dfd45d87d52d94800b",
+            "GranteePrincipal": "AROAWCDCEGT4QR5MA3GLY:staging-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4QR5MA3GLY:staging-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeCheckExecuteQueryStatus"
+                }
+            },
+            "CreationDate": "2020-05-20T20:01:40+09:00",
+            "GrantId": "16a26cecc192762c40bb3794a687a63017b18902828f2952fd7bffd4e6d53993",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeCheckExecuteQueryStatus"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-production"
+                }
+            },
+            "CreationDate": "2017-10-26T19:04:29+09:00",
+            "GrantId": "1779af3e7df661f359f717121d817e490de232b687c7e9b00b9ed47b94f91bc6",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaProduction/image-resizer-production",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "image-resizer-production",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaProduction/image-resizer-production"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-Hello"
+                }
+            },
+            "CreationDate": "2020-01-30T14:02:06+09:00",
+            "GrantId": "1d982194c54a48fba8fa0506f85048efaeb8a3d7e2d38be1a0dd819e7c19f76f",
+            "GranteePrincipal": "AROAWCDCEGT4UBWL7YTW5:staging-Hello",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-Hello",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4UBWL7YTW5:staging-Hello"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-Hello"
+                }
+            },
+            "CreationDate": "2020-01-24T18:24:19+09:00",
+            "GrantId": "1fa9ac3c077d0b946d0bca7849018c3085a8c5bf2a04c83df2895e4d822dc308",
+            "GranteePrincipal": "AROAWCDCEGT43YDCRAMG4:staging-Hello",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-Hello",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT43YDCRAMG4:staging-Hello"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-production"
+                }
+            },
+            "CreationDate": "2017-09-10T02:37:02+09:00",
+            "GrantId": "20e65c8385ec7c4ad7c6d5139afdec3f841813a2575c082855f0565204ab185c",
+            "GranteePrincipal": "AROAIFUXP44KMQG7CZJ7O:nontv-video-transcode-production",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-production",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAIFUXP44KMQG7CZJ7O:nontv-video-transcode-production"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeDeployCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:51+09:00",
+            "GrantId": "23f767afb3c09a735ac924119ad5965921db78843185c62779ee9ad8262b862e",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeDeployCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeDeployCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeDeployCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-web-codepipeline-approve-notification"
+                }
+            },
+            "CreationDate": "2019-06-27T15:49:13+09:00",
+            "GrantId": "2632167c65a536cc395dd527908af43f68a4be086ce7b60c545f21c66ba95ab4",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-web-codepipeline-approve-notification-role-jh4a37i7/noin-web-codepipeline-approve-notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "noin-web-codepipeline-approve-notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-web-codepipeline-approve-notification-role-jh4a37i7/noin-web-codepipeline-approve-notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeDeployTrigger"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:52+09:00",
+            "GrantId": "2a5511790e0386978525918ad36caf5a64a78a46d15f9e23197c5ce891ba42ea",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeDeployTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeDeployTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeDeployTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizePrepareUserJsonl"
+                }
+            },
+            "CreationDate": "2020-03-05T12:07:10+09:00",
+            "GrantId": "2a6c6c2440aa91d1f16c816370bbf079a84ba7a3fc6d578fad1ea5fd87f996ca",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizePrepareUserJsonl",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizePrepareUserJsonl",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizePrepareUserJsonl"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-development"
+                }
+            },
+            "CreationDate": "2017-10-26T18:48:33+09:00",
+            "GrantId": "2c5b74f575fd7d2dfa8a992fdc863e5d9fdd3cfeef63cd7fc81dcb5da34c70dc",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaDevelopment/image-resizer-development",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "image-resizer-development",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaDevelopment/image-resizer-development"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeDeployTrigger"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:17+09:00",
+            "GrantId": "2dcfe64129affe20a80a8a638cad20690d6e757ae8bd9c877b1f82ea41c56439",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeDeployTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeDeployTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeDeployTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-04T18:12:49+09:00",
+            "GrantId": "2f7b98f5faa5e9ec682d3c028b227f4297a1dc70da83e866e5ad49705a566d02",
+            "GranteePrincipal": "AROAWCDCEGT4XUTMS6VCU:staging-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4XUTMS6VCU:staging-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:athena-partitioning"
+                }
+            },
+            "CreationDate": "2018-07-18T17:24:59+09:00",
+            "GrantId": "30333aa9ca352e07956498c44c4cd065b7f3014a24a64defdde0d88ccebd400b",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/AthenaPartitioning/athena-partitioning",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "athena-partitioning",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/AthenaPartitioning/athena-partitioning"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeDeployCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:05+09:00",
+            "GrantId": "32bd5750966fcfb381d99d158f051ff3ceebf81b805938ea31e321d6439f4326",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeDeployCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeDeployCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeDeployCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-ExtractData"
+                }
+            },
+            "CreationDate": "2020-02-05T12:21:53+09:00",
+            "GrantId": "32dcba0d210ca0dfe1fcb43d3f592bf9f73048c069b792004a5ccb4a86c9a3a6",
+            "GranteePrincipal": "AROAWCDCEGT4QR5MA3GLY:staging-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4QR5MA3GLY:staging-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codedeploy-notification"
+                }
+            },
+            "CreationDate": "2018-12-04T17:25:48+09:00",
+            "GrantId": "33685ea707e756cf362bf134d213b1c503b5c6ed20c564859b2628ff38102955",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/CodeDeployNotificationLambdaRoll/codedeploy-notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "codedeploy-notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/CodeDeployNotificationLambdaRoll/codedeploy-notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-ExtractData"
+                }
+            },
+            "CreationDate": "2020-02-04T19:29:48+09:00",
+            "GrantId": "3b9a457bd14dde724c99e774714205ee68a52fd6e7d718cc218b8dc599238eee",
+            "GranteePrincipal": "AROAWCDCEGT4YNKCYJKBW:production-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4YNKCYJKBW:production-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizePrepareUserJsonl"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:17+09:00",
+            "GrantId": "446ad561dae130fc974daef014f286a0cddc18b8eb797dc467de62d9a0770ace",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizePrepareUserJsonl",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizePrepareUserJsonl",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizePrepareUserJsonl"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-05T13:45:48+09:00",
+            "GrantId": "460b9f6b87623716f338fc87b2e0335b0ccd65430912f8b0eec077197fe027a5",
+            "GranteePrincipal": "AROAWCDCEGT4T4QOPXBMN:production-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4T4QOPXBMN:production-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-staging"
+                }
+            },
+            "CreationDate": "2017-10-26T15:59:50+09:00",
+            "GrantId": "4a94d104ddee89c56e936fa568c11955227eada9213bbcc42094c1a79faa9e86",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaStaging/image-resizer-staging",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "image-resizer-staging",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/ImageResizerLambdaStaging/image-resizer-staging"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:sendgrid-notification"
+                }
+            },
+            "CreationDate": "2018-12-06T20:05:32+09:00",
+            "GrantId": "51c9f5880336202c95299e8e272f8de3e987660826955a3e5a98fd07c0bca4aa",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/SendGridNotificationLambdaRoll/sendgrid-notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "sendgrid-notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/SendGridNotificationLambdaRoll/sendgrid-notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-development"
+                }
+            },
+            "CreationDate": "2017-09-10T02:14:00+09:00",
+            "GrantId": "5699162cf8a635fdc4f38e8c4a57d8325159046366719d19059e7e826e54ac93",
+            "GranteePrincipal": "AROAIFDF7BYUDSSEMCRZS:nontv-video-transcode-development",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-development",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAIFDF7BYUDSSEMCRZS:nontv-video-transcode-development"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeDeployCheck"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:18+09:00",
+            "GrantId": "61a7b0079b264ef5301eec5b5938ad41fdd3f40d44407dedc6c763493e4266c1",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeDeployCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeDeployCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeDeployCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeDeployTrigger"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:55+09:00",
+            "GrantId": "67f735ad2db16d0215aeeee48ed1a6530d67c57a8adc21ea874892ea96fa0abe",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeDeployTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeDeployTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeDeployTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-staging"
+                }
+            },
+            "CreationDate": "2017-09-10T01:47:41+09:00",
+            "GrantId": "6815813b7301c12e9ca5e9f88e8b7a51b51e1bfb79d98f90e7a7ebafb10626e3",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-staging",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-staging",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-staging"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-logger-production"
+                }
+            },
+            "CreationDate": "2017-10-01T03:20:56+09:00",
+            "GrantId": "6957154940400853dab5da94416260457a241b8aecce025ae1e53066d9c8d8d3",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaProduction/kinesis-logger-production",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "kinesis-logger-production",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaProduction/kinesis-logger-production"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-production"
+                }
+            },
+            "CreationDate": "2017-09-10T01:50:44+09:00",
+            "GrantId": "6ce757bb117ae3cfbabe4a52d42a8b123628383c815016d0e5d2f6ba9c285461",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-production",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-production",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-production"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-apilogger-production"
+                }
+            },
+            "CreationDate": "2018-08-08T02:01:16+09:00",
+            "GrantId": "6eb5fa44dee0b48b6fa5cd568cc7f3ae4edac95167b4bed258748015ca5b5168",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaProduction/kinesis-apilogger-production",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "kinesis-apilogger-production",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaProduction/kinesis-apilogger-production"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeSolutionCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:52+09:00",
+            "GrantId": "73f0c75ab3ace698d229810f8e3f0141cf30491ce7993386119e98382ce7e965",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeSolutionCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeSolutionCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeSolutionCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-05T11:47:07+09:00",
+            "GrantId": "751cc447ee74f20ebe525f1b1b7704587711174c69d4c9217b101d2838648821",
+            "GranteePrincipal": "AROAWCDCEGT43MDKITEIX:dev-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT43MDKITEIX:dev-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeLearningTrigger"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:51+09:00",
+            "GrantId": "7a379edd5b5fe9fdf6c0254ec43a15a7b5853d943bb7c4324b75d1620d76faa4",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeLearningTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeLearningTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeLearningTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeSolutionCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:05+09:00",
+            "GrantId": "7eaf2964cf0527642163a3b8ea9664a695eb2b3732881affc8ca1cfd23206c9f",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeSolutionCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeSolutionCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeSolutionCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizePrepareUserJsonl"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:51+09:00",
+            "GrantId": "80a73cd07cc135d44f4dbb8f3c9804429cec63dd355b44320d7f8f42d20a0a68",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizePrepareUserJsonl",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizePrepareUserJsonl",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizePrepareUserJsonl"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-ExtractData"
+                }
+            },
+            "CreationDate": "2020-02-05T11:47:07+09:00",
+            "GrantId": "814ad964927550a4790c77e24b563168bd0bcb07d084bbcef2da46d3b9ed52e9",
+            "GranteePrincipal": "AROAWCDCEGT43MDKITEIX:dev-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT43MDKITEIX:dev-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeImportDataCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:43:52+09:00",
+            "GrantId": "83532f0fb7937c6e1a312cf81bcce8418a322efd9a6785003cd74c3406f06750",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeImportDataCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeImportDataCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeImportDataCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-logger-staging"
+                }
+            },
+            "CreationDate": "2017-11-01T11:21:50+09:00",
+            "GrantId": "8621b51ec63c1d68996471ab2ac47e3c5c6351f2f13ff7294fc9cb20bfd060cf",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaStaging/kinesis-logger-staging",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "kinesis-logger-staging",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaStaging/kinesis-logger-staging"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeImportData"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:06+09:00",
+            "GrantId": "86fd9e4579fef52cb8fa26c56ff16336eea284a198aa27f41f9a093e9cf7f77c",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeImportData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeImportData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeImportData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-AmazonPersonalizeExecuteQuery"
+                }
+            },
+            "CreationDate": "2020-05-20T20:01:40+09:00",
+            "GrantId": "875e63754ce4f3ddbabcd558b81c75c64e4acaa5c3d9759ad905325f584b5f9c",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeExecuteQuery",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-AmazonPersonalizeExecuteQuery",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-production/production-AmazonPersonalizeExecuteQuery"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeImportDataCheck"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:18+09:00",
+            "GrantId": "8a7e175868490946d1367c5b85e3f797b09bb45dd0135d5732e3544047cb9b64",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeImportDataCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeImportDataCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeImportDataCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeDeployTrigger"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:06+09:00",
+            "GrantId": "8e0ccef36e506439ebbe1de9b562b0b06351b2a049de4629e9745fe40cc8304f",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeDeployTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeDeployTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeDeployTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-05T11:44:04+09:00",
+            "GrantId": "9462709956a338a03be2c05194070e78fb89f40921bd1e185bfd7c5473809dd6",
+            "GranteePrincipal": "AROAWCDCEGT4QRDV26UZU:dev-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4QRDV26UZU:dev-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:video-auto-transcode"
+                }
+            },
+            "CreationDate": "2017-09-09T01:00:52+09:00",
+            "GrantId": "9964c22710c9ebde9a220b83b1ca1d8c82259f6d99f6a6c5dd8e2a57051268d2",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/video-auto-transcode",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "video-auto-transcode",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/video-auto-transcode"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeCheckExecuteQueryStatus"
+                }
+            },
+            "CreationDate": "2020-05-19T20:10:40+09:00",
+            "GrantId": "9a8757467167a4ae3c96fc401130be6da9e676a4de86ca12bc772d641e4e4c0b",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeCheckExecuteQueryStatus",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeCheckExecuteQueryStatus",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeCheckExecuteQueryStatus"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:codebuild-notification"
+                }
+            },
+            "CreationDate": "2018-12-04T13:35:41+09:00",
+            "GrantId": "9cb27493e30f24c3a353e1f8435e82f3737a5266c05388c82d811954eb6b6fdd",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/CodeBuildNotificationLambdaRoll/codebuild-notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "codebuild-notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/CodeBuildNotificationLambdaRoll/codebuild-notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-development"
+                }
+            },
+            "CreationDate": "2017-09-10T01:41:24+09:00",
+            "GrantId": "a00e7a767ab7ed8c0d2eeaec1d6bb88c2454dec04916b3bb611addb67658e328",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-development",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-development",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/Lambda_Video_Transcode_Role/nontv-video-transcode-development"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeSolutionCheck"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:56+09:00",
+            "GrantId": "a098ffbcfc82620d8bb0539c6ed351ed021c691fe1e022712ffd2bf17b9c18ea",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeSolutionCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeSolutionCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeSolutionCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-logger"
+                }
+            },
+            "CreationDate": "2017-09-17T21:34:47+09:00",
+            "GrantId": "a39814028d083ee4a7832085b61615c9b903eacd768cf98e6a510d249b50e0e8",
+            "GranteePrincipal": "AROAIXDQONWJ56E3UFJDI:kinesis-logger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "kinesis-logger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAIXDQONWJ56E3UFJDI:kinesis-logger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:kinesis-apilogger-staging"
+                }
+            },
+            "CreationDate": "2018-08-08T00:47:33+09:00",
+            "GrantId": "ae07ecd78cac013121b121ac8e61c8396a996818d2ffa710a050c6e489a11582",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaStaging/kinesis-apilogger-staging",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "kinesis-apilogger-staging",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/KinesisReaderLambdaStaging/kinesis-apilogger-staging"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-ExtractData"
+                }
+            },
+            "CreationDate": "2020-02-05T13:45:48+09:00",
+            "GrantId": "b45def617b035b7e0f1a619aa8009f4c2ad7b735e60a7a5421b78e3f31823f85",
+            "GranteePrincipal": "AROAWCDCEGT4T4QOPXBMN:production-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4T4QOPXBMN:production-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-contact-sender"
+                }
+            },
+            "CreationDate": "2017-12-14T23:31:15+09:00",
+            "GrantId": "b7039b54c21610658b456304701df3917cbab0ff0040f9d8c7f905a69a992e6e",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/SESSenderLambda/noin-contact-sender",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "noin-contact-sender",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/SESSenderLambda/noin-contact-sender"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:ecs-notification"
+                }
+            },
+            "CreationDate": "2019-06-27T02:37:01+09:00",
+            "GrantId": "b8cac7a1689488537f83db6a2e8a5402a875be35be6c43f270a73f325710a8a2",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/ecs-notification-role-t31vht1p/ecs-notification",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "ecs-notification",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/ecs-notification-role-t31vht1p/ecs-notification"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-ExtractData"
+                }
+            },
+            "CreationDate": "2020-01-30T14:02:06+09:00",
+            "GrantId": "ba67c7648121e3f97e6cedf0745bcaa491bfc4a61c5bacedeb355ba76a2aa5a3",
+            "GranteePrincipal": "AROAWCDCEGT4UBWL7YTW5:staging-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4UBWL7YTW5:staging-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeImportData"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:56+09:00",
+            "GrantId": "be6ff0cccc7fd2b33d6553fa6d36ec5647c6ff5814dd45f85deeda183b915d5d",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeImportData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeImportData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeImportData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeImportData"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:18+09:00",
+            "GrantId": "c3aa31f6e47233010e5949c93535a77b94d2bd64a5b7907d5f36c0b090bcf828",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeImportData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeImportData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeImportData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeLearningTrigger"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:06+09:00",
+            "GrantId": "c44d5673e09f1cf859db0c3fa165bf37a5bbeb6586b65af37fd2ce005316f249",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeLearningTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeLearningTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeLearningTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeDeployCheck"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:56+09:00",
+            "GrantId": "c509ecb057d57421e2c9bad27d745e0905270fdd9e28fe2c7b852fcd898c04be",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeDeployCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeDeployCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeDeployCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeImportDataCheck"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:06+09:00",
+            "GrantId": "c8b8949e602876162b902c144ad5460e6d557fcbf5d4e570e86058f09931e1d1",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeImportDataCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeImportDataCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeImportDataCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizePrepareUserJsonl"
+                }
+            },
+            "CreationDate": "2020-05-18T19:39:06+09:00",
+            "GrantId": "c9f62cc5dd69d8b611b4f82a292c210870b6a290cd12a551ea299ce61940fa28",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizePrepareUserJsonl",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizePrepareUserJsonl",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizePrepareUserJsonl"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:staging-ExtractData"
+                }
+            },
+            "CreationDate": "2020-01-30T16:32:20+09:00",
+            "GrantId": "ca769a8038e2ab2bb5fe656b7328f1cca9b470f318db0b48ae9955dfb623deef",
+            "GranteePrincipal": "AROAWCDCEGT4XUTMS6VCU:staging-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "staging-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4XUTMS6VCU:staging-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeLearningTrigger"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:17+09:00",
+            "GrantId": "cf7b78409f3393a5d15ddab4561f1fcd60d95d23a782c1f164f4f12cc85df18d",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeLearningTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeLearningTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeLearningTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-ExtractData"
+                }
+            },
+            "CreationDate": "2020-01-30T19:24:22+09:00",
+            "GrantId": "d338e872568810efce40a2d69dfd387750e4aa4e618a06c4478c1f293e698c1d",
+            "GranteePrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-ExtractData",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-ExtractData",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-ExtractData"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-staging"
+                }
+            },
+            "CreationDate": "2017-09-10T02:35:36+09:00",
+            "GrantId": "d7759a55d8c2cd23a5c3bfc81e7d5e1001abc11120062eb52417a35779e352bb",
+            "GranteePrincipal": "AROAIFUXP44KMQG7CZJ7O:nontv-video-transcode-staging",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "nontv-video-transcode-staging",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAIFUXP44KMQG7CZJ7O:nontv-video-transcode-staging"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PreProcess"
+                }
+            },
+            "CreationDate": "2020-02-04T15:30:23+09:00",
+            "GrantId": "dba77bf73543aea9c66b3874101e1da01f554c87e1232d50e2650328d79acae3",
+            "GranteePrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-PreProcess",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PreProcess",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-PreProcess"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-PvBaseAmazonPersonalizeLearningTrigger"
+                }
+            },
+            "CreationDate": "2020-03-05T15:16:55+09:00",
+            "GrantId": "e0612311051a03bacdb96833601d1d4cc6ee399f5d91ce95b6aefe5ad72ded1e",
+            "GranteePrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeLearningTrigger",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-PvBaseAmazonPersonalizeLearningTrigger",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4TNXVJDUW5:dev-PvBaseAmazonPersonalizeLearningTrigger"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:noin-web-pipeline-approve"
+                }
+            },
+            "CreationDate": "2019-07-01T15:55:48+09:00",
+            "GrantId": "e7efc8637dd1e49d592efcf607dee9ed494072803f090b150bacf191570264d7",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-web-pipeline-approve-role-nrn5rmue/noin-web-pipeline-approve",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "noin-web-pipeline-approve",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-web-pipeline-approve-role-nrn5rmue/noin-web-pipeline-approve"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:production-PvBaseAmazonPersonalizeSolutionCheck"
+                }
+            },
+            "CreationDate": "2020-03-06T16:13:17+09:00",
+            "GrantId": "e8b74dfe609f85ddd94d52c601ddd140b4b26176b72c6cb2c8b5e687931510fd",
+            "GranteePrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeSolutionCheck",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "production-PvBaseAmazonPersonalizeSolutionCheck",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT4R7KMMWMUR:production-PvBaseAmazonPersonalizeSolutionCheck"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-AmazonPersonalizeExecuteQuery"
+                }
+            },
+            "CreationDate": "2020-05-19T16:51:29+09:00",
+            "GrantId": "e8c81736004e11df5cd21deb42563ccea6269227601a93cf1baede181e06f41b",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeExecuteQuery",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-AmazonPersonalizeExecuteQuery",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "arn:aws:sts::416817624313:assumed-role/noin-personalize-workflow-dev/dev-AmazonPersonalizeExecuteQuery"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:lambda:FunctionArn": "arn:aws:lambda:ap-northeast-1:416817624313:function:dev-Hello"
+                }
+            },
+            "CreationDate": "2020-01-30T15:37:39+09:00",
+            "GrantId": "eafde9b7e2723d41e72dedc9661b35533ae4ff2ea1ae7a39a54bb95e7f3b6cf0",
+            "GranteePrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-Hello",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/3b73954c-f425-4667-aa11-cb44db55bdec",
+            "Name": "dev-Hello",
+            "Operations": [
+                "Decrypt",
+                "RetireGrant"
+            ],
+            "RetiringPrincipal": "AROAWCDCEGT42FRQ5ORWC:dev-Hello"
+        }
+    ],
+    "NextMarker": "AE0AAAACAHMAAAAHZ3JhbnRJZABzAAAAQDljYjI3NDkzZTMwZjI0YzNhMzUzZTFmODQzNWU4MmYzNzM3YTUyNjZjMDUzODhjODJkODExOTU0ZWI2YjZmZGQAcwAAAAZrZXlBcm4AcwAAAFphcm46YXdzOnRyZW50LXNhbmRib3g6YXAtbm9ydGhlYXN0LTE6NDE2ODE3NjI0MzEzOmtleS8zYjczOTU0Yy1mNDI1LTQ2NjctYWExMS1jYjQ0ZGI1NWJkZWM",
+    "Truncated": true
+}

@@ -1,0 +1,25 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/cm-job",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": [
+                            "arn:aws:iam::245619162629:root",
+                            "arn:aws:iam::344117861442:root"
+                        ]
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-03-06T04:34:17+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJTVL2GBNQB77JDVEC",
+        "RoleName": "cm-job"
+    }
+}

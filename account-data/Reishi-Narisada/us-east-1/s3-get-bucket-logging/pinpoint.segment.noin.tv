@@ -1,0 +1,6 @@
+{
+    "LoggingEnabled": {
+        "TargetBucket": "cloudtrail-us-east-1-416817624313",
+        "TargetPrefix": ""
+    }
+}

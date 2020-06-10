@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/securityhub.amazonaws.com/AWSServiceRoleForSecurityHub",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "securityhub.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-09-04T02:18:32+00:00",
+        "Description": "A service-linked role required for AWS Security Hub to access your resources.",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/securityhub.amazonaws.com/",
+        "RoleId": "AROAWCDCEGT43LRPWK5RT",
+        "RoleName": "AWSServiceRoleForSecurityHub"
+    }
+}

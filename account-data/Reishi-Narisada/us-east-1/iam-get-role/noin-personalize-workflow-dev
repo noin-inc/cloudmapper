@@ -1,0 +1,29 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2020-05-18T10:38:44+00:00",
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4SIZ4QHHNH",
+        "RoleName": "noin-personalize-workflow-dev",
+        "Tags": [
+            {
+                "Key": "STAGE",
+                "Value": "dev"
+            }
+        ]
+    }
+}

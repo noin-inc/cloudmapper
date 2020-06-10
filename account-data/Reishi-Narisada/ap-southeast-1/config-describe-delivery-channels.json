@@ -1,0 +1,8 @@
+{
+    "DeliveryChannels": [
+        {
+            "name": "default",
+            "s3BucketName": "cm-members-416817624313"
+        }
+    ]
+}

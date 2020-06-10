@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Fuka-Noda",
+        "CreateDate": "2019-08-29T08:43:22+00:00",
+        "PasswordLastUsed": "2019-09-05T03:44:35+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4TIRPIBF4W",
+        "UserName": "Fuka-Noda"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Functions": [
+        {
+            "CodeSha256": "IvpLIXU0gEWbxL+s1Z0exY2L1UTUpn51DWVHmULVIFs=",
+            "CodeSize": 1843,
+            "Description": "",
+            "FunctionArn": "arn:aws:lambda:us-east-1:416817624313:function:amplify-noin-android-prod-UpdateRolesWithIDPFuncti-L4IZ5W8UEB2G",
+            "FunctionName": "amplify-noin-android-prod-UpdateRolesWithIDPFuncti-L4IZ5W8UEB2G",
+            "Handler": "index.handler",
+            "LastModified": "2019-11-25T05:16:39.233+0000",
+            "MemorySize": 128,
+            "RevisionId": "a53cce80-f39e-482c-8f12-8a9be632da4b",
+            "Role": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-authRole-idp",
+            "Runtime": "nodejs8.10",
+            "Timeout": 300,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST"
+        },
+        {
+            "CodeSha256": "Adb5J20W6ec/GCOQyLjDThydvNkCxyRCPUMwCu9KOqw=",
+            "CodeSize": 1514,
+            "Description": "",
+            "FunctionArn": "arn:aws:lambda:us-east-1:416817624313:function:amplify-noin-android-production-1-PinpointFunction-2AB6X2QHFV9D",
+            "FunctionName": "amplify-noin-android-production-1-PinpointFunction-2AB6X2QHFV9D",
+            "Handler": "index.handler",
+            "LastModified": "2019-11-25T05:16:37.603+0000",
+            "MemorySize": 128,
+            "RevisionId": "8c3ca704-61c8-4e8e-b89d-c501e7b47cbb",
+            "Role": "arn:aws:iam::416817624313:role/pinpointLambdaRoleae8869a6-production",
+            "Runtime": "nodejs8.10",
+            "Timeout": 300,
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "Version": "$LATEST"
+        }
+    ]
+}

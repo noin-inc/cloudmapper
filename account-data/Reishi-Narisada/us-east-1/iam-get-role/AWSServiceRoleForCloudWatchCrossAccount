@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/cloudwatch-crossaccount.amazonaws.com/AWSServiceRoleForCloudWatchCrossAccount",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "cloudwatch-crossaccount.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-11-08T01:34:57+00:00",
+        "Description": "Allows CloudWatch to assume CloudWatch-CrossAccountSharing roles in remote accounts on behalf of the current account in order to display data cross-account, cross region",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/cloudwatch-crossaccount.amazonaws.com/",
+        "RoleId": "AROAWCDCEGT4TSKN5AZEL",
+        "RoleName": "AWSServiceRoleForCloudWatchCrossAccount"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "VpcEndpoints": [
+        {
+            "CreationTimestamp": "2017-10-04T17:14:45+00:00",
+            "DnsEntries": [],
+            "Groups": [],
+            "NetworkInterfaceIds": [],
+            "OwnerId": "416817624313",
+            "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+            "PrivateDnsEnabled": false,
+            "RequesterManaged": false,
+            "RouteTableIds": [
+                "rtb-30ad1f57",
+                "rtb-8ea416e9"
+            ],
+            "ServiceName": "com.amazonaws.ap-northeast-1.s3",
+            "State": "available",
+            "SubnetIds": [],
+            "Tags": [],
+            "VpcEndpointId": "vpce-ca35f3a3",
+            "VpcEndpointType": "Gateway",
+            "VpcId": "vpc-b0eae7d4"
+        },
+        {
+            "CreationTimestamp": "2020-01-30T09:04:50+00:00",
+            "DnsEntries": [],
+            "Groups": [],
+            "NetworkInterfaceIds": [],
+            "OwnerId": "416817624313",
+            "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+            "PrivateDnsEnabled": false,
+            "RequesterManaged": false,
+            "RouteTableIds": [
+                "rtb-533ff334"
+            ],
+            "ServiceName": "com.amazonaws.ap-northeast-1.s3",
+            "State": "available",
+            "SubnetIds": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "staging"
+                }
+            ],
+            "VpcEndpointId": "vpce-0c48376629f27dc98",
+            "VpcEndpointType": "Gateway",
+            "VpcId": "vpc-4ec1e72a"
+        }
+    ]
+}

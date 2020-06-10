@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/elasticache.amazonaws.com/AWSServiceRoleForElastiCache",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "elasticache.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2017-12-12T07:52:34+00:00",
+        "Description": "Allows ElastiCache to manage AWS resources for your cache on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/elasticache.amazonaws.com/",
+        "RoleId": "AROAIUGBQ7PYFMUNUC27E",
+        "RoleName": "AWSServiceRoleForElastiCache"
+    }
+}

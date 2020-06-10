@@ -1,0 +1,48 @@
+{
+    "TargetGroups": [
+        {
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckPath": "/api/v1/support_version",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-production/c947ae1825d89941"
+            ],
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "Port": 80,
+            "Protocol": "HTTP",
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:targetgroup/noin-production-app/ca7021ba8fa59f28",
+            "TargetGroupName": "noin-production-app",
+            "TargetType": "instance",
+            "UnhealthyThresholdCount": 2,
+            "VpcId": "vpc-b0eae7d4"
+        },
+        {
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckPath": "/login",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-production/c947ae1825d89941"
+            ],
+            "Matcher": {
+                "HttpCode": "301"
+            },
+            "Port": 80,
+            "Protocol": "HTTP",
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:targetgroup/noin-production-redash/be75a3538d13797f",
+            "TargetGroupName": "noin-production-redash",
+            "TargetType": "instance",
+            "UnhealthyThresholdCount": 2,
+            "VpcId": "vpc-b0eae7d4"
+        }
+    ]
+}

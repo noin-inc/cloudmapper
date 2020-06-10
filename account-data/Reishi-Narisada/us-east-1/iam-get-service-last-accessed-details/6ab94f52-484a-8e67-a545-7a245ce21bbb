@@ -1,0 +1,35 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:24.736000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:24.565000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-10T13:30:07+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisWriterStaging",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T08:39:32+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisWriterStaging",
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-09-26T03:46:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisWriterStaging",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T08:39:33+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisWriterStaging",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

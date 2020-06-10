@@ -1,0 +1,15 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/s3upload",
+        "CreateDate": "2019-06-19T08:22:55+00:00",
+        "Path": "/",
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "s3upload"
+            }
+        ],
+        "UserId": "AIDAWCDCEGT4RSGM7FBLI",
+        "UserName": "s3upload"
+    }
+}

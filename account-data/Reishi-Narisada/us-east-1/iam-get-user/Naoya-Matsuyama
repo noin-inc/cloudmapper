@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Naoya-Matsuyama",
+        "CreateDate": "2018-04-23T02:33:53+00:00",
+        "PasswordLastUsed": "2018-12-27T01:07:24+00:00",
+        "Path": "/",
+        "UserId": "AIDAICUJKXF7XTN4IROOI",
+        "UserName": "Naoya-Matsuyama"
+    }
+}

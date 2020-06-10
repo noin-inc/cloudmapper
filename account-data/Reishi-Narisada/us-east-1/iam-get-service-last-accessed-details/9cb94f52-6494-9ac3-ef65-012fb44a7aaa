@@ -1,0 +1,762 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:39.446000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:39.048000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Alexa for Business",
+            "ServiceNamespace": "a4b",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "IAM Access Analyzer",
+            "ServiceNamespace": "access-analyzer",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Certificate Manager",
+            "ServiceNamespace": "acm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Certificate Manager Private Certificate Authority",
+            "ServiceNamespace": "acm-pca",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Amplify",
+            "ServiceNamespace": "amplify",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Manage - Amazon API Gateway",
+            "ServiceNamespace": "apigateway",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "CloudWatch Application Insights",
+            "ServiceNamespace": "applicationinsights",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS App Mesh",
+            "ServiceNamespace": "appmesh",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon AppStream 2.0",
+            "ServiceNamespace": "appstream",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS AppSync",
+            "ServiceNamespace": "appsync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-10-14T04:14:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Auto Scaling",
+            "ServiceNamespace": "autoscaling-plans",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Backup",
+            "ServiceNamespace": "backup",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Batch",
+            "ServiceNamespace": "batch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Chatbot",
+            "ServiceNamespace": "chatbot",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Chime",
+            "ServiceNamespace": "chime",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Cloud9",
+            "ServiceNamespace": "cloud9",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cloud Directory",
+            "ServiceNamespace": "clouddirectory",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudFormation",
+            "ServiceNamespace": "cloudformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudFront",
+            "ServiceNamespace": "cloudfront",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudHSM",
+            "ServiceNamespace": "cloudhsm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudSearch",
+            "ServiceNamespace": "cloudsearch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudTrail",
+            "ServiceNamespace": "cloudtrail",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-24T06:57:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS CodeBuild",
+            "ServiceNamespace": "codebuild",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeCommit",
+            "ServiceNamespace": "codecommit",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeDeploy",
+            "ServiceNamespace": "codedeploy",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CodeGuru Profiler",
+            "ServiceNamespace": "codeguru-profiler",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CodeGuru Reviewer",
+            "ServiceNamespace": "codeguru-reviewer",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodePipeline",
+            "ServiceNamespace": "codepipeline",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeStar",
+            "ServiceNamespace": "codestar",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeStar Notifications",
+            "ServiceNamespace": "codestar-notifications",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Identity",
+            "ServiceNamespace": "cognito-identity",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito User Pools",
+            "ServiceNamespace": "cognito-idp",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Sync",
+            "ServiceNamespace": "cognito-sync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Compute Optimizer",
+            "ServiceNamespace": "compute-optimizer",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Config",
+            "ServiceNamespace": "config",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Connect",
+            "ServiceNamespace": "connect",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Data Exchange",
+            "ServiceNamespace": "dataexchange",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Data Pipeline",
+            "ServiceNamespace": "datapipeline",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "DataSync",
+            "ServiceNamespace": "datasync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB Accelerator (DAX)",
+            "ServiceNamespace": "dax",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Detective",
+            "ServiceNamespace": "detective",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Device Farm",
+            "ServiceNamespace": "devicefarm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Direct Connect",
+            "ServiceNamespace": "directconnect",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Application Discovery Service",
+            "ServiceNamespace": "discovery",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Data Lifecycle Manager",
+            "ServiceNamespace": "dlm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Database Migration Service",
+            "ServiceNamespace": "dms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Directory Service",
+            "ServiceNamespace": "ds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB",
+            "ServiceNamespace": "dynamodb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-24T07:23:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Message Delivery Service",
+            "ServiceNamespace": "ec2messages",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic Container Registry",
+            "ServiceNamespace": "ecr",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-04-03T23:59:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Amazon Elastic Container Service",
+            "ServiceNamespace": "ecs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Elastic Container Service for Kubernetes",
+            "ServiceNamespace": "eks",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon ElastiCache",
+            "ServiceNamespace": "elasticache",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Elastic Beanstalk",
+            "ServiceNamespace": "elasticbeanstalk",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic File System",
+            "ServiceNamespace": "elasticfilesystem",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-24T06:58:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Elastic MapReduce",
+            "ServiceNamespace": "elasticmapreduce",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic Transcoder",
+            "ServiceNamespace": "elastictranscoder",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elasticsearch Service",
+            "ServiceNamespace": "es",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EventBridge",
+            "ServiceNamespace": "events",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis Firehose",
+            "ServiceNamespace": "firehose",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon FSx",
+            "ServiceNamespace": "fsx",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon GameLift",
+            "ServiceNamespace": "gamelift",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Glacier",
+            "ServiceNamespace": "glacier",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Global Accelerator",
+            "ServiceNamespace": "globalaccelerator",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS IoT Greengrass",
+            "ServiceNamespace": "greengrass",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon GuardDuty",
+            "ServiceNamespace": "guardduty",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-24T08:03:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "AWS Health APIs and Notifications",
+            "ServiceNamespace": "health",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-11-24T06:57:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon EC2 Image Builder",
+            "ServiceNamespace": "imagebuilder",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Import Export",
+            "ServiceNamespace": "importexport",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Inspector",
+            "ServiceNamespace": "inspector",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS IoT",
+            "ServiceNamespace": "iot",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS IoT Analytics",
+            "ServiceNamespace": "iotanalytics",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Managed Streaming for Kafka",
+            "ServiceNamespace": "kafka",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis Analytics",
+            "ServiceNamespace": "kinesisanalytics",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis Video Streams",
+            "ServiceNamespace": "kinesisvideo",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-04T03:20:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Lambda",
+            "ServiceNamespace": "lambda",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Lex",
+            "ServiceNamespace": "lex",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Lightsail",
+            "ServiceNamespace": "lightsail",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Machine Learning",
+            "ServiceNamespace": "machinelearning",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Elemental MediaConvert",
+            "ServiceNamespace": "mediaconvert",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Elemental MediaPackage",
+            "ServiceNamespace": "mediapackage",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Migration Hub",
+            "ServiceNamespace": "mgh",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Mobile Analytics",
+            "ServiceNamespace": "mobileanalytics",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Mobile Hub",
+            "ServiceNamespace": "mobilehub",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Pinpoint",
+            "ServiceNamespace": "mobiletargeting",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon MQ",
+            "ServiceNamespace": "mq",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS OpsWorks",
+            "ServiceNamespace": "opsworks",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS OpsWorks Configuration Management",
+            "ServiceNamespace": "opsworks-cm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Organizations",
+            "ServiceNamespace": "organizations",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Outposts",
+            "ServiceNamespace": "outposts",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Personalize",
+            "ServiceNamespace": "personalize",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-04T03:20:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "AWS Performance Insights",
+            "ServiceNamespace": "pi",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Polly",
+            "ServiceNamespace": "polly",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon QLDB",
+            "ServiceNamespace": "qldb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Resource Access Manager",
+            "ServiceNamespace": "ram",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-11-10T13:17:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+            "ServiceName": "Amazon RDS",
+            "ServiceNamespace": "rds",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Redshift",
+            "ServiceNamespace": "redshift",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Rekognition",
+            "ServiceNamespace": "rekognition",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Resource Groups",
+            "ServiceNamespace": "resource-groups",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS RoboMaker",
+            "ServiceNamespace": "robomaker",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Route 53",
+            "ServiceNamespace": "route53",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Route53 Domains",
+            "ServiceNamespace": "route53domains",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Route 53 Resolver",
+            "ServiceNamespace": "route53resolver",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SageMaker",
+            "ServiceNamespace": "sagemaker",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EventBridge Schemas",
+            "ServiceNamespace": "schemas",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SimpleDB",
+            "ServiceNamespace": "sdb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Secrets Manager",
+            "ServiceNamespace": "secretsmanager",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Security Hub",
+            "ServiceNamespace": "securityhub",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Serverless Application Repository",
+            "ServiceNamespace": "serverlessrepo",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Service Catalog",
+            "ServiceNamespace": "servicecatalog",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Cloud Map",
+            "ServiceNamespace": "servicediscovery",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Service Quotas",
+            "ServiceNamespace": "servicequotas",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SES",
+            "ServiceNamespace": "ses",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Shield",
+            "ServiceNamespace": "shield",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Snowball",
+            "ServiceNamespace": "snowball",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Step Functions",
+            "ServiceNamespace": "states",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Storage Gateway",
+            "ServiceNamespace": "storagegateway",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Security Token Service",
+            "ServiceNamespace": "sts",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Simple Workflow Service",
+            "ServiceNamespace": "swf",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Synthetics",
+            "ServiceNamespace": "synthetics",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Resource Group Tagging API",
+            "ServiceNamespace": "tag",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Transcribe",
+            "ServiceNamespace": "transcribe",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Transfer for SFTP",
+            "ServiceNamespace": "transfer",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Trusted Advisor",
+            "ServiceNamespace": "trustedadvisor",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF",
+            "ServiceNamespace": "waf",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF Regional",
+            "ServiceNamespace": "waf-regional",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF V2",
+            "ServiceNamespace": "wafv2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon WorkDocs",
+            "ServiceNamespace": "workdocs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon WorkLink",
+            "ServiceNamespace": "worklink",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon WorkMail",
+            "ServiceNamespace": "workmail",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon WorkSpaces",
+            "ServiceNamespace": "workspaces",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS X-Ray",
+            "ServiceNamespace": "xray",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

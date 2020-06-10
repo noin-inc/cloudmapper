@@ -1,0 +1,22 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:15.678000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:15.508000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Cognito Identity",
+            "ServiceNamespace": "cognito-identity",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Sync",
+            "ServiceNamespace": "cognito-sync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Mobile Analytics",
+            "ServiceNamespace": "mobileanalytics",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:44.986000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:44.772000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-10T14:06:06+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/nontv-sns-client",
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

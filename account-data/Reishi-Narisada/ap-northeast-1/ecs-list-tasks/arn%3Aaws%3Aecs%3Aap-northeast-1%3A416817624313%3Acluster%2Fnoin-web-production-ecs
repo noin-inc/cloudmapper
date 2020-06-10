@@ -1,0 +1,6 @@
+{
+    "taskArns": [
+        "arn:aws:ecs:ap-northeast-1:416817624313:task/551de58a-47ee-43cf-a475-8dd82cd17791",
+        "arn:aws:ecs:ap-northeast-1:416817624313:task/f2d2bfda-2712-4765-8e37-5bec31328917"
+    ]
+}

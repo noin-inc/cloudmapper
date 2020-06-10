@@ -1,0 +1,66 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:25.221000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:25.097000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Directory Service",
+            "ServiceNamespace": "ds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-09-04T03:53:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:09:48+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "Amazon Message Delivery Service",
+            "ServiceNamespace": "ec2messages",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:40:03+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-12T06:04:45+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-09-04T03:52:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:49:55+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T10:21:45+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ServiceName": "Amazon Session Manager Message Gateway Service",
+            "ServiceNamespace": "ssmmessages",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

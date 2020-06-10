@@ -1,0 +1,21 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:29.206000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:29.073000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-08T09:06:12+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/noin-web-pipeline-approve-role-nrn5rmue",
+            "ServiceName": "AWS CodePipeline",
+            "ServiceNamespace": "codepipeline",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-08T09:06:21+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/noin-web-pipeline-approve-role-nrn5rmue",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

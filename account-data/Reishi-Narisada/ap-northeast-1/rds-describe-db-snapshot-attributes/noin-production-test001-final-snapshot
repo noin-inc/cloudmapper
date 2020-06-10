@@ -1,0 +1,11 @@
+{
+    "DBSnapshotAttributesResult": {
+        "DBSnapshotAttributes": [
+            {
+                "AttributeName": "restore",
+                "AttributeValues": []
+            }
+        ],
+        "DBSnapshotIdentifier": "noin-production-test001-final-snapshot"
+    }
+}

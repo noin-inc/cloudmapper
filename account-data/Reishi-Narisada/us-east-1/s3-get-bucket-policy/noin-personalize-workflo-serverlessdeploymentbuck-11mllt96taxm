@@ -1,0 +1,3 @@
+{
+    "Policy": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Deny\",\"Principal\":\"*\",\"Action\":\"s3:*\",\"Resource\":\"arn:aws:s3:::noin-personalize-workflo-serverlessdeploymentbuck-11mllt96taxm/*\",\"Condition\":{\"Bool\":{\"aws:SecureTransport\":\"false\"}}}]}"
+}

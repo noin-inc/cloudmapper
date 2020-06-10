@@ -1,0 +1,11 @@
+{
+    "DBSnapshotAttributesResult": {
+        "DBSnapshotAttributes": [
+            {
+                "AttributeName": "restore",
+                "AttributeValues": []
+            }
+        ],
+        "DBSnapshotIdentifier": "rds:noin-corp-prod-2020-06-08-16-01"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:28.279000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:28.116000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:10:04+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-staging-dmp-batch",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:01:21+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-staging-dmp-batch",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:31:19+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-staging-dmp-batch",
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

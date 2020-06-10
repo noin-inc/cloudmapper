@@ -1,0 +1,17 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:18.657000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:18.497000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic MapReduce",
+            "ServiceNamespace": "elasticmapreduce",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

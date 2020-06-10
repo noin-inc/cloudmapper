@@ -1,0 +1,33 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/cloudcraft",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "3bf2efa1-53ed-4242-9a44-34a314db8a70"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::968898580625:root"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-05-10T02:42:37+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT45GYLKVFQ3",
+        "RoleName": "cloudcraft",
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "CloudCraftRole"
+            }
+        ]
+    }
+}

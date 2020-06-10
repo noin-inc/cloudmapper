@@ -1,0 +1,78 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:39.502000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:39.305000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-08T05:05:39+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-08T06:55:05+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2018-05-06T12:02:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2018-05-06T12:02:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-09-03T10:30:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-08T06:51:52+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2018-05-06T12:02:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-08T05:06:36+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

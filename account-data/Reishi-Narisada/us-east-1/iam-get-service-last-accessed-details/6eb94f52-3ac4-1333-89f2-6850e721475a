@@ -1,0 +1,58 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:17.813000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:17.640000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Directory Service",
+            "ServiceNamespace": "ds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Message Delivery Service",
+            "ServiceNamespace": "ec2messages",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-09T05:29:02+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/ecsTaskExecutionRole",
+            "ServiceName": "Amazon Elastic Container Registry",
+            "ServiceNamespace": "ecr",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:14:06+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/ecsTaskExecutionRole",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-08T09:12:37+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/ecsTaskExecutionRole",
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Session Manager Message Gateway Service",
+            "ServiceNamespace": "ssmmessages",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

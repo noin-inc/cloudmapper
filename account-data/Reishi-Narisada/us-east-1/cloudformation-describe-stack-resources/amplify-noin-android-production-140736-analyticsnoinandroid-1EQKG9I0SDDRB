@@ -1,0 +1,64 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "CognitoAuthPolicy",
+            "PhysicalResourceId": "ampli-Cogn-J9Q01CCTOII0",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Policy",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "Timestamp": "2019-11-25T05:17:00.420000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "CognitoUnauthPolicy",
+            "PhysicalResourceId": "ampli-Cogn-3YVQI88OYODB",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Policy",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "Timestamp": "2019-11-25T05:16:59.806000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "LambdaExecutionRole",
+            "PhysicalResourceId": "pinpointLambdaRoleae8869a6-production",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Role",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "Timestamp": "2019-11-25T05:16:34.607000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PinpointFunction",
+            "PhysicalResourceId": "amplify-noin-android-production-1-PinpointFunction-2AB6X2QHFV9D",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "Timestamp": "2019-11-25T05:16:38.417000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PinpointFunctionOutputs",
+            "PhysicalResourceId": "2019/11/25/[$LATEST]f1161aa984554fa0ac26a3a8adb9f840",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "Custom::LambdaCallout",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "Timestamp": "2019-11-25T05:16:45.374000+00:00"
+        }
+    ]
+}

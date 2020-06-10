@@ -1,0 +1,19 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:28.872000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:28.763000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-09T05:36:21+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/noin-web-codepipeline-approve-notification-role-jh4a37i7",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/Cognito_noin_testUnauth_Role",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRoleWithWebIdentity",
+                    "Condition": {
+                        "ForAnyValue:StringLike": {
+                            "cognito-identity.amazonaws.com:amr": "unauthenticated"
+                        },
+                        "StringEquals": {
+                            "cognito-identity.amazonaws.com:aud": "ap-northeast-1:eb9f1df5-8f78-4fff-bb25-5a7484ae0ce3"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Federated": "cognito-identity.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-06-29T06:21:16+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJY4PG3HKECEILCHPG",
+        "RoleName": "Cognito_noin_testUnauth_Role"
+    }
+}

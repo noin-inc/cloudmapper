@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/RedshiftSpectrumRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "redshift.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-10T08:08:30+00:00",
+        "Description": "Allows Redshift clusters to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAI4OK654DO262QFCFA",
+        "RoleName": "RedshiftSpectrumRole"
+    }
+}

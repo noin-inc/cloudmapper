@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:16.690000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:16.572000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-09T05:28:38+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/cwe-role-ap-northeast-1-noin-web-production",
+            "ServiceName": "AWS CodePipeline",
+            "ServiceNamespace": "codepipeline",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Konomi-Itokazu",
+        "CreateDate": "2020-05-07T10:54:57+00:00",
+        "PasswordLastUsed": "2020-05-07T11:02:56+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4WETEJD5PK",
+        "UserName": "Konomi-Itokazu"
+    }
+}

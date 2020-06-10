@@ -1,0 +1,97 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:01.466000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:01.199000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Cloud9",
+            "ServiceNamespace": "cloud9",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudFormation",
+            "ServiceNamespace": "cloudformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeBuild",
+            "ServiceNamespace": "codebuild",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeCommit",
+            "ServiceNamespace": "codecommit",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeDeploy",
+            "ServiceNamespace": "codedeploy",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodePipeline",
+            "ServiceNamespace": "codepipeline",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CodeStar",
+            "ServiceNamespace": "codestar",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Config",
+            "ServiceNamespace": "config",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Elastic Beanstalk",
+            "ServiceNamespace": "elasticbeanstalk",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EventBridge",
+            "ServiceNamespace": "events",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

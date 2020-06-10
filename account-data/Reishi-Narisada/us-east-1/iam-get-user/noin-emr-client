@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-emr-client",
+        "CreateDate": "2018-01-19T06:24:00+00:00",
+        "PasswordLastUsed": "2020-06-08T01:50:43+00:00",
+        "Path": "/",
+        "UserId": "AIDAJXRABMUBQRKFJ34CM",
+        "UserName": "noin-emr-client"
+    }
+}

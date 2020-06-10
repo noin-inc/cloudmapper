@@ -1,0 +1,28 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/firehose_delivery_role_staging_apilog",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "416817624313"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "firehose.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-08-07T15:23:22+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJ3SE4NLMZORG4N7N2",
+        "RoleName": "firehose_delivery_role_staging_apilog"
+    }
+}

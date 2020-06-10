@@ -1,0 +1,22 @@
+{
+    "Grants": [
+        {
+            "Constraints": {
+                "EncryptionContextSubset": {
+                    "aws:ebs:id": "vol-09d0261c3a5ec74be"
+                }
+            },
+            "CreationDate": "2019-09-17T11:46:47+09:00",
+            "GrantId": "57e0c14260d87bd8cf48b0b17cb1cd85e38cdab0712d34f700f669eb8f3d871c",
+            "GranteePrincipal": "arn:aws:sts::416817624313:assumed-role/aws:ec2-infrastructure/i-055bad53476805e89",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/6ec10a81-b08b-4a4a-8baf-36437ed69582",
+            "Name": "981c1d6e-b5ff-42d2-914e-698de1419569",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "ec2.ap-northeast-1.amazonaws.com"
+        }
+    ],
+    "Truncated": false
+}

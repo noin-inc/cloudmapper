@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-glue-client",
+        "CreateDate": "2018-01-13T14:59:57+00:00",
+        "Path": "/",
+        "UserId": "AIDAJU7NFUYC3INRGP35G",
+        "UserName": "noin-glue-client"
+    }
+}

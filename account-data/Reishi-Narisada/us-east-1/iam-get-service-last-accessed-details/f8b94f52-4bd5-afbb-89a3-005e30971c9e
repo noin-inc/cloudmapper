@@ -1,0 +1,219 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:26.817000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:26.379000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS Certificate Manager",
+            "ServiceNamespace": "acm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS App Mesh",
+            "ServiceNamespace": "appmesh",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudFormation",
+            "ServiceNamespace": "cloudformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-06-13T11:24:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Amazon CloudFront",
+            "ServiceNamespace": "cloudfront",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:15:25+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS CodeDeploy",
+            "ServiceNamespace": "codedeploy",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Identity",
+            "ServiceNamespace": "cognito-identity",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Sync",
+            "ServiceNamespace": "cognito-sync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Data Pipeline",
+            "ServiceNamespace": "datapipeline",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB Accelerator (DAX)",
+            "ServiceNamespace": "dax",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB",
+            "ServiceNamespace": "dynamodb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-05T02:37:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T13:35:27+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Amazon Elastic Container Service",
+            "ServiceNamespace": "ecs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon ElastiCache",
+            "ServiceNamespace": "elasticache",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic File System",
+            "ServiceNamespace": "elasticfilesystem",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:10:23+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Elasticsearch Service",
+            "ServiceNamespace": "es",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EventBridge",
+            "ServiceNamespace": "events",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis Firehose",
+            "ServiceNamespace": "firehose",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS IoT",
+            "ServiceNamespace": "iot",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lambda",
+            "ServiceNamespace": "lambda",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:05:28+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Mackerel",
+            "ServiceName": "Amazon RDS",
+            "ServiceNamespace": "rds",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon Redshift",
+            "ServiceNamespace": "redshift",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Resource Groups",
+            "ServiceNamespace": "resource-groups",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Route 53",
+            "ServiceNamespace": "route53",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Cloud Map",
+            "ServiceNamespace": "servicediscovery",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SES",
+            "ServiceNamespace": "ses",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Resource Group Tagging API",
+            "ServiceNamespace": "tag",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF",
+            "ServiceNamespace": "waf",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF V2",
+            "ServiceNamespace": "wafv2",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

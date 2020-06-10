@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-cloudfront-client",
+        "CreateDate": "2018-04-24T03:34:44+00:00",
+        "Path": "/",
+        "UserId": "AIDAI7AVEVP7Y3RGJJOVS",
+        "UserName": "noin-cloudfront-client"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "EcsInstanceAsg",
+            "PhysicalResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::AutoScalingGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-nginx/a3c29c20-214d-11ea-a617-0e36924addac",
+            "StackName": "EC2ContainerService-noin-web-staging-nginx",
+            "Timestamp": "2019-12-18T04:20:06.464000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "EcsInstanceLc",
+            "PhysicalResourceId": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceLc-1GNEAOP67P4UF",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::LaunchConfiguration",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-nginx/a3c29c20-214d-11ea-a617-0e36924addac",
+            "StackName": "EC2ContainerService-noin-web-staging-nginx",
+            "Timestamp": "2019-12-18T04:20:00.090000+00:00"
+        }
+    ]
+}

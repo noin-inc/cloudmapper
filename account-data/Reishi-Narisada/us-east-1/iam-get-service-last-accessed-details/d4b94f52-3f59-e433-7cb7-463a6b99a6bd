@@ -1,0 +1,66 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:20.153000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:19.987000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB",
+            "ServiceNamespace": "dynamodb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic MapReduce",
+            "ServiceNamespace": "elasticmapreduce",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon RDS",
+            "ServiceNamespace": "rds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:13:38+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_EC2_DefaultRole",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SimpleDB",
+            "ServiceNamespace": "sdb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2018-11-05T02:54:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_EC2_DefaultRole",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

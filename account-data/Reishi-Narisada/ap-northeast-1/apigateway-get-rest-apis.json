@@ -1,0 +1,72 @@
+{
+    "items": [
+        {
+            "apiKeySource": "HEADER",
+            "binaryMediaTypes": [
+                "image/*"
+            ],
+            "createdDate": "2017-10-26T18:49:15+09:00",
+            "description": "\u958b\u767a\u74b0\u5883\u7528\u753b\u50cf\u30ea\u30b5\u30a4\u30ba",
+            "endpointConfiguration": {
+                "types": [
+                    "EDGE"
+                ]
+            },
+            "id": "58iqih8uv3",
+            "name": "ImageResizerDevelopment"
+        },
+        {
+            "apiKeySource": "HEADER",
+            "createdDate": "2019-07-01T15:42:37+09:00",
+            "endpointConfiguration": {
+                "types": [
+                    "REGIONAL"
+                ]
+            },
+            "id": "abh1i6qu3f",
+            "name": "NoinWebPipelineApprove"
+        },
+        {
+            "apiKeySource": "HEADER",
+            "binaryMediaTypes": [
+                "image/*"
+            ],
+            "createdDate": "2017-10-26T16:02:05+09:00",
+            "description": "\u30b9\u30c6\u30fc\u30b8\u30f3\u30b0\u74b0\u5883\u7528\u753b\u50cf\u30ea\u30b5\u30a4\u30ba",
+            "endpointConfiguration": {
+                "types": [
+                    "EDGE"
+                ]
+            },
+            "id": "czaxvq6s0d",
+            "name": "ImageResizerStaging"
+        },
+        {
+            "apiKeySource": "HEADER",
+            "binaryMediaTypes": [
+                "image/*"
+            ],
+            "createdDate": "2017-10-26T19:07:19+09:00",
+            "description": "\u672c\u756a\u74b0\u5883\u7528\u753b\u50cf\u30ea\u30b5\u30a4\u30ba",
+            "endpointConfiguration": {
+                "types": [
+                    "EDGE"
+                ]
+            },
+            "id": "g8r16ywzhh",
+            "name": "ImageResizerProduction"
+        },
+        {
+            "apiKeySource": "HEADER",
+            "createdDate": "2017-12-14T23:52:26+09:00",
+            "description": "\u30b3\u30fc\u30dd\u30ec\u30fc\u30c8\u30b5\u30a4\u30c8\u3067\u4f7f\u7528\u3057\u3066\u3044\u308bAPI",
+            "endpointConfiguration": {
+                "types": [
+                    "EDGE"
+                ]
+            },
+            "id": "gg7b3bpqq4",
+            "name": "noinCorporateSite"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "logGroups": [
+        {
+            "arn": "arn:aws:logs:us-east-1:416817624313:log-group:/aws/kinesisfirehose/pinpoint-noin-app-backup:*",
+            "creationTime": 1564369998103,
+            "logGroupName": "/aws/kinesisfirehose/pinpoint-noin-app-backup",
+            "metricFilterCount": 0,
+            "storedBytes": 359
+        },
+        {
+            "arn": "arn:aws:logs:us-east-1:416817624313:log-group:/aws/lambda/amplify-noin-android-prod-UpdateRolesWithIDPFuncti-L4IZ5W8UEB2G:*",
+            "creationTime": 1574659003300,
+            "logGroupName": "/aws/lambda/amplify-noin-android-prod-UpdateRolesWithIDPFuncti-L4IZ5W8UEB2G",
+            "metricFilterCount": 0,
+            "storedBytes": 1342
+        },
+        {
+            "arn": "arn:aws:logs:us-east-1:416817624313:log-group:/aws/lambda/amplify-noin-android-production-1-PinpointFunction-2AB6X2QHFV9D:*",
+            "creationTime": 1574659002082,
+            "logGroupName": "/aws/lambda/amplify-noin-android-production-1-PinpointFunction-2AB6X2QHFV9D",
+            "metricFilterCount": 0,
+            "storedBytes": 1130
+        }
+    ]
+}

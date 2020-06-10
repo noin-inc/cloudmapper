@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/EMR_DefaultRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "elasticmapreduce.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2008-10-17"
+        },
+        "CreateDate": "2018-01-11T02:48:45+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJALEPE4AJ4XGHMLSS",
+        "RoleName": "EMR_DefaultRole"
+    }
+}

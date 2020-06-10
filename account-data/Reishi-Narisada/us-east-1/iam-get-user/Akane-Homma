@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Akane-Homma",
+        "CreateDate": "2019-09-03T11:46:14+00:00",
+        "PasswordLastUsed": "2019-09-05T03:45:21+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT42UO4HU3ZP",
+        "UserName": "Akane-Homma"
+    }
+}

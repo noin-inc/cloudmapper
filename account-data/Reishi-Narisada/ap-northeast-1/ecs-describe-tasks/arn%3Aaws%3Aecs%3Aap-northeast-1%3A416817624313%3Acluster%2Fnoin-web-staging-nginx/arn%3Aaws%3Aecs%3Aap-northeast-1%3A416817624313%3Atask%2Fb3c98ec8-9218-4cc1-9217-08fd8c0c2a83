@@ -1,0 +1,76 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "attachments": [],
+            "clusterArn": "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-staging-nginx",
+            "connectivity": "CONNECTED",
+            "connectivityAt": "2020-04-03T14:23:57.686000+09:00",
+            "containerInstanceArn": "arn:aws:ecs:ap-northeast-1:416817624313:container-instance/bff6de1f-d4c3-4e40-baf9-3c1fb96c6064",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-northeast-1:416817624313:container/2098600a-3705-4248-81b7-dd8ba85dff8b",
+                    "cpu": "0",
+                    "healthStatus": "HEALTHY",
+                    "image": "416817624313.dkr.ecr.ap-northeast-1.amazonaws.com/noin/noin-web-nginx:latest",
+                    "imageDigest": "sha256:db4959ae58b971ce6c69f670885373e556fb142d7b0e6abbc526ea4065c94f35",
+                    "lastStatus": "RUNNING",
+                    "memory": "256",
+                    "name": "nginx",
+                    "networkBindings": [
+                        {
+                            "bindIP": "0.0.0.0",
+                            "containerPort": 80,
+                            "hostPort": 32942,
+                            "protocol": "tcp"
+                        }
+                    ],
+                    "networkInterfaces": [],
+                    "runtimeId": "fc837f5e313c9b622c97c8d90a77dcd466562b1329833c71c2489d60dee90dc4",
+                    "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/b3c98ec8-9218-4cc1-9217-08fd8c0c2a83"
+                },
+                {
+                    "containerArn": "arn:aws:ecs:ap-northeast-1:416817624313:container/5226386d-0b87-4e0d-a0bf-a93c8f5ce9a2",
+                    "cpu": "0",
+                    "healthStatus": "HEALTHY",
+                    "image": "416817624313.dkr.ecr.ap-northeast-1.amazonaws.com/noin/noin-web:latest",
+                    "imageDigest": "sha256:9f797bfb1876dfa519a0864d45aa5631849eafb63329239a4c8d815d015faa8c",
+                    "lastStatus": "RUNNING",
+                    "memoryReservation": "1024",
+                    "name": "noin-web-container",
+                    "networkBindings": [],
+                    "networkInterfaces": [],
+                    "runtimeId": "60a7d566bde3d49dbe265653bc5230b3f0dfdf2aab7bf23562ebcdce9cb7a94a",
+                    "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/b3c98ec8-9218-4cc1-9217-08fd8c0c2a83"
+                }
+            ],
+            "cpu": "0",
+            "createdAt": "2020-04-03T14:23:57.686000+09:00",
+            "desiredStatus": "RUNNING",
+            "group": "service:web",
+            "healthStatus": "HEALTHY",
+            "lastStatus": "RUNNING",
+            "launchType": "EC2",
+            "memory": "1024",
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "name": "nginx"
+                    },
+                    {
+                        "name": "noin-web-container"
+                    }
+                ],
+                "inferenceAcceleratorOverrides": []
+            },
+            "pullStartedAt": "2020-04-03T14:23:58.546000+09:00",
+            "pullStoppedAt": "2020-04-03T14:25:45.546000+09:00",
+            "startedAt": "2020-04-03T14:25:46.546000+09:00",
+            "startedBy": "ecs-svc/3824159998082384996",
+            "tags": [],
+            "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/b3c98ec8-9218-4cc1-9217-08fd8c0c2a83",
+            "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:416817624313:task-definition/noin-web-staging-nginx-task-definition:41",
+            "version": 3
+        }
+    ]
+}

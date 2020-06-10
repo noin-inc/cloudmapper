@@ -1,0 +1,50 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:19.902000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:19.697000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:06:24+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_DefaultRole",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2018-01-14T14:00:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_DefaultRole",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2018-10-31T02:28:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_DefaultRole",
+            "ServiceName": "Amazon SimpleDB",
+            "ServiceNamespace": "sdb",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2018-11-05T02:57:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/EMR_DefaultRole",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

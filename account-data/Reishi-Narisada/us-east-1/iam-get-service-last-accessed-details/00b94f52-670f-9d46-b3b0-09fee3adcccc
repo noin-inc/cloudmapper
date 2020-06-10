@@ -1,0 +1,192 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:40.637000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:40.318000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS Certificate Manager",
+            "ServiceNamespace": "acm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Manage - Amazon API Gateway",
+            "ServiceNamespace": "apigateway",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS CloudFormation",
+            "ServiceNamespace": "cloudformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudFront",
+            "ServiceNamespace": "cloudfront",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Identity",
+            "ServiceNamespace": "cognito-identity",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito Sync",
+            "ServiceNamespace": "cognito-sync",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Device Farm",
+            "ServiceNamespace": "devicefarm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon DynamoDB",
+            "ServiceNamespace": "dynamodb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Elastic Load Balancing",
+            "ServiceNamespace": "elasticloadbalancing",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic MapReduce",
+            "ServiceNamespace": "elasticmapreduce",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EventBridge",
+            "ServiceNamespace": "events",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS IoT",
+            "ServiceNamespace": "iot",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lambda",
+            "ServiceNamespace": "lambda",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Pinpoint",
+            "ServiceNamespace": "mobiletargeting",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Organizations",
+            "ServiceNamespace": "organizations",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Performance Insights",
+            "ServiceNamespace": "pi",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon RDS",
+            "ServiceNamespace": "rds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Redshift",
+            "ServiceNamespace": "redshift",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SimpleDB",
+            "ServiceNamespace": "sdb",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Resource Group Tagging API",
+            "ServiceNamespace": "tag",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF",
+            "ServiceNamespace": "waf",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF V2",
+            "ServiceNamespace": "wafv2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS X-Ray",
+            "ServiceNamespace": "xray",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

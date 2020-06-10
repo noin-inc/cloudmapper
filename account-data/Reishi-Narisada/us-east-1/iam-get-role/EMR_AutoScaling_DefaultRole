@@ -1,0 +1,25 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/EMR_AutoScaling_DefaultRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": [
+                            "application-autoscaling.amazonaws.com",
+                            "elasticmapreduce.amazonaws.com"
+                        ]
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-11T02:48:45+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAIUAWAUCHFPWX4DKZA",
+        "RoleName": "EMR_AutoScaling_DefaultRole"
+    }
+}

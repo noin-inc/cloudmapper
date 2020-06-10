@@ -1,0 +1,84 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-097a6d053f2722f5c",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-089095366d7b2d314",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-008f29f31e537c9b1",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-0756f2a685998844b",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-0c86a47abd74ee9ee",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-0b3a8a2724b3e698c",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-0a5a98b723fe0fc1a",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-042c3869c498bff38",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:18.224000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:18.011000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-09T13:39:59+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Elastic_Transcoder_Default_Role",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

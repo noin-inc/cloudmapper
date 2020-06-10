@@ -1,0 +1,742 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0c56b7d41f4ef746f",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2018-10-19T05:51:49.000Z",
+            "Description": "noin-elasticsearch-20181019",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-00904750dd4dfe086",
+            "ImageLocation": "416817624313/noin-elasticsearch-20181019",
+            "ImageType": "machine",
+            "Name": "noin-elasticsearch-20181019",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-elasticsearch-20181019"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0e5fb846722b295f0",
+                        "VolumeSize": 16,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "CreationDate": "2018-08-07T03:15:39.000Z",
+            "Description": "noin staging server",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-014f40593d7977644",
+            "ImageLocation": "416817624313/noin-staging-20180807-1215",
+            "ImageType": "machine",
+            "Name": "noin-staging-20180807-1215",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-20180807-1215"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0444447ed9d3dc72d",
+                        "VolumeSize": 16,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "CreationDate": "2018-10-17T03:26:09.000Z",
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-02a941ca771ad6dc9",
+            "ImageLocation": "416817624313/noin-staging-es-20181017",
+            "ImageType": "machine",
+            "Name": "noin-staging-es-20181017",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-es-20181017"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0f733d538f59ece19",
+                        "VolumeSize": 16,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "CreationDate": "2018-12-30T15:27:35.000Z",
+            "Description": "noin staging server",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0313093d82ea2a9db",
+            "ImageLocation": "416817624313/noin-staging-20181231-0027",
+            "ImageType": "machine",
+            "Name": "noin-staging-20181231-0027",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-20181231-0027"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0928271c9beeb83ac",
+                        "VolumeSize": 16,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-07T03:39:27.000Z",
+            "Description": "Stagingdeploytest-20190807",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0334384668cc4b681",
+            "ImageLocation": "416817624313/Stagingdeploytest-20190807",
+            "ImageType": "machine",
+            "Name": "Stagingdeploytest-20190807",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Stagingdeploytest-20190807"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-081bc414906a7160a",
+                        "VolumeSize": 16,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-09-19T09:15:19.000Z",
+            "Description": "noin-deploy-default-vpc-20190919",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-056058bf8001a5aae",
+            "ImageLocation": "416817624313/noin-deploy-default-vpc-20190919",
+            "ImageType": "machine",
+            "Name": "noin-deploy-default-vpc-20190919",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-deploy-default-vpc"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0793c049a692587be",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2018-12-30T12:16:42.000Z",
+            "Description": "noin app server.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-06c9a201369a7ee1f",
+            "ImageLocation": "416817624313/noin-app-20181230-2116",
+            "ImageType": "machine",
+            "Name": "noin-app-20181230-2116",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-app-20181230-2116"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0225b3f5d3d0cb637",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-07T03:38:29.000Z",
+            "Description": "noin-deploy-for-elasticsearch2-20190807",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-07cd8a318e4e261e2",
+            "ImageLocation": "416817624313/noin-deploy-for-elasticsearch2-20190807",
+            "ImageType": "machine",
+            "Name": "noin-deploy-for-elasticsearch2-20190807",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-deploy-for-elasticsearch2-20190807"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-08b14a9cf7db1adf4",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-06-07T08:13:51.000Z",
+            "Description": "noin-es5-001_20190607",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-07d9c36cf51bd9304",
+            "ImageLocation": "416817624313/noin-es5-001_20190607",
+            "ImageType": "machine",
+            "Name": "noin-es5-001_20190607",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-09fec551a0e1bb883",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-07T03:39:04.000Z",
+            "Description": "noin-staging-sk2-20190807",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-087a5c75ec7cc3211",
+            "ImageLocation": "416817624313/noin-staging-sk2-20190807",
+            "ImageType": "machine",
+            "Name": "noin-staging-sk2-20190807",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-sk2-20190807"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0d52a0f0b811d1559",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-10-24T12:25:17.000Z",
+            "Description": "noin-app-updatetest",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-088441de7ddbd1177",
+            "ImageLocation": "416817624313/noin-app-updatetest",
+            "ImageType": "machine",
+            "Name": "noin-app-updatetest",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0853adf1b8968709a",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-10-24T07:50:05.000Z",
+            "Description": "noin-app-005-20191024",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-094e1b35462c35e68",
+            "ImageLocation": "416817624313/noin-app-005-20191024",
+            "ImageType": "machine",
+            "Name": "noin-app-005-20191024",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-app-005-20191024"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0f2641c9f9cd1dc01",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-10-17T10:12:36.000Z",
+            "Description": "noin-staging-20191017",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-09550479f77fdac6c",
+            "ImageLocation": "416817624313/noin-staging-20191017",
+            "ImageType": "machine",
+            "Name": "noin-staging-20191017",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-20191017"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-067d398cf1ce956aa",
+                        "VolumeSize": 16,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "CreationDate": "2018-10-17T03:25:40.000Z",
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-09f4ffc431847424e",
+            "ImageLocation": "416817624313/noin-staging-deploy-20181017",
+            "ImageType": "machine",
+            "Name": "noin-staging-deploy-20181017",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-deploy-20181017"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0766dfa38b65ba9a3",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-10-30T12:48:13.000Z",
+            "Description": "noin-staging-20191030",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0a2459aade73aa7a8",
+            "ImageLocation": "416817624313/noin-staging-20191030",
+            "ImageType": "machine",
+            "Name": "noin-staging-20191030",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-staging-20191030"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0e5c84270f4f9a8f9",
+                        "VolumeSize": 50,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-07-26T02:16:33.000Z",
+            "Description": "noin-corp-01t",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0aaaf537daa8e9313",
+            "ImageLocation": "416817624313/noin-corp-01t",
+            "ImageType": "machine",
+            "Name": "noin-corp-01t",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-corp-01t-20190726"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-01ebb07d455226edb",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-02T12:26:51.000Z",
+            "Description": "noin-corp-001-20190802_2126",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0b1ddc00dbe2b0e3d",
+            "ImageLocation": "416817624313/noin-corp-001-20190802_2126",
+            "ImageType": "machine",
+            "Name": "noin-corp-001-20190802_2126",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-corp-001-20190802_2126"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-093b139a94fa38cbb",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2018-12-27T01:48:44.000Z",
+            "Description": "noin redash server.",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0bef2f96921d0b474",
+            "ImageLocation": "416817624313/redash-production-20181227-1048",
+            "ImageType": "machine",
+            "Name": "redash-production-20181227-1048",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "redash-production-20181227-1048"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-01c8cdd589e34d29d",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-09-26T03:00:49.000Z",
+            "Description": "noin-deploy-20190926",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0e7da9fa3615ea384",
+            "ImageLocation": "416817624313/noin-deploy-20190926",
+            "ImageType": "machine",
+            "Name": "noin-deploy-20190926",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-deploy-20190926"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-0c92a4197d4b72137",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-07T02:16:15.000Z",
+            "Description": "noin-kibana-001-20190807",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0f7ff676bebcdfc4f",
+            "ImageLocation": "416817624313/noin-kibana-001-20190807",
+            "ImageType": "machine",
+            "Name": "noin-kibana-001-20190807",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-kibana-001-20190807"
+                }
+            ],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Encrypted": false,
+                        "SnapshotId": "snap-068e6be42244d78c6",
+                        "VolumeSize": 32,
+                        "VolumeType": "gp2"
+                    }
+                }
+            ],
+            "CreationDate": "2019-08-27T05:07:01.000Z",
+            "Description": "",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageId": "ami-0f8d8c6404c6b8b55",
+            "ImageLocation": "416817624313/get_ami_test",
+            "ImageType": "machine",
+            "Name": "get_ami_test",
+            "OwnerId": "416817624313",
+            "Public": false,
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "State": "available",
+            "VirtualizationType": "hvm"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "33186",
+            "Target": {
+                "Id": "i-000dd34b945a9e56b",
+                "Port": 33186
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "33187",
+            "Target": {
+                "Id": "i-0bd6231d28770755c",
+                "Port": 33187
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

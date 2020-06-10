@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/PersonalizeRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "personalize.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-01-27T09:22:39+00:00",
+        "Description": "Allows to call personalizerole on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJ53RCRGTHBXIIY7FG",
+        "RoleName": "PersonalizeRole"
+    }
+}

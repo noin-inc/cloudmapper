@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "redshift.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-10T08:09:10+00:00",
+        "Description": "Allows Amazon Redshift to call AWS services on your behalf ",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/redshift.amazonaws.com/",
+        "RoleId": "AROAIWYPFYCRZORHR6JSC",
+        "RoleName": "AWSServiceRoleForRedshift"
+    }
+}

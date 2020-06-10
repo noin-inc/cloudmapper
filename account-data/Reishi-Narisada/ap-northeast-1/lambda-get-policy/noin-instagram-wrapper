@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"11306d2d40653728af7eade18e4bd156\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:noin-instagram-wrapper\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-1:416817624313:gg7b3bpqq4/*/GET/instagram\"}}}]}",
+    "RevisionId": "be1ce984-b658-4c6f-a26f-0a8e2c014d4d"
+}

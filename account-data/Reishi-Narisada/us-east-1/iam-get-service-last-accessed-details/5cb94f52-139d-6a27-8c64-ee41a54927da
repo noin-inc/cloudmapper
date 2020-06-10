@@ -1,0 +1,136 @@
+{
+    "JobCompletionDate": "2020-06-10T14:30:57.785000+00:00",
+    "JobCreationDate": "2020-06-10T14:30:57.594000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Application Auto Scaling",
+            "ServiceNamespace": "application-autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Marketplace",
+            "ServiceNamespace": "aws-marketplace",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-29T05:03:55+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS CodeCommit",
+            "ServiceNamespace": "codecommit",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Cognito User Pools",
+            "ServiceNamespace": "cognito-idp",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic Container Registry",
+            "ServiceNamespace": "ecr",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic Inference",
+            "ServiceNamespace": "elastic-inference",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic File System",
+            "ServiceNamespace": "elasticfilesystem",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon FSx",
+            "ServiceNamespace": "fsx",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon GroundTruth Labeling",
+            "ServiceNamespace": "groundtruthlabeling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-02-20T05:14:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-29T05:03:01+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Lambda",
+            "ServiceNamespace": "lambda",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-29T08:41:16+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Organizations",
+            "ServiceNamespace": "organizations",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-15T04:13:31+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "Amazon Personalize",
+            "ServiceNamespace": "personalize",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS RoboMaker",
+            "ServiceNamespace": "robomaker",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-29T05:03:01+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-29T05:02:50+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AmazonSageMaker-ExecutionRole-20200117T173921",
+            "ServiceName": "Amazon SageMaker",
+            "ServiceNamespace": "sagemaker",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Secrets Manager",
+            "ServiceNamespace": "secretsmanager",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

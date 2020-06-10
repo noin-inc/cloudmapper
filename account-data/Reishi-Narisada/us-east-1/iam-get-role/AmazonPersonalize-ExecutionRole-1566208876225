@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/service-role/AmazonPersonalize-ExecutionRole-1566208876225",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "personalize.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-08-19T10:01:17+00:00",
+        "Description": "Personalize execution role created from the Personalize AWS Management Console.",
+        "MaxSessionDuration": 3600,
+        "Path": "/service-role/",
+        "RoleId": "AROAWCDCEGT44FWRC3HE2",
+        "RoleName": "AmazonPersonalize-ExecutionRole-1566208876225"
+    }
+}

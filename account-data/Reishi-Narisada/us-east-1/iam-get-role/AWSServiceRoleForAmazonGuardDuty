@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDuty",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "guardduty.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-09-03T06:38:52+00:00",
+        "Description": "A service-linked role required for Amazon GuardDuty to access your resources. ",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/guardduty.amazonaws.com/",
+        "RoleId": "AROAWCDCEGT4UVSLJQOAA",
+        "RoleName": "AWSServiceRoleForAmazonGuardDuty"
+    }
+}

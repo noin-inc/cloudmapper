@@ -1,0 +1,368 @@
+{
+    "Buckets": [
+        {
+            "CreationDate": "2018-01-19T08:55:17+00:00",
+            "Name": "actionlog.development.noin.tv"
+        },
+        {
+            "CreationDate": "2017-10-06T00:39:38+00:00",
+            "Name": "actionlog.production.noin.tv"
+        },
+        {
+            "CreationDate": "2017-11-01T02:00:39+00:00",
+            "Name": "actionlog.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2020-02-20T04:31:19+00:00",
+            "Name": "aging-shiwa-shimi-cluster-noin-metadata-51386"
+        },
+        {
+            "CreationDate": "2020-01-20T06:50:22+00:00",
+            "Name": "alblog.nginx.staging.noin.shop"
+        },
+        {
+            "CreationDate": "2018-08-07T17:04:14+00:00",
+            "Name": "alblog.production.noin.tv"
+        },
+        {
+            "CreationDate": "2020-03-04T12:14:30+00:00",
+            "Name": "amazon-personalize-workflow-layer-dev"
+        },
+        {
+            "CreationDate": "2020-03-06T07:04:14+00:00",
+            "Name": "amazon-personalize-workflow-layer-production"
+        },
+        {
+            "CreationDate": "2019-11-25T05:07:42+00:00",
+            "Name": "amplify-noin-android-production-140736-deployment"
+        },
+        {
+            "CreationDate": "2019-11-25T08:58:11+00:00",
+            "Name": "amplify-noin-android-staging-175804-deployment"
+        },
+        {
+            "CreationDate": "2018-08-07T16:46:45+00:00",
+            "Name": "apilog.production.noin.tv"
+        },
+        {
+            "CreationDate": "2018-08-07T15:19:11+00:00",
+            "Name": "apilog.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2019-06-19T10:25:27+00:00",
+            "Name": "asakura.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-17T06:25:36+00:00",
+            "Name": "aws-athena-query-results-416817624313-ap-northeast-1"
+        },
+        {
+            "CreationDate": "2019-08-27T03:53:44+00:00",
+            "Name": "aws-athena-query-results-416817624313-us-east-1"
+        },
+        {
+            "CreationDate": "2018-01-09T12:03:06+00:00",
+            "Name": "aws-glue-scripts-416817624313-ap-northeast-1"
+        },
+        {
+            "CreationDate": "2018-01-14T14:24:58+00:00",
+            "Name": "aws-logs-416817624313-ap-northeast-1"
+        },
+        {
+            "CreationDate": "2018-10-14T06:20:00+00:00",
+            "Name": "aws-logs-416817624313-us-east-2"
+        },
+        {
+            "CreationDate": "2019-11-07T03:56:30+00:00",
+            "Name": "bk.actionlog.production.noin.tv"
+        },
+        {
+            "CreationDate": "2019-11-07T03:55:02+00:00",
+            "Name": "bk.actionlog.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2018-11-28T07:15:47+00:00",
+            "Name": "build-web.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2019-08-13T07:32:33+00:00",
+            "Name": "cf-templates-1e1kt8ohxwerd-ap-northeast-1"
+        },
+        {
+            "CreationDate": "2018-03-06T04:36:09+00:00",
+            "Name": "cloudtrail-ap-northeast-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:35:56+00:00",
+            "Name": "cloudtrail-ap-northeast-2-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:34:46+00:00",
+            "Name": "cloudtrail-ap-south-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:36:54+00:00",
+            "Name": "cloudtrail-ap-southeast-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:37:11+00:00",
+            "Name": "cloudtrail-ap-southeast-2-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:36:41+00:00",
+            "Name": "cloudtrail-ca-central-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:37:28+00:00",
+            "Name": "cloudtrail-eu-central-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:35:40+00:00",
+            "Name": "cloudtrail-eu-west-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:35:22+00:00",
+            "Name": "cloudtrail-eu-west-2-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:35:04+00:00",
+            "Name": "cloudtrail-eu-west-3-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:36:23+00:00",
+            "Name": "cloudtrail-sa-east-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:37:45+00:00",
+            "Name": "cloudtrail-us-east-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:38:01+00:00",
+            "Name": "cloudtrail-us-east-2-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:38:16+00:00",
+            "Name": "cloudtrail-us-west-1-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:38:29+00:00",
+            "Name": "cloudtrail-us-west-2-416817624313"
+        },
+        {
+            "CreationDate": "2018-03-06T04:38:45+00:00",
+            "Name": "cm-members-416817624313"
+        },
+        {
+            "CreationDate": "2019-06-18T06:06:35+00:00",
+            "Name": "codepipeline-ap-northeast-1-266986161406"
+        },
+        {
+            "CreationDate": "2018-02-26T07:58:55+00:00",
+            "Name": "crawl-html.development.noin.tv"
+        },
+        {
+            "CreationDate": "2018-02-26T08:45:28+00:00",
+            "Name": "crawl-html.production.noin.tv"
+        },
+        {
+            "CreationDate": "2018-02-26T08:39:12+00:00",
+            "Name": "crawl-html.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2020-02-19T05:22:35+00:00",
+            "Name": "demo-temporal-holdout-metadata-11558"
+        },
+        {
+            "CreationDate": "2018-11-27T06:37:12+00:00",
+            "Name": "design.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-07T12:32:07+00:00",
+            "Name": "development.noin.tv"
+        },
+        {
+            "CreationDate": "2019-06-20T11:57:37+00:00",
+            "Name": "editordata.noin.tv"
+        },
+        {
+            "CreationDate": "2017-12-13T10:52:02+00:00",
+            "Name": "link.noin.tv"
+        },
+        {
+            "CreationDate": "2017-11-01T08:34:40+00:00",
+            "Name": "masterdata.development.noin.tv"
+        },
+        {
+            "CreationDate": "2020-02-02T10:51:53+00:00",
+            "Name": "masterdata.pinpoint.development.noin.tv"
+        },
+        {
+            "CreationDate": "2020-01-25T07:49:13+00:00",
+            "Name": "masterdata.pinpoint.production.noin.tv"
+        },
+        {
+            "CreationDate": "2020-01-25T07:48:07+00:00",
+            "Name": "masterdata.pinpoint.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2017-11-01T07:51:45+00:00",
+            "Name": "masterdata.production.noin.tv"
+        },
+        {
+            "CreationDate": "2017-11-01T08:34:32+00:00",
+            "Name": "masterdata.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2018-10-11T01:12:57+00:00",
+            "Name": "mitsuhashi.noin.tv"
+        },
+        {
+            "CreationDate": "2020-02-26T06:46:53+00:00",
+            "Name": "noin-personalize-metadata-57960"
+        },
+        {
+            "CreationDate": "2020-03-02T02:44:26+00:00",
+            "Name": "noin-personalize-metadata-57960-production"
+        },
+        {
+            "CreationDate": "2020-02-27T03:42:38+00:00",
+            "Name": "noin-personalize-metadata-logs"
+        },
+        {
+            "CreationDate": "2020-05-18T10:42:26+00:00",
+            "Name": "noin-personalize-workflo-serverlessdeploymentbuck-11mllt96taxm"
+        },
+        {
+            "CreationDate": "2020-05-18T10:37:38+00:00",
+            "Name": "noin-personalize-workflo-serverlessdeploymentbuck-127p4a07rawvb"
+        },
+        {
+            "CreationDate": "2019-06-23T18:03:37+00:00",
+            "Name": "noin-web-production-alb-log.noin.tv"
+        },
+        {
+            "CreationDate": "2018-09-06T02:14:27+00:00",
+            "Name": "noin.jp"
+        },
+        {
+            "CreationDate": "2019-07-29T03:09:27+00:00",
+            "Name": "noin.pinpointlog"
+        },
+        {
+            "CreationDate": "2018-07-02T05:38:43+00:00",
+            "Name": "noin.shop"
+        },
+        {
+            "CreationDate": "2017-10-06T00:24:50+00:00",
+            "Name": "noin.tv"
+        },
+        {
+            "CreationDate": "2019-06-19T08:16:05+00:00",
+            "Name": "noincorp"
+        },
+        {
+            "CreationDate": "2019-07-26T02:57:33+00:00",
+            "Name": "noincorp.backup"
+        },
+        {
+            "CreationDate": "2019-08-30T05:11:11+00:00",
+            "Name": "noineditordata"
+        },
+        {
+            "CreationDate": "2019-08-19T09:54:37+00:00",
+            "Name": "personalize.noin.tv"
+        },
+        {
+            "CreationDate": "2019-08-07T10:35:02+00:00",
+            "Name": "pinpoint-test-reishi-nari"
+        },
+        {
+            "CreationDate": "2019-08-08T03:16:57+00:00",
+            "Name": "pinpoint-test-reishi-narisada"
+        },
+        {
+            "CreationDate": "2019-09-10T13:04:34+00:00",
+            "Name": "pinpoint.noin.tv"
+        },
+        {
+            "CreationDate": "2019-08-08T07:59:55+00:00",
+            "Name": "pinpoint.segment.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-07T13:34:02+00:00",
+            "Name": "production.noin.tv"
+        },
+        {
+            "CreationDate": "2019-06-24T10:07:42+00:00",
+            "Name": "push.noin.tv"
+        },
+        {
+            "CreationDate": "2020-01-20T04:46:01+00:00",
+            "Name": "sagemaker-ap-northeast-1-416817624313"
+        },
+        {
+            "CreationDate": "2020-01-17T08:38:05+00:00",
+            "Name": "sagemaker-k-means-1"
+        },
+        {
+            "CreationDate": "2020-02-06T06:57:47+00:00",
+            "Name": "sagemaker-noin-cluster-generator"
+        },
+        {
+            "CreationDate": "2020-03-25T08:09:59+00:00",
+            "Name": "sagemaker-noin-experiments"
+        },
+        {
+            "CreationDate": "2020-01-24T03:48:54+00:00",
+            "Name": "serverless-cluster-generator-dev"
+        },
+        {
+            "CreationDate": "2020-02-04T07:10:27+00:00",
+            "Name": "serverless-cluster-generator-production"
+        },
+        {
+            "CreationDate": "2020-01-24T06:38:15+00:00",
+            "Name": "serverless-cluster-generator-staging"
+        },
+        {
+            "CreationDate": "2019-08-20T03:23:20+00:00",
+            "Name": "st-pinpoint.segment.noin.tv"
+        },
+        {
+            "CreationDate": "2019-08-20T01:34:37+00:00",
+            "Name": "st-push.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-07T13:33:37+00:00",
+            "Name": "staging.noin.tv"
+        },
+        {
+            "CreationDate": "2018-01-17T21:10:59+00:00",
+            "Name": "survey-backup.production.noin.tv"
+        },
+        {
+            "CreationDate": "2019-06-22T03:19:08+00:00",
+            "Name": "terraform-state.web.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-08T14:49:05+00:00",
+            "Name": "video-upload.development.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-09T16:30:03+00:00",
+            "Name": "video-upload.production.noin.tv"
+        },
+        {
+            "CreationDate": "2017-09-09T16:29:33+00:00",
+            "Name": "video-upload.staging.noin.tv"
+        },
+        {
+            "CreationDate": "2017-10-06T07:40:23+00:00",
+            "Name": "www.noin.tv"
+        }
+    ],
+    "Owner": {
+        "DisplayName": "iko-12893",
+        "ID": "f73b6f7871d098287150684a2287cacf687beb1d367adefb2f0f745ab1c0d806"
+    }
+}

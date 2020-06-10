@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Takuya-Kato",
+        "CreateDate": "2019-08-02T05:03:24+00:00",
+        "PasswordLastUsed": "2020-06-08T01:42:36+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT43VRDRJKNT",
+        "UserName": "Takuya-Kato"
+    }
+}

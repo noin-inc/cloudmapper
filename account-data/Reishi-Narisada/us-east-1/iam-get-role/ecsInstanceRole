@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/ecsInstanceRole",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2008-10-17"
+        },
+        "CreateDate": "2019-06-18T07:01:42+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4T4Q3ZKEUZ",
+        "RoleName": "ecsInstanceRole"
+    }
+}

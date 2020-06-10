@@ -1,0 +1,150 @@
+{
+    "Grants": [
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:acm:arn": "arn:aws:acm:us-east-1:416817624313:certificate/54ddaa46-884f-44af-881f-18be9bb1ea4d",
+                    "aws:cloudfront:arn": "arn:aws:cloudfront::416817624313:distribution/EJBFYIFLICN26"
+                }
+            },
+            "CreationDate": "2018-07-30T13:40:19+09:00",
+            "GrantId": "0018730e23a5abaa6e0376050aaf0c152691dad15d7ac305cfa093f588ec4292",
+            "GranteePrincipal": "cloudfront.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:acm:arn": "arn:aws:acm:us-east-1:416817624313:certificate/f49549bc-9e3c-441a-b917-ad3f16738394",
+                    "aws:cloudfront:arn": "arn:aws:cloudfront::416817624313:distribution/E688MDXFSUN3X"
+                }
+            },
+            "CreationDate": "2017-12-13T19:59:51+09:00",
+            "GrantId": "0d2bb098dc532ced17db0ffe943402986d5e862b29df3065c92f7293aab840d8",
+            "GranteePrincipal": "cloudfront.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "CreationDate": "2017-11-29T12:49:11+09:00",
+            "GrantId": "1dc359f56741c8f55e20da798254d9a5280d0da7c8cc7ea1e7e61842c4b40f01",
+            "GranteePrincipal": "acm.us-east-1.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Encrypt",
+                "ReEncryptFrom",
+                "ReEncryptTo"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:acm:arn": "arn:aws:acm:us-east-1:416817624313:certificate/41c579bb-d29c-40e3-bd77-03fdb485d0b0",
+                    "aws:cloudfront:arn": "arn:aws:cloudfront::416817624313:distribution/E2WWDXU0IIMP2Y"
+                }
+            },
+            "CreationDate": "2018-11-06T20:02:29+09:00",
+            "GrantId": "60091c2a7da39edea50c51b774847939b89db74cec57f170750cac248d7a84ce",
+            "GranteePrincipal": "cloudfront.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "CreationDate": "2017-11-29T12:49:11+09:00",
+            "GrantId": "6622973853e5352674a2dacda5fcd25ec86b7abfed23fec1753fd52525bf9137",
+            "GranteePrincipal": "acm.us-east-1.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "ReEncryptFrom",
+                "ReEncryptTo"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "CreationDate": "2017-11-29T12:49:11+09:00",
+            "GrantId": "71b9eee76fcde7a36a5700f56a057cdadd1283845e889d4261ec4c47426f4f0f",
+            "GranteePrincipal": "acm.us-east-1.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Encrypt",
+                "ReEncryptFrom",
+                "ReEncryptTo"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "CreationDate": "2017-11-29T12:49:11+09:00",
+            "GrantId": "990ec6d019f02c638637003e1e42713efd919d373f684e1c4402062c6eae1cda",
+            "GranteePrincipal": "acm.us-east-1.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Encrypt",
+                "ReEncryptFrom",
+                "ReEncryptTo"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:acm:arn": "arn:aws:acm:us-east-1:416817624313:certificate/97c9dc06-564e-436a-ab1d-827cbddaffc5",
+                    "aws:cloudfront:arn": "arn:aws:cloudfront::416817624313:distribution/E13ZWPHAOH5JVQ"
+                }
+            },
+            "CreationDate": "2017-11-29T13:11:31+09:00",
+            "GrantId": "d59518b8d82f34cabaf2519c9e72802fdad0cb94b058f39b2df3b6d612098d25",
+            "GranteePrincipal": "cloudfront.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        },
+        {
+            "Constraints": {
+                "EncryptionContextEquals": {
+                    "aws:acm:arn": "arn:aws:acm:us-east-1:416817624313:certificate/97c9dc06-564e-436a-ab1d-827cbddaffc5",
+                    "aws:cloudfront:arn": "arn:aws:cloudfront::416817624313:distribution/E2B80KFT6JG49K"
+                }
+            },
+            "CreationDate": "2017-11-29T13:36:27+09:00",
+            "GrantId": "fd7774ada3e4ff73e1e946cf360bb7ca51457b66cfd35dd7e758d0e4b0b7362e",
+            "GranteePrincipal": "cloudfront.amazonaws.com",
+            "IssuingAccount": "arn:aws:iam::416817624313:root",
+            "KeyId": "arn:aws:kms:us-east-1:416817624313:key/6b720155-6f3d-44e3-b682-d82fdec80d1a",
+            "Name": "",
+            "Operations": [
+                "Decrypt"
+            ],
+            "RetiringPrincipal": "acm.us-east-1.amazonaws.com"
+        }
+    ],
+    "Truncated": false
+}

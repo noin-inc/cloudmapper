@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Toshiyuki-Ihara",
+        "CreateDate": "2018-06-05T01:13:14+00:00",
+        "PasswordLastUsed": "2020-05-25T01:25:22+00:00",
+        "Path": "/",
+        "UserId": "AIDAIFAE5IA36E5BRM5EQ",
+        "UserName": "Toshiyuki-Ihara"
+    }
+}

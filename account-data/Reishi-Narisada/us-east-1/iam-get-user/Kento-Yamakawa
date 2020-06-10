@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Kento-Yamakawa",
+        "CreateDate": "2018-05-02T14:24:50+00:00",
+        "PasswordLastUsed": "2020-05-08T05:05:30+00:00",
+        "Path": "/",
+        "UserId": "AIDAILFXCKOXPRN5PWYMK",
+        "UserName": "Kento-Yamakawa"
+    }
+}

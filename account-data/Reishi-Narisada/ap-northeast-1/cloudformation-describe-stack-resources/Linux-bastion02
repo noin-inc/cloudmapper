@@ -1,0 +1,112 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionAutoScalingGroup",
+            "PhysicalResourceId": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::AutoScalingGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:56:56.592000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionHostPolicy",
+            "PhysicalResourceId": "Linux-Bast-1IIO1BDQN18BQ",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Policy",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:34:03.572000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionHostProfile",
+            "PhysicalResourceId": "Linux-bastion02-BastionHostProfile-UHAU89H25MDJ",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:36:09.338000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionHostRole",
+            "PhysicalResourceId": "Linux-bastion02-BastionHostRole-EVFVF9HOYUS",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Role",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:56:34.423000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionLaunchConfiguration",
+            "PhysicalResourceId": "Linux-bastion02-BastionLaunchConfiguration-1QRBJATJPVE2O",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::LaunchConfiguration",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:56:51.200000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionMainLogGroup",
+            "PhysicalResourceId": "Linux-bastion02-BastionMainLogGroup-KOM3OP4GPTEM",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:33:26.857000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionSecurityGroup",
+            "PhysicalResourceId": "sg-0623b52b0a95cb4db",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:33:34.249000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "EIP1",
+            "PhysicalResourceId": "54.178.153.198",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::EC2::EIP",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:33:43.199000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "SSHMetricFilter",
+            "PhysicalResourceId": "Linux-bastion02-SSHMetricFilter-11VU0HMB2PU7T",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::MetricFilter",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "Timestamp": "2019-09-13T08:33:31.195000+00:00"
+        }
+    ]
+}

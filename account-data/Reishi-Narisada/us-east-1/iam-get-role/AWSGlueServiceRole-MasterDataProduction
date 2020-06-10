@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/AWSGlueServiceRole-MasterDataProduction",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "glue.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-23T10:10:28+00:00",
+        "Description": "Allows Glue to call AWS services on your behalf. ",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAJFKT3X5XOVGIEOFGK",
+        "RoleName": "AWSGlueServiceRole-MasterDataProduction"
+    }
+}

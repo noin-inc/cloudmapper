@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Natsumi-Sato",
+        "CreateDate": "2019-08-22T04:57:15+00:00",
+        "PasswordLastUsed": "2020-06-08T01:54:06+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4SJAOJVF6G",
+        "UserName": "Natsumi-Sato"
+    }
+}

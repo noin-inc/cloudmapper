@@ -1,0 +1,28 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/firehose_delivery_role_staging",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "416817624313"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "firehose.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2017-11-01T02:17:58+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAIONSNW7FTTQUUCS7W",
+        "RoleName": "firehose_delivery_role_staging"
+    }
+}

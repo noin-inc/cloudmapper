@@ -1,0 +1,217 @@
+{
+    "SecurityGroups": [
+        {
+            "Description": "Master group for Elastic MapReduce created on 2018-10-11T17:16:59.920Z",
+            "GroupId": "sg-0082b830ca1d187a1",
+            "GroupName": "ElasticMapReduce-master",
+            "IpPermissions": [
+                {
+                    "FromPort": 0,
+                    "IpProtocol": "tcp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                },
+                {
+                    "FromPort": 8443,
+                    "IpProtocol": "tcp",
+                    "IpRanges": [
+                        {
+                            "CidrIp": "52.95.24.0/23"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 8443,
+                    "UserIdGroupPairs": []
+                },
+                {
+                    "FromPort": 6,
+                    "IpProtocol": "tcp",
+                    "IpRanges": [
+                        {
+                            "CidrIp": "220.218.210.49/32",
+                            "Description": "Mitsuhashi-Mac-noin"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 6,
+                    "UserIdGroupPairs": []
+                },
+                {
+                    "FromPort": 0,
+                    "IpProtocol": "udp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                },
+                {
+                    "FromPort": -1,
+                    "IpProtocol": "icmp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                }
+            ],
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "UserIdGroupPairs": []
+                }
+            ],
+            "OwnerId": "416817624313",
+            "VpcId": "vpc-07287f6e"
+        },
+        {
+            "Description": "Slave group for Elastic MapReduce created on 2018-10-11T17:16:59.920Z",
+            "GroupId": "sg-027ff2a0f6ab7f8b9",
+            "GroupName": "ElasticMapReduce-slave",
+            "IpPermissions": [
+                {
+                    "FromPort": 0,
+                    "IpProtocol": "tcp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                },
+                {
+                    "FromPort": 0,
+                    "IpProtocol": "udp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                },
+                {
+                    "FromPort": -1,
+                    "IpProtocol": "icmp",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-0082b830ca1d187a1",
+                            "UserId": "416817624313"
+                        },
+                        {
+                            "GroupId": "sg-027ff2a0f6ab7f8b9",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                }
+            ],
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "UserIdGroupPairs": []
+                }
+            ],
+            "OwnerId": "416817624313",
+            "VpcId": "vpc-07287f6e"
+        },
+        {
+            "Description": "default VPC security group",
+            "GroupId": "sg-ea60a582",
+            "GroupName": "default",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "UserIdGroupPairs": [
+                        {
+                            "GroupId": "sg-ea60a582",
+                            "UserId": "416817624313"
+                        }
+                    ]
+                }
+            ],
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": [],
+                    "UserIdGroupPairs": []
+                }
+            ],
+            "OwnerId": "416817624313",
+            "VpcId": "vpc-07287f6e"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Grants": [
+        {
+            "Grantee": {
+                "DisplayName": "iko-12893",
+                "ID": "f73b6f7871d098287150684a2287cacf687beb1d367adefb2f0f745ab1c0d806",
+                "Type": "CanonicalUser"
+            },
+            "Permission": "FULL_CONTROL"
+        },
+        {
+            "Grantee": {
+                "Type": "Group",
+                "URI": "http://acs.amazonaws.com/groups/s3/LogDelivery"
+            },
+            "Permission": "WRITE"
+        },
+        {
+            "Grantee": {
+                "Type": "Group",
+                "URI": "http://acs.amazonaws.com/groups/s3/LogDelivery"
+            },
+            "Permission": "READ_ACP"
+        }
+    ],
+    "Owner": {
+        "DisplayName": "iko-12893",
+        "ID": "f73b6f7871d098287150684a2287cacf687beb1d367adefb2f0f745ab1c0d806"
+    }
+}

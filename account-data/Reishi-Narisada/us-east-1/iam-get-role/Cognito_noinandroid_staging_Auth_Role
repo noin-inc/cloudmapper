@@ -1,0 +1,30 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/Cognito_noinandroid_staging_Auth_Role",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRoleWithWebIdentity",
+                    "Condition": {
+                        "ForAnyValue:StringLike": {
+                            "cognito-identity.amazonaws.com:amr": "authenticated"
+                        },
+                        "StringEquals": {
+                            "cognito-identity.amazonaws.com:aud": "ap-northeast-1:ecd0f10b-93b9-45cc-9ad3-5919908e3da9"
+                        }
+                    },
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Federated": "cognito-identity.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-11-25T08:51:44+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT462EK7RI2P",
+        "RoleName": "Cognito_noinandroid_staging_Auth_Role"
+    }
+}

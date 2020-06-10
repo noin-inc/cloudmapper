@@ -1,0 +1,46 @@
+{
+    "HostedZones": [
+        {
+            "CallerReference": "6B68384E-5787-8676-B362-7BBD0087600E",
+            "Config": {
+                "PrivateZone": false
+            },
+            "Id": "/hostedzone/Z3IXOTWOTD7LOM",
+            "Name": "noin.tv.",
+            "ResourceRecordSetCount": 22
+        },
+        {
+            "CallerReference": "8F7238E9-F5ED-FC7C-8136-6C1E5B921915",
+            "Config": {
+                "PrivateZone": false
+            },
+            "Id": "/hostedzone/Z1ORTZ0HOG4INH",
+            "Name": "noin.shop.",
+            "ResourceRecordSetCount": 21
+        },
+        {
+            "CallerReference": "04705A8C-1720-F57D-A92E-7BDCD3D91989",
+            "Config": {
+                "PrivateZone": false
+            },
+            "Id": "/hostedzone/Z3G8P95TDOJSRO",
+            "Name": "noin.jp.",
+            "ResourceRecordSetCount": 3
+        },
+        {
+            "CallerReference": "az7nujimxvp2hfwvwkymajr6yx6ecg33-jx00rv6v",
+            "Config": {
+                "Comment": "Created by AWS Cloud Map namespace with ARN arn:aws:servicediscovery:ap-northeast-1:416817624313:namespace/ns-bhffei2loijffzh5",
+                "PrivateZone": true
+            },
+            "Id": "/hostedzone/Z01178362HDWX7SIXT7K1",
+            "LinkedService": {
+                "Description": "arn:aws:servicediscovery:ap-northeast-1:416817624313:namespace/ns-bhffei2loijffzh5",
+                "ServicePrincipal": "servicediscovery.amazonaws.com"
+            },
+            "Name": "local.",
+            "ResourceRecordSetCount": 2
+        }
+    ],
+    "MaxItems": "100"
+}

@@ -1,0 +1,308 @@
+[
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J",
+        "hostname": "54.178.153.198",
+        "ports": "22",
+        "public_sgs": {
+            "sg-0623b52b0a95cb4db": {
+                "GroupName": "Linux-bastion02-BastionSecurityGroup-O4PF3WI0Q3G",
+                "public_ports": "22"
+            }
+        },
+        "type": "autoscaling"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/i-0bc8ffbf1fdee2082",
+        "hostname": "52.196.1.221",
+        "ports": "9200",
+        "public_sgs": {
+            "sg-067ece16e942d7ed3": {
+                "GroupName": "noin-es7-staging",
+                "public_ports": "9200"
+            }
+        },
+        "tags": [
+            {
+                "Key": "Name",
+                "Value": "noin-es7-staging"
+            }
+        ],
+        "type": "ec2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP",
+        "hostname": "52.68.157.101",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-0bac80d954041e356": {
+                "GroupName": "ecs-noin-web",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "autoscaling"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8",
+        "hostname": "3.112.189.27",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-0bac80d954041e356": {
+                "GroupName": "ecs-noin-web",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "autoscaling"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-web-staging/ap-northeast-1.subnet-7ce2d424",
+        "hostname": "noin-web-staging-1033345549.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-0bac80d954041e356": {
+                "GroupName": "ecs-noin-web",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-web-staging-nginx/ap-northeast-1.subnet-7ce2d424",
+        "hostname": "noin-web-staging-nginx-1490043558.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-0bac80d954041e356": {
+                "GroupName": "ecs-noin-web",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/i-0b790b3941c30d753",
+        "hostname": "13.114.145.148",
+        "ports": "80,443",
+        "public_sgs": {
+            "sg-b9b7f2df": {
+                "GroupName": "nontv-staging",
+                "public_ports": "80,443"
+            }
+        },
+        "tags": [
+            {
+                "Key": "Name",
+                "Value": "noin-staging"
+            }
+        ],
+        "type": "ec2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ",
+        "hostname": "3.112.241.187",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-00966ba86a6d23282": {
+                "GroupName": "noin-web-ecs",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "autoscaling"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-web-production/ap-northeast-1.subnet-bfb8a7e7",
+        "hostname": "noin-web-production-899978300.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443,3000-3002,32768-60999",
+        "public_sgs": {
+            "sg-00966ba86a6d23282": {
+                "GroupName": "noin-web-ecs",
+                "public_ports": "80,443,3000-3002,32768-60999"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-corp-test/ap-northeast-1.subnet-bfb8a7e7",
+        "hostname": "noin-corp-test-808974349.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443",
+        "public_sgs": {
+            "sg-0336688675a24adc2": {
+                "GroupName": "noin-corp-test-lb",
+                "public_ports": "80,443"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:ec2:ap-northeast-1:416817624313:instance/Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+        "hostname": "3.114.100.224",
+        "ports": "22",
+        "public_sgs": {
+            "sg-093d5f6db5f7c3fbf": {
+                "GroupName": "Linux-bastion-noin-BastionSecurityGroup-1MAET6LU5ZPTN",
+                "public_ports": "22"
+            }
+        },
+        "type": "autoscaling"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-corp-elb/ap-northeast-1.subnet-bfb8a7e7",
+        "hostname": "noin-corp-elb-143628918.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443",
+        "public_sgs": {
+            "sg-0c97a777512204d5c": {
+                "GroupName": "noin-corp-prod-elb",
+                "public_ports": "80,443"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-production/ap-northeast-1.subnet-bfb8a7e7",
+        "hostname": "noin-production-494920547.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443",
+        "public_sgs": {
+            "sg-66684300": {
+                "GroupName": "alb-noin-production",
+                "public_ports": "80,443"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:elasticloadbalancingv2:ap-northeast-1:416817624313:instance/noin-production-api-test/ap-northeast-1.subnet-bfb8a7e7",
+        "hostname": "noin-production-api-test-679863628.ap-northeast-1.elb.amazonaws.com",
+        "ports": "80,443",
+        "public_sgs": {
+            "sg-66684300": {
+                "GroupName": "alb-noin-production",
+                "public_ports": "80,443"
+            }
+        },
+        "type": "elbv2"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "58iqih8uv3",
+        "hostname": "58iqih8uv3.execute-api.ap-northeast-1.amazonaws.com",
+        "ports": "80,443",
+        "type": "apigateway"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "abh1i6qu3f",
+        "hostname": "abh1i6qu3f.execute-api.ap-northeast-1.amazonaws.com",
+        "ports": "80,443",
+        "type": "apigateway"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "czaxvq6s0d",
+        "hostname": "czaxvq6s0d.execute-api.ap-northeast-1.amazonaws.com",
+        "ports": "80,443",
+        "type": "apigateway"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "g8r16ywzhh",
+        "hostname": "g8r16ywzhh.execute-api.ap-northeast-1.amazonaws.com",
+        "ports": "80,443",
+        "type": "apigateway"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "gg7b3bpqq4",
+        "hostname": "gg7b3bpqq4.execute-api.ap-northeast-1.amazonaws.com",
+        "ports": "80,443",
+        "type": "apigateway"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E1T6QZGNISXKZ8",
+        "hostname": "dyc9bmkcc0p8y.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/EFHSZX0QBX4B1",
+        "hostname": "d3mz6jw8yeqdkd.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/EBHBJLPMGRZIH",
+        "hostname": "d1gs9kipes6adm.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E2VZ64S9VANXO2",
+        "hostname": "d3eh1rpwweg37u.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E17O9MUYAMW1NZ",
+        "hostname": "d29mthth5u2l1t.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E37BMNFIW44Z1A",
+        "hostname": "d3geysb59dxtb6.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E13ZWPHAOH5JVQ",
+        "hostname": "d14qdor3e6phn4.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E2B80KFT6JG49K",
+        "hostname": "d33x5w3w0ki2bz.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E688MDXFSUN3X",
+        "hostname": "d34id2hcakgjqy.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/EJBFYIFLICN26",
+        "hostname": "dodtcgle1kl2x.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    },
+    {
+        "account": "Reishi-Narisada",
+        "arn": "arn:aws:cloudfront::416817624313:distribution/E2WWDXU0IIMP2Y",
+        "hostname": "d18vtb4b6n9dpk.cloudfront.net",
+        "ports": "80,443",
+        "type": "cloudfront"
+    }
+]

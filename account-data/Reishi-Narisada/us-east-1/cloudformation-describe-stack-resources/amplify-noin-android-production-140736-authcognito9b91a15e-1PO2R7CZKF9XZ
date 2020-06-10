@@ -1,0 +1,28 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "IdentityPool",
+            "PhysicalResourceId": "us-east-1:781f3531-fe14-452c-8626-4a86a1816a31",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Cognito::IdentityPool",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ/b3b2f750-0f42-11ea-ab90-12da3ecd6186",
+            "StackName": "amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ",
+            "Timestamp": "2019-11-25T05:16:22.492000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "IdentityPoolRoleMap",
+            "PhysicalResourceId": "IdentityPoolRoleMap-SirOcy9saLTR",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Cognito::IdentityPoolRoleAttachment",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ/b3b2f750-0f42-11ea-ab90-12da3ecd6186",
+            "StackName": "amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ",
+            "Timestamp": "2019-11-25T05:16:27.045000+00:00"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:12.386000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:12.272000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2019-06-26T18:04:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/CodeDeployNotificationLambdaRoll",
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-06-26T17:38:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/CodeDeployNotificationLambdaRoll",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:48.024000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:47.836000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-05-13T03:01:30+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon EC2 Auto Scaling",
+            "ServiceNamespace": "autoscaling",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-10-24T06:13:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-04-21T03:40:26+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+            "ServiceName": "Amazon Pinpoint",
+            "ServiceNamespace": "mobiletargeting",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Organizations",
+            "ServiceNamespace": "organizations",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-13T02:59:26+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-04-21T03:40:09+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+            "ServiceName": "Amazon SES",
+            "ServiceNamespace": "ses",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

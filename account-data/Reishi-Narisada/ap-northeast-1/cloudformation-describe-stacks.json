@@ -1,0 +1,853 @@
+{
+    "Stacks": [
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM",
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "CreationTime": "2020-05-18T10:42:21.127000+00:00",
+            "Description": "The AWS CloudFormation template for this Serverless application",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2020-05-22T03:33:07.870000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Current StateMachine Arn",
+                    "OutputKey": "AmazonPersonalizeWorkFlowStepFunctionsStateMachineArn",
+                    "OutputValue": "arn:aws:states:ap-northeast-1:416817624313:stateMachine:AmazonPersonalizeWorkFlowStepFunctionsStateMachine-yWHWf8FPQmyk"
+                },
+                {
+                    "OutputKey": "ServerlessDeploymentBucketName",
+                    "OutputValue": "noin-personalize-workflo-serverlessdeploymentbuck-11mllt96taxm"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": [
+                {
+                    "Key": "STAGE",
+                    "Value": "production"
+                }
+            ]
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM",
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "CreationTime": "2020-05-18T10:37:32.953000+00:00",
+            "Description": "The AWS CloudFormation template for this Serverless application",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2020-05-22T03:17:04.990000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Current StateMachine Arn",
+                    "OutputKey": "AmazonPersonalizeWorkFlowStepFunctionsStateMachineArn",
+                    "OutputValue": "arn:aws:states:ap-northeast-1:416817624313:stateMachine:AmazonPersonalizeWorkFlowStepFunctionsStateMachine-M7cSBXl6tKdm"
+                },
+                {
+                    "OutputKey": "ServerlessDeploymentBucketName",
+                    "OutputValue": "noin-personalize-workflo-serverlessdeploymentbuck-127p4a07rawvb"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-dev/94c5b040-98f3-11ea-81e8-0e0ff366987c",
+            "StackName": "noin-personalize-workflow-dev",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": [
+                {
+                    "Key": "STAGE",
+                    "Value": "dev"
+                }
+            ]
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM",
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "CreationTime": "2020-05-18T10:34:11.866000+00:00",
+            "Description": "The AWS CloudFormation template for this Serverless application",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Current Lambda layer version",
+                    "OutputKey": "PythonRequirementsLambdaLayerQualifiedArn",
+                    "OutputValue": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                },
+                {
+                    "OutputKey": "AmazonPersonalizeLambdaLayerExport",
+                    "OutputValue": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                },
+                {
+                    "OutputKey": "ServerlessDeploymentBucketName",
+                    "OutputValue": "amazon-personalize-workflow-layer-production"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/requirements-layer-personalize-service-production/1ce7f560-98f3-11ea-baee-0ae3ffe7265e",
+            "StackName": "requirements-layer-personalize-service-production",
+            "StackStatus": "CREATE_COMPLETE",
+            "Tags": [
+                {
+                    "Key": "STAGE",
+                    "Value": "production"
+                }
+            ]
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM",
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "CreationTime": "2020-05-18T10:31:58.896000+00:00",
+            "Description": "The AWS CloudFormation template for this Serverless application",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Current Lambda layer version",
+                    "OutputKey": "PythonRequirementsLambdaLayerQualifiedArn",
+                    "OutputValue": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2"
+                },
+                {
+                    "OutputKey": "AmazonPersonalizeLambdaLayerExport",
+                    "OutputValue": "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-dev-python-requirements:2"
+                },
+                {
+                    "OutputKey": "ServerlessDeploymentBucketName",
+                    "OutputValue": "amazon-personalize-workflow-layer-dev"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/requirements-layer-personalize-service-dev/cda6f500-98f2-11ea-8550-0ab0e844d044",
+            "StackName": "requirements-layer-personalize-service-dev",
+            "StackStatus": "CREATE_COMPLETE",
+            "Tags": [
+                {
+                    "Key": "STAGE",
+                    "Value": "dev"
+                }
+            ]
+        },
+        {
+            "CreationTime": "2019-12-18T04:19:53.581000+00:00",
+            "Description": "AWS CloudFormation template to create a new VPC or use an existing VPC for ECS deployment in Create Cluster Wizard. Requires exactly 1 Instance Types for a Spot Request.\n",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "The version of the template used by Create Cluster Wizard",
+                    "OutputKey": "TemplateVersion",
+                    "OutputValue": "2.0.0"
+                },
+                {
+                    "Description": "Auto Scaling Group Name for ECS Instances",
+                    "OutputKey": "EcsInstanceAsgName",
+                    "OutputValue": "EC2ContainerService-noin-web-staging-nginx-EcsInstanceAsg-L0N7TWMJ2RUP"
+                },
+                {
+                    "Description": "Flag used by ECS Create Cluster Wizard",
+                    "OutputKey": "UsedByECSCreateCluster",
+                    "OutputValue": "true"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "EcsEndpoint",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "IamRoleInstanceProfile",
+                    "ParameterValue": "arn:aws:iam::416817624313:instance-profile/ecsInstanceRole"
+                },
+                {
+                    "ParameterKey": "SecurityIngressFromPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "UserData",
+                    "ParameterValue": "#!/bin/bash\necho ECS_CLUSTER=noin-web-staging-nginx >> /etc/ecs/ecs.config;echo ECS_BACKEND_HOST= >> /etc/ecs/ecs.config;"
+                },
+                {
+                    "ParameterKey": "IsWindows",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "IamSpotFleetRoleArn",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetIds",
+                    "ParameterValue": "subnet-4d669404"
+                },
+                {
+                    "ParameterKey": "SubnetCidr3",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SpotPrice",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetCidr2",
+                    "ParameterValue": "10.0.1.0/24"
+                },
+                {
+                    "ParameterKey": "SubnetCidr1",
+                    "ParameterValue": "10.0.0.0/24"
+                },
+                {
+                    "ParameterKey": "SecurityIngressCidrIp",
+                    "ParameterValue": "0.0.0.0/0"
+                },
+                {
+                    "ParameterKey": "VpcCidr",
+                    "ParameterValue": "10.0.0.0/16"
+                },
+                {
+                    "ParameterKey": "EcsInstanceType",
+                    "ParameterValue": "t3.small"
+                },
+                {
+                    "ParameterKey": "SpotAllocationStrategy",
+                    "ParameterValue": "diversified"
+                },
+                {
+                    "ParameterKey": "VpcAvailabilityZones",
+                    "ParameterValue": "ap-northeast-1a,ap-northeast-1c,ap-northeast-1d"
+                },
+                {
+                    "ParameterKey": "SecurityIngressToPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "EbsVolumeSize",
+                    "ParameterValue": "22"
+                },
+                {
+                    "ParameterKey": "SecurityGroupId",
+                    "ParameterValue": "sg-0bac80d954041e356"
+                },
+                {
+                    "ParameterKey": "EcsClusterName",
+                    "ParameterValue": "noin-web-staging-nginx"
+                },
+                {
+                    "ParameterKey": "UseSpot",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "KeyName",
+                    "ParameterValue": "nontv-20170903"
+                },
+                {
+                    "ParameterKey": "VpcId",
+                    "ParameterValue": "vpc-4ec1e72a"
+                },
+                {
+                    "ParameterKey": "AsgMaxSize",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterKey": "EbsVolumeType",
+                    "ParameterValue": "gp2"
+                },
+                {
+                    "ParameterKey": "EcsAmiId",
+                    "ParameterValue": "ami-0934e28fe3e390537"
+                },
+                {
+                    "ParameterKey": "DeviceName",
+                    "ParameterValue": "/dev/xvdcz"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-nginx/a3c29c20-214d-11ea-a617-0e36924addac",
+            "StackName": "EC2ContainerService-noin-web-staging-nginx",
+            "StackStatus": "CREATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "CreationTime": "2019-09-13T08:33:22.596000+00:00",
+            "Description": "LinuxBastion+VPC July,18,2019 QS(0037) (Please do not remove)",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2019-09-13T08:56:18.452000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Elastic IP 1 for Bastion",
+                    "ExportName": "Linux-bastion02-EIP1",
+                    "OutputKey": "EIP1",
+                    "OutputValue": "54.178.153.198"
+                },
+                {
+                    "Description": "Bastion IAM Role name",
+                    "ExportName": "Linux-bastion02-BastionHostRole",
+                    "OutputKey": "BastionHostRole",
+                    "OutputValue": "Linux-bastion02-BastionHostRole-EVFVF9HOYUS"
+                },
+                {
+                    "Description": "Auto Scaling Group Reference ID",
+                    "ExportName": "Linux-bastion02-BastionAutoScalingGroup",
+                    "OutputKey": "BastionAutoScalingGroup",
+                    "OutputValue": "Linux-bastion02-BastionAutoScalingGroup-1OKIU187UXB3J"
+                },
+                {
+                    "Description": "CloudWatch Logs GroupName. Your SSH logs will be stored here.",
+                    "ExportName": "Linux-bastion02-CloudWatchLogs",
+                    "OutputKey": "CloudWatchLogs",
+                    "OutputValue": "Linux-bastion02-BastionMainLogGroup-KOM3OP4GPTEM"
+                },
+                {
+                    "Description": "Bastion Security Group ID",
+                    "ExportName": "Linux-bastion02-BastionSecurityGroupID",
+                    "OutputKey": "BastionSecurityGroupID",
+                    "OutputValue": "sg-0623b52b0a95cb4db"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "OSImageOverride",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "KeyPairName",
+                    "ParameterValue": "nontv-20170903"
+                },
+                {
+                    "ParameterKey": "QSS3BucketName",
+                    "ParameterValue": "aws-quickstart"
+                },
+                {
+                    "ParameterKey": "EnableBanner",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "VPCID",
+                    "ParameterValue": "vpc-4ec1e72a"
+                },
+                {
+                    "ParameterKey": "EnableTCPForwarding",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "RemoteAccessCIDR",
+                    "ParameterValue": "0.0.0.0/0"
+                },
+                {
+                    "ParameterKey": "EnableX11Forwarding",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "BastionAMIOS",
+                    "ParameterValue": "Amazon-Linux-HVM"
+                },
+                {
+                    "ParameterKey": "QSS3KeyPrefix",
+                    "ParameterValue": "quickstart-linux-bastion/"
+                },
+                {
+                    "ParameterKey": "AlternativeIAMRole",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "NumBastionHosts",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterKey": "BastionBanner",
+                    "ParameterValue": "https://aws-quickstart.s3.amazonaws.com/quickstart-linux-bastion/scripts/banner_message.txt"
+                },
+                {
+                    "ParameterKey": "BastionInstanceType",
+                    "ParameterValue": "t2.micro"
+                },
+                {
+                    "ParameterKey": "EnvironmentVariables",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "PublicSubnet1ID",
+                    "ParameterValue": "subnet-4d669404"
+                },
+                {
+                    "ParameterKey": "RootVolumeSize",
+                    "ParameterValue": "30"
+                },
+                {
+                    "ParameterKey": "PublicSubnet2ID",
+                    "ParameterValue": "subnet-7ce2d424"
+                },
+                {
+                    "ParameterKey": "BastionTenancy",
+                    "ParameterValue": "default"
+                },
+                {
+                    "ParameterKey": "AlternativeInitializationScript",
+                    "ParameterValue": ""
+                }
+            ],
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion02/2502e990-d601-11e9-a3fc-0e36924addac",
+            "StackName": "Linux-bastion02",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "CreationTime": "2019-07-25T02:37:30.778000+00:00",
+            "Description": "LinuxBastion+VPC July,18,2019QS (0037) (Please do not remove)",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2019-09-17T03:38:38.526000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Elastic IP 1 for Bastion",
+                    "ExportName": "Linux-bastion-noin-EIP1",
+                    "OutputKey": "EIP1",
+                    "OutputValue": "54.92.80.98"
+                },
+                {
+                    "Description": "Elastic IP 2 for Bastion",
+                    "ExportName": "Linux-bastion-noin-EIP2",
+                    "OutputKey": "EIP2",
+                    "OutputValue": "3.114.100.224"
+                },
+                {
+                    "Description": "Bastion IAM Role name",
+                    "ExportName": "Linux-bastion-noin-BastionHostRole",
+                    "OutputKey": "BastionHostRole",
+                    "OutputValue": "Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX"
+                },
+                {
+                    "Description": "Auto Scaling Group Reference ID",
+                    "ExportName": "Linux-bastion-noin-BastionAutoScalingGroup",
+                    "OutputKey": "BastionAutoScalingGroup",
+                    "OutputValue": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK"
+                },
+                {
+                    "Description": "CloudWatch Logs GroupName. Your SSH logs will be stored here.",
+                    "ExportName": "Linux-bastion-noin-CloudWatchLogs",
+                    "OutputKey": "CloudWatchLogs",
+                    "OutputValue": "Linux-bastion-noin-BastionMainLogGroup-1XGLFV6PYG16I"
+                },
+                {
+                    "Description": "Bastion Security Group ID",
+                    "ExportName": "Linux-bastion-noin-BastionSecurityGroupID",
+                    "OutputKey": "BastionSecurityGroupID",
+                    "OutputValue": "sg-093d5f6db5f7c3fbf"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "OSImageOverride",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "KeyPairName",
+                    "ParameterValue": "nontv-20170903"
+                },
+                {
+                    "ParameterKey": "QSS3BucketName",
+                    "ParameterValue": "aws-quickstart"
+                },
+                {
+                    "ParameterKey": "EnableBanner",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "VPCID",
+                    "ParameterValue": "vpc-b0eae7d4"
+                },
+                {
+                    "ParameterKey": "EnableTCPForwarding",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "RemoteAccessCIDR",
+                    "ParameterValue": "0.0.0.0/0"
+                },
+                {
+                    "ParameterKey": "EnableX11Forwarding",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "BastionAMIOS",
+                    "ParameterValue": "Amazon-Linux-HVM"
+                },
+                {
+                    "ParameterKey": "QSS3KeyPrefix",
+                    "ParameterValue": "quickstart-linux-bastion/"
+                },
+                {
+                    "ParameterKey": "AlternativeIAMRole",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "NumBastionHosts",
+                    "ParameterValue": "2"
+                },
+                {
+                    "ParameterKey": "BastionBanner",
+                    "ParameterValue": "https://aws-quickstart.s3.amazonaws.com/quickstart-linux-bastion/scripts/banner_message.txt"
+                },
+                {
+                    "ParameterKey": "BastionInstanceType",
+                    "ParameterValue": "t2.micro"
+                },
+                {
+                    "ParameterKey": "EnvironmentVariables",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "PublicSubnet1ID",
+                    "ParameterValue": "subnet-c156f288"
+                },
+                {
+                    "ParameterKey": "RootVolumeSize",
+                    "ParameterValue": "30"
+                },
+                {
+                    "ParameterKey": "PublicSubnet2ID",
+                    "ParameterValue": "subnet-bfb8a7e7"
+                },
+                {
+                    "ParameterKey": "BastionTenancy",
+                    "ParameterValue": "default"
+                },
+                {
+                    "ParameterKey": "AlternativeInitializationScript",
+                    "ParameterValue": ""
+                }
+            ],
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "CreationTime": "2019-06-25T05:11:57.630000+00:00",
+            "Description": "AWS CloudFormation template to create a new VPC or use an existing VPC for ECS deployment in Create Cluster Wizard. Requires exactly 1 Instance Types for a Spot Request.\n",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2019-11-07T01:13:09.539000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "The version of the template used by Create Cluster Wizard",
+                    "OutputKey": "TemplateVersion",
+                    "OutputValue": "2.0.0"
+                },
+                {
+                    "Description": "Auto Scaling Group Name for ECS Instances",
+                    "OutputKey": "EcsInstanceAsgName",
+                    "OutputValue": "EC2ContainerService-noin-web-staging-ecs-EcsInstanceAsg-59RLUPB9W9M8"
+                },
+                {
+                    "Description": "Flag used by ECS Create Cluster Wizard",
+                    "OutputKey": "UsedByECSCreateCluster",
+                    "OutputValue": "true"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "EcsEndpoint",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "IamRoleInstanceProfile",
+                    "ParameterValue": "arn:aws:iam::416817624313:instance-profile/ecsInstanceRole"
+                },
+                {
+                    "ParameterKey": "SecurityIngressFromPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "UserData",
+                    "ParameterValue": "#!/bin/bash\necho ECS_CLUSTER=noin-web-staging-ecs >> /etc/ecs/ecs.config;echo ECS_BACKEND_HOST= >> /etc/ecs/ecs.config;"
+                },
+                {
+                    "ParameterKey": "IsWindows",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "IamSpotFleetRoleArn",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetIds",
+                    "ParameterValue": "subnet-4d669404"
+                },
+                {
+                    "ParameterKey": "SubnetCidr3",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SpotPrice",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetCidr2",
+                    "ParameterValue": "10.0.1.0/24"
+                },
+                {
+                    "ParameterKey": "SubnetCidr1",
+                    "ParameterValue": "10.0.0.0/24"
+                },
+                {
+                    "ParameterKey": "SecurityIngressCidrIp",
+                    "ParameterValue": "0.0.0.0/0"
+                },
+                {
+                    "ParameterKey": "VpcCidr",
+                    "ParameterValue": "10.0.0.0/16"
+                },
+                {
+                    "ParameterKey": "EcsInstanceType",
+                    "ParameterValue": "t3.medium"
+                },
+                {
+                    "ParameterKey": "SpotAllocationStrategy",
+                    "ParameterValue": "diversified"
+                },
+                {
+                    "ParameterKey": "VpcAvailabilityZones",
+                    "ParameterValue": "ap-northeast-1a,ap-northeast-1c,ap-northeast-1d"
+                },
+                {
+                    "ParameterKey": "SecurityIngressToPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "EbsVolumeSize",
+                    "ParameterValue": "22"
+                },
+                {
+                    "ParameterKey": "SecurityGroupId",
+                    "ParameterValue": "sg-0bac80d954041e356"
+                },
+                {
+                    "ParameterKey": "EcsClusterName",
+                    "ParameterValue": "noin-web-staging-ecs"
+                },
+                {
+                    "ParameterKey": "UseSpot",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "KeyName",
+                    "ParameterValue": "nontv-20170903"
+                },
+                {
+                    "ParameterKey": "VpcId",
+                    "ParameterValue": "vpc-4ec1e72a"
+                },
+                {
+                    "ParameterKey": "AsgMaxSize",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterKey": "EbsVolumeType",
+                    "ParameterValue": "gp2"
+                },
+                {
+                    "ParameterKey": "EcsAmiId",
+                    "ParameterValue": "ami-052f2fa11c7145e04"
+                },
+                {
+                    "ParameterKey": "DeviceName",
+                    "ParameterValue": "/dev/xvdcz"
+                }
+            ],
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-staging-ecs/c15c07b0-9707-11e9-82b2-0e7851ff27a6",
+            "StackName": "EC2ContainerService-noin-web-staging-ecs",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "CreationTime": "2019-06-24T06:13:33.115000+00:00",
+            "Description": "AWS CloudFormation template to create a new VPC or use an existing VPC for ECS deployment in Create Cluster Wizard. Requires exactly 1 Instance Types for a Spot Request.\n",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2019-06-27T08:00:33.083000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "The version of the template used by Create Cluster Wizard",
+                    "OutputKey": "TemplateVersion",
+                    "OutputValue": "2.0.0"
+                },
+                {
+                    "Description": "Auto Scaling Group Name for ECS Instances",
+                    "OutputKey": "EcsInstanceAsgName",
+                    "OutputValue": "EC2ContainerService-noin-web-production-ecs-EcsInstanceAsg-WXB40G307TSJ"
+                },
+                {
+                    "Description": "Flag used by ECS Create Cluster Wizard",
+                    "OutputKey": "UsedByECSCreateCluster",
+                    "OutputValue": "true"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "EcsEndpoint",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "IamRoleInstanceProfile",
+                    "ParameterValue": "arn:aws:iam::416817624313:instance-profile/ecsInstanceRole"
+                },
+                {
+                    "ParameterKey": "SecurityIngressFromPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "UserData",
+                    "ParameterValue": "#!/bin/bash\necho ECS_CLUSTER=noin-web-production-ecs >> /etc/ecs/ecs.config;echo ECS_BACKEND_HOST= >> /etc/ecs/ecs.config;"
+                },
+                {
+                    "ParameterKey": "IsWindows",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "IamSpotFleetRoleArn",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetIds",
+                    "ParameterValue": "subnet-bfb8a7e7,subnet-c156f288"
+                },
+                {
+                    "ParameterKey": "SubnetCidr3",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SpotPrice",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "SubnetCidr2",
+                    "ParameterValue": "10.0.1.0/24"
+                },
+                {
+                    "ParameterKey": "SubnetCidr1",
+                    "ParameterValue": "10.0.0.0/24"
+                },
+                {
+                    "ParameterKey": "SecurityIngressCidrIp",
+                    "ParameterValue": "0.0.0.0/0"
+                },
+                {
+                    "ParameterKey": "VpcCidr",
+                    "ParameterValue": "10.0.0.0/16"
+                },
+                {
+                    "ParameterKey": "EcsInstanceType",
+                    "ParameterValue": "t3.medium"
+                },
+                {
+                    "ParameterKey": "SpotAllocationStrategy",
+                    "ParameterValue": "diversified"
+                },
+                {
+                    "ParameterKey": "VpcAvailabilityZones",
+                    "ParameterValue": "ap-northeast-1a,ap-northeast-1c,ap-northeast-1d"
+                },
+                {
+                    "ParameterKey": "SecurityIngressToPort",
+                    "ParameterValue": "80"
+                },
+                {
+                    "ParameterKey": "EbsVolumeSize",
+                    "ParameterValue": "22"
+                },
+                {
+                    "ParameterKey": "SecurityGroupId",
+                    "ParameterValue": "sg-00966ba86a6d23282"
+                },
+                {
+                    "ParameterKey": "EcsClusterName",
+                    "ParameterValue": "noin-web-production-ecs"
+                },
+                {
+                    "ParameterKey": "UseSpot",
+                    "ParameterValue": "false"
+                },
+                {
+                    "ParameterKey": "KeyName",
+                    "ParameterValue": "nontv-20170903"
+                },
+                {
+                    "ParameterKey": "VpcId",
+                    "ParameterValue": "vpc-b0eae7d4"
+                },
+                {
+                    "ParameterKey": "AsgMaxSize",
+                    "ParameterValue": "2"
+                },
+                {
+                    "ParameterKey": "EbsVolumeType",
+                    "ParameterValue": "gp2"
+                },
+                {
+                    "ParameterKey": "EcsAmiId",
+                    "ParameterValue": "ami-052f2fa11c7145e04"
+                },
+                {
+                    "ParameterKey": "DeviceName",
+                    "ParameterValue": "/dev/xvdcz"
+                }
+            ],
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/EC2ContainerService-noin-web-production-ecs/31a01550-9647-11e9-9a3f-0a4b1943673a",
+            "StackName": "EC2ContainerService-noin-web-production-ecs",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": []
+        }
+    ]
+}

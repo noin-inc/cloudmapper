@@ -1,0 +1,46 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:42.914000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:42.732000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Key Management Service",
+            "ServiceNamespace": "kms",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:30:18+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/noin-pinpoint-staging",
+            "ServiceName": "Amazon Pinpoint",
+            "ServiceNamespace": "mobiletargeting",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Organizations",
+            "ServiceNamespace": "organizations",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T12:00:26+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/noin-pinpoint-staging",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SES",
+            "ServiceNamespace": "ses",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

@@ -1,0 +1,274 @@
+{
+    "CacheClusters": [
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2018-02-08T12:11:34.694000+00:00",
+            "CacheClusterId": "noin-prod-redis",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.small",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.redis3.2",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-private",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "Engine": "redis",
+            "EngineVersion": "3.2.10",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:20:00",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-a0076ed9",
+                    "Status": "active"
+                }
+            ],
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "18:00-19:00",
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2017-10-05T06:37:39.823000+00:00",
+            "CacheClusterId": "noin-production",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.small",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.memcached1.4",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-private",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "ConfigurationEndpoint": {
+                "Address": "noin-production.e47e9t.cfg.apne1.cache.amazonaws.com",
+                "Port": 11211
+            },
+            "Engine": "memcached",
+            "EngineVersion": "1.4.34",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:20:00",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-a480a8c2",
+                    "Status": "active"
+                }
+            ],
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2019-10-03T12:43:26.022000+00:00",
+            "CacheClusterId": "noin-staging",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.micro",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.memcached1.4",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-staging",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "ConfigurationEndpoint": {
+                "Address": "noin-staging.e47e9t.cfg.apne1.cache.amazonaws.com",
+                "Port": 11211
+            },
+            "Engine": "memcached",
+            "EngineVersion": "1.4.34",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:20:00",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-51d6b537",
+                    "Status": "active"
+                }
+            ],
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2019-08-30T06:35:09.414000+00:00",
+            "CacheClusterId": "noin-web-production",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.small",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.memcached1.5",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-private",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "ConfigurationEndpoint": {
+                "Address": "noin-web-production.e47e9t.cfg.apne1.cache.amazonaws.com",
+                "Port": 11211
+            },
+            "Engine": "memcached",
+            "EngineVersion": "1.5.10",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1c",
+            "PreferredMaintenanceWindow": "fri:17:30-fri:18:30",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-012ff8d307b79db27",
+                    "Status": "active"
+                },
+                {
+                    "SecurityGroupId": "sg-e96c448f",
+                    "Status": "active"
+                }
+            ],
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2019-09-05T09:33:13.119000+00:00",
+            "CacheClusterId": "noin-web-staging",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.micro",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.memcached1.5",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-staging",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "ConfigurationEndpoint": {
+                "Address": "noin-web-staging.e47e9t.cfg.apne1.cache.amazonaws.com",
+                "Port": 11211
+            },
+            "Engine": "memcached",
+            "EngineVersion": "1.5.10",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "sun:15:30-sun:16:30",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-05f5bd0dc4de72ead",
+                    "Status": "active"
+                }
+            ],
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2020-04-22T11:48:27.277000+00:00",
+            "CacheClusterId": "recommend-production-001",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t3.medium",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.redis5.0",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-private",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "Engine": "redis",
+            "EngineVersion": "5.0.6",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:20:00",
+            "ReplicationGroupId": "recommend-production",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-a0076ed9",
+                    "Status": "active"
+                }
+            ],
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "18:00-19:00",
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2020-04-22T11:48:27.277000+00:00",
+            "CacheClusterId": "recommend-production-002",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t3.medium",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.redis5.0",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-private",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "Engine": "redis",
+            "EngineVersion": "5.0.6",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1c",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:20:00",
+            "ReplicationGroupId": "recommend-production",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-a0076ed9",
+                    "Status": "active"
+                }
+            ],
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "18:00-19:00",
+            "TransitEncryptionEnabled": false
+        },
+        {
+            "AtRestEncryptionEnabled": false,
+            "AuthTokenEnabled": false,
+            "AutoMinorVersionUpgrade": true,
+            "CacheClusterCreateTime": "2020-04-22T11:40:48.978000+00:00",
+            "CacheClusterId": "staging-redis",
+            "CacheClusterStatus": "available",
+            "CacheNodeType": "cache.t2.micro",
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [],
+                "CacheParameterGroupName": "default.redis5.0",
+                "ParameterApplyStatus": "in-sync"
+            },
+            "CacheSecurityGroups": [],
+            "CacheSubnetGroupName": "noin-staging",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "Engine": "redis",
+            "EngineVersion": "5.0.6",
+            "NumCacheNodes": 1,
+            "PendingModifiedValues": {},
+            "PreferredAvailabilityZone": "ap-northeast-1a",
+            "PreferredMaintenanceWindow": "tue:13:00-tue:14:00",
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-b9b7f2df",
+                    "Status": "active"
+                }
+            ],
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "00:00-01:00",
+            "TransitEncryptionEnabled": false
+        }
+    ]
+}

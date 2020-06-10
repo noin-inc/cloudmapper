@@ -1,0 +1,124 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "BastionAutoScalingGroup",
+            "PhysicalResourceId": "Linux-bastion-noin-BastionAutoScalingGroup-183M2WQOQJWZK",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::AutoScalingGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-09-17T03:38:55.493000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "BastionHostPolicy",
+            "PhysicalResourceId": "Linux-Bast-MJ9ZWZO57X5A",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Policy",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:38:12.362000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "BastionHostProfile",
+            "PhysicalResourceId": "Linux-bastion-noin-BastionHostProfile-1NB1DNTC3DT2D",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:40:18.017000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "MODIFIED"
+            },
+            "LogicalResourceId": "BastionHostRole",
+            "PhysicalResourceId": "Linux-bastion-noin-BastionHostRole-W82XM2WZRGUX",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Role",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-09-17T03:35:35.919000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "BastionLaunchConfiguration",
+            "PhysicalResourceId": "Linux-bastion-noin-BastionLaunchConfiguration-13ZD9A2KLE8I0",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::AutoScaling::LaunchConfiguration",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-09-17T03:38:49.854000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "BastionMainLogGroup",
+            "PhysicalResourceId": "Linux-bastion-noin-BastionMainLogGroup-1XGLFV6PYG16I",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:37:35.171000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "MODIFIED"
+            },
+            "LogicalResourceId": "BastionSecurityGroup",
+            "PhysicalResourceId": "sg-093d5f6db5f7c3fbf",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:37:43.261000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "EIP1",
+            "PhysicalResourceId": "54.92.80.98",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::EC2::EIP",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:37:52.760000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "EIP2",
+            "PhysicalResourceId": "3.114.100.224",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::EC2::EIP",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:37:52.293000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "IN_SYNC"
+            },
+            "LogicalResourceId": "SSHMetricFilter",
+            "PhysicalResourceId": "Linux-bastion-noin-SSHMetricFilter-1V8SMGWTOMLFM",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::MetricFilter",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/Linux-bastion-noin/25b0d4e0-ae85-11e9-a869-0a1d3b063294",
+            "StackName": "Linux-bastion-noin",
+            "Timestamp": "2019-07-25T02:37:40.153000+00:00"
+        }
+    ]
+}

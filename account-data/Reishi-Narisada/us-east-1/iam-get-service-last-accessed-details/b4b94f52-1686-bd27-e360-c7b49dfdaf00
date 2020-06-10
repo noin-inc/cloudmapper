@@ -1,0 +1,22 @@
+{
+    "JobCompletionDate": "2020-06-10T14:30:59.212000+00:00",
+    "JobCreationDate": "2020-06-10T14:30:59.085000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Message Delivery Service",
+            "ServiceNamespace": "ec2messages",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Session Manager Message Gateway Service",
+            "ServiceNamespace": "ssmmessages",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

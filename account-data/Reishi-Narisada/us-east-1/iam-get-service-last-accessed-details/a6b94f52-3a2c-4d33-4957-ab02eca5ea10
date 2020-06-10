@@ -1,0 +1,59 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:17.471000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:17.336000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Directory Service",
+            "ServiceNamespace": "ds",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Message Delivery Service",
+            "ServiceNamespace": "ec2messages",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Elastic Container Registry",
+            "ServiceNamespace": "ecr",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-06-10T14:16:43+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/ecsInstanceRole",
+            "ServiceName": "Amazon Elastic Container Service",
+            "ServiceNamespace": "ecs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Systems Manager",
+            "ServiceNamespace": "ssm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon Session Manager Message Gateway Service",
+            "ServiceNamespace": "ssmmessages",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

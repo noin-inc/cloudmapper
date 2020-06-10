@@ -1,0 +1,40 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:11.658000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:11.502000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS CodeBuild",
+            "ServiceNamespace": "codebuild",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-06-20T07:16:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/codebuild-noin-web-serviceroll",
+            "ServiceName": "Amazon EC2",
+            "ServiceNamespace": "ec2",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-09T05:35:46+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/codebuild-noin-web-serviceroll",
+            "ServiceName": "Amazon Elastic Container Registry",
+            "ServiceNamespace": "ecr",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-09T05:35:49+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/codebuild-noin-web-serviceroll",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-09T05:35:47+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/codebuild-noin-web-serviceroll",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

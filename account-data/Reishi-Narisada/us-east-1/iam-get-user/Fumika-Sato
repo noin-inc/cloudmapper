@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Fumika-Sato",
+        "CreateDate": "2018-02-21T01:44:07+00:00",
+        "PasswordLastUsed": "2019-09-10T12:26:56+00:00",
+        "Path": "/",
+        "UserId": "AIDAI7NP736NPOFMRIKAY",
+        "UserName": "Fumika-Sato"
+    }
+}

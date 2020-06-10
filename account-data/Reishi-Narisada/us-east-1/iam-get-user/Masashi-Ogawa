@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Masashi-Ogawa",
+        "CreateDate": "2017-12-04T15:05:55+00:00",
+        "PasswordLastUsed": "2020-06-09T17:38:13+00:00",
+        "Path": "/",
+        "UserId": "AIDAINQYXVTSVUMIPMNZQ",
+        "UserName": "Masashi-Ogawa"
+    }
+}

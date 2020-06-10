@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"AWSEvents_codedeploy-notification_Id23392361711998\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"events.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:codedeploy-notification\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:events:ap-northeast-1:416817624313:rule/codedeploy-notification\"}}}]}",
+    "RevisionId": "f8ff14b4-5c92-4730-ae8b-1da87e9dd0c3"
+}

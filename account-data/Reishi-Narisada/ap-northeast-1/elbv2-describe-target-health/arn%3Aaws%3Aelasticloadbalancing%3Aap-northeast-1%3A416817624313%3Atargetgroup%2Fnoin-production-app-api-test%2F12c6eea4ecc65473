@@ -1,0 +1,16 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "Id": "i-0937b1a41fae10d30",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "Description": "Target is in the stopped state",
+                "Reason": "Target.InvalidState",
+                "State": "unused"
+            }
+        }
+    ]
+}

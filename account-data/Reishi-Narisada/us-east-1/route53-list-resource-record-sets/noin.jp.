@@ -1,0 +1,43 @@
+{
+    "MaxItems": "100",
+    "ResourceRecordSets": [
+        {
+            "AliasTarget": {
+                "DNSName": "s3-website-ap-northeast-1.amazonaws.com.",
+                "EvaluateTargetHealth": false,
+                "HostedZoneId": "Z2M4EHUR26P7ZW"
+            },
+            "Name": "noin.jp.",
+            "Type": "A"
+        },
+        {
+            "Name": "noin.jp.",
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1124.awsdns-12.org."
+                },
+                {
+                    "Value": "ns-405.awsdns-50.com."
+                },
+                {
+                    "Value": "ns-1767.awsdns-28.co.uk."
+                },
+                {
+                    "Value": "ns-793.awsdns-35.net."
+                }
+            ],
+            "TTL": 172800,
+            "Type": "NS"
+        },
+        {
+            "Name": "noin.jp.",
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1124.awsdns-12.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ],
+            "TTL": 900,
+            "Type": "SOA"
+        }
+    ]
+}

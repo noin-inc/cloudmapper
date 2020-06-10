@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"7224fe030f7f32eaa61d3e6fa8c2dd23\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:image-resizer-staging\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:ap-northeast-1:416817624313:czaxvq6s0d/*/GET/*\"}}}]}",
+    "RevisionId": "2dd4dcf4-d829-41ea-959d-152b62823f0a"
+}

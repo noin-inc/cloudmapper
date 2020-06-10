@@ -1,0 +1,34 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:41.416000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:41.253000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "AWS Certificate Manager",
+            "ServiceNamespace": "acm",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2019-12-24T09:15:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/noin-cloudfront-client",
+            "ServiceName": "Amazon CloudFront",
+            "ServiceNamespace": "cloudfront",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF",
+            "ServiceNamespace": "waf",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS WAF V2",
+            "ServiceNamespace": "wafv2",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

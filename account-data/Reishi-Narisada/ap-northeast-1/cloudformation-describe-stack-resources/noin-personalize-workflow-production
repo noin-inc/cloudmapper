@@ -1,0 +1,292 @@
+{
+    "StackResources": [
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "AmazonPersonalizeWorkFlowStepFunctionsStateMachine",
+            "PhysicalResourceId": "arn:aws:states:ap-northeast-1:416817624313:stateMachine:AmazonPersonalizeWorkFlowStepFunctionsStateMachine-yWHWf8FPQmyk",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::StepFunctions::StateMachine",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-20T11:02:12.157000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "AmazonPersonalizeWorkFlowStepFunctionsStateMachineRole",
+            "PhysicalResourceId": "noin-personalize-workflow-AmazonPersonalizeWorkFlo-I8J407YJLJX6",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Role",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-20T11:02:06.427000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "AmazonPersonalizeWorkflowLambdaRole",
+            "PhysicalResourceId": "noin-personalize-workflow-production",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Role",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-20T11:01:37.385000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "AmazonPersonalizeWorkflowLambdaRolePolicies",
+            "PhysicalResourceId": "noin-Amaz-73MTFUBA51ND",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::IAM::Policy",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:44:08.521000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoredeployUnderscorecheckLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeDeployCheck",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.709000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoredeployUnderscorecheckLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeDeployCheck",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:29.826000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoredeployUnderscoretriggerLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeDeployTrigger",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.783000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoredeployUnderscoretriggerLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeDeployTrigger",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:30.118000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreexecuteUnderscorequeryLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeExecuteQuery",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.876000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreexecuteUnderscorequeryLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeExecuteQuery",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-20T11:01:21.892000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreimportUnderscoredataLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeImportData",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.389000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreimportUnderscoredataLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeImportData",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:29.985000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeImportDataCheck",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.600000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeImportDataCheck",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:29.804000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscorelearningUnderscoretriggerLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeLearningTrigger",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.886000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscorelearningUnderscoretriggerLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeLearningTrigger",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:30.141000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizePrepareUserJsonl",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.789000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizePrepareUserJsonl",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:29.890000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.769000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeCheckExecuteQueryStatus",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-20T11:01:21.957000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoresolutionUnderscorecheckLambdaFunction",
+            "PhysicalResourceId": "production-AmazonPersonalizeSolutionCheck",
+            "ResourceStatus": "UPDATE_COMPLETE",
+            "ResourceType": "AWS::Lambda::Function",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-22T03:33:45.666000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "PersonalizeUnderscoresolutionUnderscorecheckLogGroup",
+            "PhysicalResourceId": "/aws/lambda/production-AmazonPersonalizeSolutionCheck",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::Logs::LogGroup",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:43:30.843000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "ServerlessDeploymentBucket",
+            "PhysicalResourceId": "noin-personalize-workflo-serverlessdeploymentbuck-11mllt96taxm",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::S3::Bucket",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:42:48.073000+00:00"
+        },
+        {
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            },
+            "LogicalResourceId": "ServerlessDeploymentBucketPolicy",
+            "PhysicalResourceId": "noin-personalize-workflo-ServerlessDeploymentBuc-19LU1D6X02ZM6",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceType": "AWS::S3::BucketPolicy",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/noin-personalize-workflow-production/40874330-98f4-11ea-8cf3-0e8a9cd56576",
+            "StackName": "noin-personalize-workflow-production",
+            "Timestamp": "2020-05-18T10:42:52.005000+00:00"
+        }
+    ]
+}

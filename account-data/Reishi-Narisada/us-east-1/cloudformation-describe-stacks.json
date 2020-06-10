@@ -1,0 +1,219 @@
+{
+    "Stacks": [
+        {
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM",
+                "CAPABILITY_AUTO_EXPAND"
+            ],
+            "CreationTime": "2019-11-25T05:16:14.860000+00:00",
+            "Description": "Pinpoint resource stack creation using Amplify CLI",
+            "DisableRollback": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "appName",
+                    "OutputValue": "noinandroid-production"
+                },
+                {
+                    "OutputKey": "Region",
+                    "OutputValue": "us-east-1"
+                },
+                {
+                    "OutputKey": "Id",
+                    "OutputValue": "0c2fbdec99d142e1ad84d6913b214c00"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "unauthPolicyName",
+                    "ParameterValue": "pinpoint_amplify_ae8869a6"
+                },
+                {
+                    "ParameterKey": "authRoleArn",
+                    "ParameterValue": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "ParameterKey": "cloudWatchPolicyName",
+                    "ParameterValue": "cloudWatchPolicyae8869a6"
+                },
+                {
+                    "ParameterKey": "authRoleName",
+                    "ParameterValue": "amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "ParameterKey": "unauthRoleName",
+                    "ParameterValue": "amplify-noin-android-production-140736-unauthRole"
+                },
+                {
+                    "ParameterKey": "appName",
+                    "ParameterValue": "noinandroid"
+                },
+                {
+                    "ParameterKey": "appId",
+                    "ParameterValue": "NONE"
+                },
+                {
+                    "ParameterKey": "roleName",
+                    "ParameterValue": "pinpointLambdaRoleae8869a6"
+                },
+                {
+                    "ParameterKey": "authPolicyName",
+                    "ParameterValue": "pinpoint_amplify_ae8869a6"
+                },
+                {
+                    "ParameterKey": "pinpointPolicyName",
+                    "ParameterValue": "pinpointPolicyae8869a6"
+                },
+                {
+                    "ParameterKey": "env",
+                    "ParameterValue": "production"
+                }
+            ],
+            "ParentId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4",
+            "RollbackConfiguration": {},
+            "RootId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB/b3c2d5d0-0f42-11ea-af20-0e4a688d3275",
+            "StackName": "amplify-noin-android-production-140736-analyticsnoinandroid-1EQKG9I0SDDRB",
+            "StackStatus": "CREATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM",
+                "CAPABILITY_AUTO_EXPAND"
+            ],
+            "CreationTime": "2019-11-25T05:16:14.661000+00:00",
+            "DisableRollback": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "Description": "Id for the identity pool",
+                    "OutputKey": "IdentityPoolId",
+                    "OutputValue": "us-east-1:781f3531-fe14-452c-8626-4a86a1816a31"
+                },
+                {
+                    "OutputKey": "IdentityPoolName",
+                    "OutputValue": "noin_android_identitypool_9bbcbd0c__production"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "identityPoolName",
+                    "ParameterValue": "noin_android_identitypool_9bbcbd0c"
+                },
+                {
+                    "ParameterKey": "authRoleArn",
+                    "ParameterValue": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "ParameterKey": "unauthRoleArn",
+                    "ParameterValue": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-unauthRole"
+                },
+                {
+                    "ParameterKey": "allowUnauthenticatedIdentities",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "authSelections",
+                    "ParameterValue": "identityPoolOnly"
+                },
+                {
+                    "ParameterKey": "resourceName",
+                    "ParameterValue": "cognito9b91a15e"
+                },
+                {
+                    "ParameterKey": "env",
+                    "ParameterValue": "production"
+                }
+            ],
+            "ParentId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4",
+            "RollbackConfiguration": {},
+            "RootId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4",
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ/b3b2f750-0f42-11ea-ab90-12da3ecd6186",
+            "StackName": "amplify-noin-android-production-140736-authcognito9b91a15e-1PO2R7CZKF9XZ",
+            "StackStatus": "CREATE_COMPLETE",
+            "Tags": []
+        },
+        {
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM",
+                "CAPABILITY_AUTO_EXPAND"
+            ],
+            "CreationTime": "2019-11-25T05:07:37.552000+00:00",
+            "Description": "Root stack for the Amplify AWS CloudFormation provider",
+            "DisableRollback": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastUpdatedTime": "2019-11-25T05:16:09.553000+00:00",
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "AuthRoleName",
+                    "OutputValue": "amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "OutputKey": "UnauthRoleArn",
+                    "OutputValue": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-unauthRole"
+                },
+                {
+                    "OutputKey": "AuthRoleArn",
+                    "OutputValue": "arn:aws:iam::416817624313:role/amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "Description": "CloudFormation provider root stack Region",
+                    "ExportName": "amplify-noin-android-production-140736-Region",
+                    "OutputKey": "Region",
+                    "OutputValue": "us-east-1"
+                },
+                {
+                    "Description": "CloudFormation provider root stack deployment bucket name",
+                    "ExportName": "amplify-noin-android-production-140736-DeploymentBucketName",
+                    "OutputKey": "DeploymentBucketName",
+                    "OutputValue": "amplify-noin-android-production-140736-deployment"
+                },
+                {
+                    "OutputKey": "UnauthRoleName",
+                    "OutputValue": "amplify-noin-android-production-140736-unauthRole"
+                },
+                {
+                    "Description": "CloudFormation provider root stack ID",
+                    "ExportName": "amplify-noin-android-production-140736-StackName",
+                    "OutputKey": "StackName",
+                    "OutputValue": "amplify-noin-android-production-140736"
+                },
+                {
+                    "Description": "CloudFormation provider root stack name",
+                    "ExportName": "amplify-noin-android-production-140736-StackId",
+                    "OutputKey": "StackId",
+                    "OutputValue": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4"
+                }
+            ],
+            "Parameters": [
+                {
+                    "ParameterKey": "AuthRoleName",
+                    "ParameterValue": "amplify-noin-android-production-140736-authRole"
+                },
+                {
+                    "ParameterKey": "DeploymentBucketName",
+                    "ParameterValue": "amplify-noin-android-production-140736-deployment"
+                },
+                {
+                    "ParameterKey": "UnauthRoleName",
+                    "ParameterValue": "amplify-noin-android-production-140736-unauthRole"
+                }
+            ],
+            "RollbackConfiguration": {},
+            "StackId": "arn:aws:cloudformation:us-east-1:416817624313:stack/amplify-noin-android-production-140736/7f85afa0-0f41-11ea-baa7-0e660dd6b3d4",
+            "StackName": "amplify-noin-android-production-140736",
+            "StackStatus": "UPDATE_COMPLETE",
+            "Tags": []
+        }
+    ]
+}

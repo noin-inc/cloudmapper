@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:09.149000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:09.034000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-02-28T07:20:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/service-role/AWS_Events_Invoke_Step_Functions_778263940",
+            "ServiceName": "AWS Step Functions",
+            "ServiceNamespace": "states",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

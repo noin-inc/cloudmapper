@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:40.675000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:40.539000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-02-19T09:02:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:user/Natsumi-Koyama",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

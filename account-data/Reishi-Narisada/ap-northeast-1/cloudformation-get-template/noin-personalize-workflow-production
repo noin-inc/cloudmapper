@@ -1,0 +1,847 @@
+{
+    "StagesAvailable": [
+        "Original",
+        "Processed"
+    ],
+    "TemplateBody": {
+        "AWSTemplateFormatVersion": "2010-09-09",
+        "Description": "The AWS CloudFormation template for this Serverless application",
+        "Outputs": {
+            "AmazonPersonalizeWorkFlowStepFunctionsStateMachineArn": {
+                "Description": "Current StateMachine Arn",
+                "Value": {
+                    "Ref": "AmazonPersonalizeWorkFlowStepFunctionsStateMachine"
+                }
+            },
+            "ServerlessDeploymentBucketName": {
+                "Value": {
+                    "Ref": "ServerlessDeploymentBucket"
+                }
+            }
+        },
+        "Resources": {
+            "AmazonPersonalizeWorkFlowStepFunctionsStateMachine": {
+                "DependsOn": [
+                    "AmazonPersonalizeWorkFlowStepFunctionsStateMachineRole"
+                ],
+                "Properties": {
+                    "DefinitionString": {
+                        "Fn::Sub": [
+                            "{\n  \"Comment\": \"Amazon Personalize WorkFlow\",\n  \"StartAt\": \"personalize_execute_query\",\n  \"States\": {\n    \"personalize_execute_query\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${XRJFlbkEga}\",\n      \"Next\": \"WaitQueryExecute\",\n      \"Catch\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"Next\": \"FailState\"\n        }\n      ]\n    },\n    \"WaitQueryExecute\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 30,\n      \"Next\": \"personalize_query_status_check\"\n    },\n    \"personalize_query_status_check\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${PKcMFapC85}\",\n      \"Next\": \"WaitQueryCheckLoop\"\n    },\n    \"WaitQueryCheckLoop\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.loop\",\n          \"BooleanEquals\": true,\n          \"Next\": \"WaitQueryExecute\"\n        }\n      ],\n      \"Default\": \"personalize_prepare_user_jsonl\"\n    },\n    \"personalize_prepare_user_jsonl\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${bokEIX8Z0u}\",\n      \"Next\": \"personalize_import_data\",\n      \"Catch\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"Next\": \"FailState\"\n        }\n      ]\n    },\n    \"personalize_import_data\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${PtbGB1jBcA}\",\n      \"Next\": \"WaitThreeMinute\",\n      \"Catch\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"Next\": \"FailState\"\n        }\n      ]\n    },\n    \"WaitThreeMinute\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 180,\n      \"Next\": \"personalize_import_data_check\"\n    },\n    \"personalize_import_data_check\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${Cxzgk8heU8}\",\n      \"Next\": \"ImportDataCheckLoop\"\n    },\n    \"ImportDataCheckLoop\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.loop\",\n          \"BooleanEquals\": true,\n          \"Next\": \"WaitThreeMinute\"\n        }\n      ],\n      \"Default\": \"personalize_learning_trigger\"\n    },\n    \"personalize_learning_trigger\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${7KkW4mXrUR}\",\n      \"Next\": \"WaitThirtyMinutes\",\n      \"Catch\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"Next\": \"FailState\"\n        }\n      ]\n    },\n    \"WaitThirtyMinutes\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 1800,\n      \"Next\": \"personalize_solution_check\"\n    },\n    \"personalize_solution_check\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${pcOZHP0dIx}\",\n      \"Next\": \"LoopCheck\"\n    },\n    \"LoopCheck\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.loop\",\n          \"BooleanEquals\": true,\n          \"Next\": \"WaitThirtyMinutes\"\n        }\n      ],\n      \"Default\": \"personalize_deploy_trigger\"\n    },\n    \"personalize_deploy_trigger\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${sP9f1SXuy6}\",\n      \"Next\": \"WaitDeployComplete\",\n      \"Catch\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"Next\": \"FailState\"\n        }\n      ]\n    },\n    \"WaitDeployComplete\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 1800,\n      \"Next\": \"personalize_deploy_check\"\n    },\n    \"personalize_deploy_check\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${aJmlEtoxFA}\",\n      \"Next\": \"DeployCheckLoop\"\n    },\n    \"DeployCheckLoop\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.loop\",\n          \"BooleanEquals\": true,\n          \"Next\": \"WaitDeployComplete\"\n        }\n      ],\n      \"Default\": \"Succeed\"\n    },\n    \"FailState\": {\n      \"Type\": \"Fail\"\n    },\n    \"Succeed\": {\n      \"Type\": \"Succeed\"\n    }\n  }\n}",
+                            {
+                                "7KkW4mXrUR": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscorelearningUnderscoretriggerLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "Cxzgk8heU8": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "PKcMFapC85": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "PtbGB1jBcA": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoreimportUnderscoredataLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "XRJFlbkEga": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoreexecuteUnderscorequeryLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "aJmlEtoxFA": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoredeployUnderscorecheckLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "bokEIX8Z0u": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "pcOZHP0dIx": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoresolutionUnderscorecheckLambdaFunction",
+                                        "Arn"
+                                    ]
+                                },
+                                "sP9f1SXuy6": {
+                                    "Fn::GetAtt": [
+                                        "PersonalizeUnderscoredeployUnderscoretriggerLambdaFunction",
+                                        "Arn"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "RoleArn": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkFlowStepFunctionsStateMachineRole",
+                            "Arn"
+                        ]
+                    }
+                },
+                "Type": "AWS::StepFunctions::StateMachine"
+            },
+            "AmazonPersonalizeWorkFlowStepFunctionsStateMachineRole": {
+                "Properties": {
+                    "AssumeRolePolicyDocument": {
+                        "Statement": [
+                            {
+                                "Action": "sts:AssumeRole",
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "states.ap-northeast-1.amazonaws.com"
+                                }
+                            }
+                        ],
+                        "Version": "2012-10-17"
+                    },
+                    "Policies": [
+                        {
+                            "PolicyDocument": {
+                                "Statement": [
+                                    {
+                                        "Action": [
+                                            "lambda:InvokeFunction"
+                                        ],
+                                        "Effect": "Allow",
+                                        "Resource": [
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoreexecuteUnderscorequeryLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoreexecuteUnderscorequeryLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoreimportUnderscoredataLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoreimportUnderscoredataLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscorelearningUnderscoretriggerLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscorelearningUnderscoretriggerLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoresolutionUnderscorecheckLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoresolutionUnderscorecheckLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoredeployUnderscoretriggerLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoredeployUnderscoretriggerLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Fn::GetAtt": [
+                                                    "PersonalizeUnderscoredeployUnderscorecheckLambdaFunction",
+                                                    "Arn"
+                                                ]
+                                            },
+                                            {
+                                                "Fn::Sub": [
+                                                    "${functionArn}:*",
+                                                    {
+                                                        "functionArn": {
+                                                            "Fn::GetAtt": [
+                                                                "PersonalizeUnderscoredeployUnderscorecheckLambdaFunction",
+                                                                "Arn"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Version": "2012-10-17"
+                            },
+                            "PolicyName": "production-ap-northeast-1-noin-personalize-workflow-statemachine"
+                        }
+                    ]
+                },
+                "Type": "AWS::IAM::Role"
+            },
+            "AmazonPersonalizeWorkflowLambdaRole": {
+                "Properties": {
+                    "AssumeRolePolicyDocument": {
+                        "Statement": [
+                            {
+                                "Action": "sts:AssumeRole",
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": [
+                                        "lambda.amazonaws.com"
+                                    ]
+                                }
+                            }
+                        ],
+                        "Version": "2012-10-17"
+                    },
+                    "ManagedPolicyArns": [
+                        "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
+                        "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+                        "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+                        "arn:aws:iam::aws:policy/AmazonAthenaFullAccess"
+                    ],
+                    "Path": "/",
+                    "RoleName": "noin-personalize-workflow-production"
+                },
+                "Type": "AWS::IAM::Role"
+            },
+            "AmazonPersonalizeWorkflowLambdaRolePolicies": {
+                "Properties": {
+                    "PolicyDocument": {
+                        "Statement": [
+                            {
+                                "Action": [
+                                    "personalize:*",
+                                    "iam:GetRole",
+                                    "iam:PassRole"
+                                ],
+                                "Effect": "Allow",
+                                "Resource": [
+                                    "*",
+                                    "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod"
+                                ]
+                            }
+                        ],
+                        "Version": "2012-10-17"
+                    },
+                    "PolicyName": "root",
+                    "Roles": [
+                        {
+                            "Ref": "AmazonPersonalizeWorkflowLambdaRole"
+                        }
+                    ]
+                },
+                "Type": "AWS::IAM::Policy"
+            },
+            "PersonalizeUnderscoredeployUnderscorecheckLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoredeployUnderscorecheckLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_deploy_check.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeDeployCheck",
+                    "Handler": "src/workflow/personalize/deploy_check/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoredeployUnderscorecheckLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeDeployCheck",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoredeployUnderscoretriggerLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoredeployUnderscoretriggerLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_deploy_trigger.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeDeployTrigger",
+                    "Handler": "src/workflow/personalize/deploy_trigger/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoredeployUnderscoretriggerLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeDeployTrigger",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoreexecuteUnderscorequeryLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoreexecuteUnderscorequeryLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_execute_query.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeExecuteQuery",
+                    "Handler": "src/workflow/personalize/execute_query/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoreexecuteUnderscorequeryLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeExecuteQuery",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoreimportUnderscoredataLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoreimportUnderscoredataLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_import_data.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeImportData",
+                    "Handler": "src/workflow/personalize/import_data/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoreimportUnderscoredataLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeImportData",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_import_data_check.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeImportDataCheck",
+                    "Handler": "src/workflow/personalize/import_data_check/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoreimportUnderscoredataUnderscorecheckLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeImportDataCheck",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscorelearningUnderscoretriggerLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscorelearningUnderscoretriggerLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_learning_trigger.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeLearningTrigger",
+                    "Handler": "src/workflow/personalize/learning_trigger/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscorelearningUnderscoretriggerLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeLearningTrigger",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_prepare_user_jsonl.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizePrepareUserJsonl",
+                    "Handler": "src/workflow/personalize/prepare_user_jsonl/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoreprepareUnderscoreuserUnderscorejsonlLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizePrepareUserJsonl",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_query_status_check.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeCheckExecuteQueryStatus",
+                    "Handler": "src/workflow/personalize/query_status_check/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscorequeryUnderscorestatusUnderscorecheckLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeCheckExecuteQueryStatus",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "PersonalizeUnderscoresolutionUnderscorecheckLambdaFunction": {
+                "DependsOn": [
+                    "PersonalizeUnderscoresolutionUnderscorecheckLogGroup",
+                    "AmazonPersonalizeWorkflowLambdaRole"
+                ],
+                "Properties": {
+                    "Code": {
+                        "S3Bucket": {
+                            "Ref": "ServerlessDeploymentBucket"
+                        },
+                        "S3Key": "serverless/noin-personalize-workflow/production/1590118382485-2020-05-22T03:33:02.485Z/personalize_solution_check.zip"
+                    },
+                    "Environment": {
+                        "Variables": {
+                            "PERSONALIZE_BATCH_RECOMMEND_USERS_JSONL_PATH": "first_release/batch_recommend_user_ids.jsonl",
+                            "PERSONALIZE_BUCKET_NAME": "noin-personalize-metadata-57960-production",
+                            "PERSONALIZE_DATASET_GROUP_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset-group/prod-first-release",
+                            "PERSONALIZE_DIR": "first_release",
+                            "PERSONALIZE_INTERACTION_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/INTERACTIONS",
+                            "PERSONALIZE_ITEM_DATASET_ARN": "arn:aws:personalize:ap-northeast-1:416817624313:dataset/prod-first-release/ITEMS",
+                            "PERSONALIZE_ROLE_ARN": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+                            "SLACK_PATH": "https://hooks.slack.com/services/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"
+                        }
+                    },
+                    "FunctionName": "production-AmazonPersonalizeSolutionCheck",
+                    "Handler": "src/workflow/personalize/solution_check/handler.lambda_handler",
+                    "Layers": [
+                        "arn:aws:lambda:ap-northeast-1:416817624313:layer:requirements-layer-personalize-service-production-python-requirements:2"
+                    ],
+                    "MemorySize": 3008,
+                    "Role": {
+                        "Fn::GetAtt": [
+                            "AmazonPersonalizeWorkflowLambdaRole",
+                            "Arn"
+                        ]
+                    },
+                    "Runtime": "python3.8",
+                    "Timeout": 900
+                },
+                "Type": "AWS::Lambda::Function"
+            },
+            "PersonalizeUnderscoresolutionUnderscorecheckLogGroup": {
+                "Properties": {
+                    "LogGroupName": "/aws/lambda/production-AmazonPersonalizeSolutionCheck",
+                    "RetentionInDays": 30
+                },
+                "Type": "AWS::Logs::LogGroup"
+            },
+            "ServerlessDeploymentBucket": {
+                "Properties": {
+                    "BucketEncryption": {
+                        "ServerSideEncryptionConfiguration": [
+                            {
+                                "ServerSideEncryptionByDefault": {
+                                    "SSEAlgorithm": "AES256"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Type": "AWS::S3::Bucket"
+            },
+            "ServerlessDeploymentBucketPolicy": {
+                "Properties": {
+                    "Bucket": {
+                        "Ref": "ServerlessDeploymentBucket"
+                    },
+                    "PolicyDocument": {
+                        "Statement": [
+                            {
+                                "Action": "s3:*",
+                                "Condition": {
+                                    "Bool": {
+                                        "aws:SecureTransport": false
+                                    }
+                                },
+                                "Effect": "Deny",
+                                "Principal": "*",
+                                "Resource": [
+                                    {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:",
+                                                {
+                                                    "Ref": "AWS::Partition"
+                                                },
+                                                ":s3:::",
+                                                {
+                                                    "Ref": "ServerlessDeploymentBucket"
+                                                },
+                                                "/*"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Type": "AWS::S3::BucketPolicy"
+            }
+        }
+    }
+}

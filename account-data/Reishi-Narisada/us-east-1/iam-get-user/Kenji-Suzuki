@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Kenji-Suzuki",
+        "CreateDate": "2019-04-02T10:46:11+00:00",
+        "PasswordLastUsed": "2019-11-24T06:57:29+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4ZDMOGDDGO",
+        "UserName": "Kenji-Suzuki"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/AWS_EC2_Describe",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-05-09T08:32:43+00:00",
+        "Description": "Allows EC2 instances to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAWCDCEGT4WMN643GW3",
+        "RoleName": "AWS_EC2_Describe",
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "AWS_EC2_Describe"
+            }
+        ]
+    }
+}

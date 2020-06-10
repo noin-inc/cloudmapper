@@ -1,0 +1,59 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "attachments": [],
+            "clusterArn": "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-production-ecs",
+            "connectivity": "CONNECTED",
+            "connectivityAt": "2020-06-08T18:12:36.050000+09:00",
+            "containerInstanceArn": "arn:aws:ecs:ap-northeast-1:416817624313:container-instance/0c4c6a9f-798e-4c96-9c14-6363990be710",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-northeast-1:416817624313:container/fa29d0e6-9a33-4d80-8a9b-fc13002fbfd0",
+                    "cpu": "0",
+                    "healthStatus": "HEALTHY",
+                    "image": "416817624313.dkr.ecr.ap-northeast-1.amazonaws.com/noin/noin-web:release",
+                    "imageDigest": "sha256:c2dca6914abf0d28486d49ce31ba7ca772475313ef3f27a88a857150e122ed4c",
+                    "lastStatus": "RUNNING",
+                    "memoryReservation": "1024",
+                    "name": "noin-web-container",
+                    "networkBindings": [
+                        {
+                            "bindIP": "0.0.0.0",
+                            "containerPort": 3001,
+                            "hostPort": 33186,
+                            "protocol": "tcp"
+                        }
+                    ],
+                    "networkInterfaces": [],
+                    "runtimeId": "059a99922c37c02098cdbec1edddf35a1e01fcb1145dfce60a93c9f458fcbc6e",
+                    "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/f2d2bfda-2712-4765-8e37-5bec31328917"
+                }
+            ],
+            "cpu": "0",
+            "createdAt": "2020-06-08T18:12:36.050000+09:00",
+            "desiredStatus": "RUNNING",
+            "group": "service:web",
+            "healthStatus": "HEALTHY",
+            "lastStatus": "RUNNING",
+            "launchType": "EC2",
+            "memory": "1024",
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "name": "noin-web-container"
+                    }
+                ],
+                "inferenceAcceleratorOverrides": []
+            },
+            "pullStartedAt": "2020-06-08T18:12:37.940000+09:00",
+            "pullStoppedAt": "2020-06-08T18:12:37.940000+09:00",
+            "startedAt": "2020-06-08T18:12:37.940000+09:00",
+            "startedBy": "ecs-svc/7557853564204962544",
+            "tags": [],
+            "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/f2d2bfda-2712-4765-8e37-5bec31328917",
+            "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:416817624313:task-definition/noin-web-production-ecs-task-definition:312",
+            "version": 2
+        }
+    ]
+}

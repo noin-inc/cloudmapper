@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:29.882000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:29.530000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-05-29T03:40:26+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/NoinPersonalizeS3Role-prod",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

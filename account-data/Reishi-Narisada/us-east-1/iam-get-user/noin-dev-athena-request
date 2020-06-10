@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/noin-dev-athena-request",
+        "CreateDate": "2020-03-03T09:27:09+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4QJUDQLZF4",
+        "UserName": "noin-dev-athena-request"
+    }
+}

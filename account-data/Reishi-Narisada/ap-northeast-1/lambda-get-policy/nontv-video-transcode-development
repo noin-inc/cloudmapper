@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"lc-a4630461-036f-4974-8111-efeafce88a97\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"s3.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-development\",\"Condition\":{\"StringEquals\":{\"AWS:SourceAccount\":\"416817624313\"},\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:s3:::development.noin.tv\"}}},{\"Sid\":\"lc-3bb8c934-a89b-4d11-9151-8623d86d030a\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"s3.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:nontv-video-transcode-development\",\"Condition\":{\"StringEquals\":{\"AWS:SourceAccount\":\"416817624313\"},\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:s3:::video-upload.development.noin.tv\"}}}]}",
+    "RevisionId": "2b7b7a9f-cb84-4976-8cb7-a0fcaa8139c2"
+}

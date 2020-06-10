@@ -1,0 +1,27 @@
+{
+    "ClusterSubnetGroups": [
+        {
+            "ClusterSubnetGroupName": "default",
+            "Description": "default",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetAvailabilityZone": {
+                        "Name": "ap-northeast-1c"
+                    },
+                    "SubnetIdentifier": "subnet-7ce2d424",
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetAvailabilityZone": {
+                        "Name": "ap-northeast-1a"
+                    },
+                    "SubnetIdentifier": "subnet-4d669404",
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-4ec1e72a"
+        }
+    ]
+}

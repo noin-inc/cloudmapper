@@ -1,0 +1,17 @@
+{
+    "TagDescriptions": [
+        {
+            "ResourceArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-production/c947ae1825d89941",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin-production"
+                },
+                {
+                    "Key": "mackerel",
+                    "Value": "on"
+                }
+            ]
+        }
+    ]
+}

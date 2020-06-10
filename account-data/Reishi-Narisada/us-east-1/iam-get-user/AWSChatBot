@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/AWSChatBot",
+        "CreateDate": "2019-08-11T12:42:24+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4TBNEG47WR",
+        "UserName": "AWSChatBot"
+    }
+}

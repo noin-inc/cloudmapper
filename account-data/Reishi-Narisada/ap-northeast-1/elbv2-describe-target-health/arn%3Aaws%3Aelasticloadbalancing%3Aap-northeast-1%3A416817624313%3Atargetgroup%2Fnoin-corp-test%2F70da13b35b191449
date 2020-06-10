@@ -1,0 +1,15 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "80",
+            "Target": {
+                "AvailabilityZone": "ap-northeast-1c",
+                "Id": "172.32.42.84",
+                "Port": 80
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

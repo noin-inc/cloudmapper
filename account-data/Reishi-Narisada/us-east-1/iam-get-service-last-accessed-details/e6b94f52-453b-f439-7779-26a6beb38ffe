@@ -1,0 +1,17 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:23.113000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:22.999000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

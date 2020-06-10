@@ -1,0 +1,35 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:24.072000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:23.942000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-06-10T14:00:42+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "ServiceName": "Amazon Kinesis",
+            "ServiceNamespace": "kinesis",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T08:39:43+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-06-10T08:39:34+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2019-11-06T11:59:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/KinesisReaderLambdaStaging",
+            "ServiceName": "Amazon SQS",
+            "ServiceNamespace": "sqs",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

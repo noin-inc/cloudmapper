@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Nuoya-Wen",
+        "CreateDate": "2019-10-24T06:11:17+00:00",
+        "PasswordLastUsed": "2020-05-13T01:09:52+00:00",
+        "Path": "/",
+        "UserId": "AIDAWCDCEGT4WG7E4LLPD",
+        "UserName": "Nuoya-Wen"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "9200",
+            "Target": {
+                "Id": "i-0f7c3f814d15b544e",
+                "Port": 9200
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "9200",
+            "Target": {
+                "Id": "i-06307d32df9ab899d",
+                "Port": 9200
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "HealthCheckPort": "9200",
+            "Target": {
+                "Id": "i-04e3c711b6c10b49d",
+                "Port": 9200
+            },
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

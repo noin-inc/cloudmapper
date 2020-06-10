@@ -1,0 +1,4 @@
+{
+    "ARN": "arn:aws:secretsmanager:ap-northeast-1:416817624313:secret:AmazonSageMaker-k-means-test-bAhDo8",
+    "Name": "AmazonSageMaker-k-means-test"
+}

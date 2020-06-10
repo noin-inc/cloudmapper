@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:25.515000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:25.361000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2019-09-17T03:00:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/Linux-bastion-noin-staging-BastionHostRole-ETSY1GZHM78J",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

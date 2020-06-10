@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/elasticmapreduce.amazonaws.com/AWSServiceRoleForEMRCleanup",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "elasticmapreduce.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-14T14:25:05+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/elasticmapreduce.amazonaws.com/",
+        "RoleId": "AROAIQMHT2TCK324ZC3N6",
+        "RoleName": "AWSServiceRoleForEMRCleanup"
+    }
+}

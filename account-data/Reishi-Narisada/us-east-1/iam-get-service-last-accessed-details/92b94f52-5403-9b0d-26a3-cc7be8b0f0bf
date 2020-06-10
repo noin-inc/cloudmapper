@@ -1,0 +1,12 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:30.712000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:30.567000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "ServiceName": "Amazon Mobile Analytics",
+            "ServiceNamespace": "mobileanalytics",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

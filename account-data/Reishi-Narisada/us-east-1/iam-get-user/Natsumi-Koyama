@@ -1,0 +1,9 @@
+{
+    "User": {
+        "Arn": "arn:aws:iam::416817624313:user/Natsumi-Koyama",
+        "CreateDate": "2018-11-27T07:37:12+00:00",
+        "Path": "/",
+        "UserId": "AIDAJVH667QNC6KKTS62G",
+        "UserName": "Natsumi-Koyama"
+    }
+}

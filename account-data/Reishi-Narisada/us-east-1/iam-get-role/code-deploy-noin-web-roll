@@ -1,0 +1,24 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/code-deploy-noin-web-roll",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "codedeploy.amazonaws.com"
+                    },
+                    "Sid": ""
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-11-28T07:54:53+00:00",
+        "Description": "Allows CodeDeploy to call AWS services such as Auto Scaling on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Path": "/",
+        "RoleId": "AROAIU34Z6VFZN5HFU65C",
+        "RoleName": "code-deploy-noin-web-roll"
+    }
+}

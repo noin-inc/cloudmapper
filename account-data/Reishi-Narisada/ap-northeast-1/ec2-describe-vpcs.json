@@ -1,0 +1,96 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "192.168.0.0/16",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-056846b399b42e6da",
+                    "CidrBlock": "192.168.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "DhcpOptionsId": "dopt-7d780e19",
+            "InstanceTenancy": "default",
+            "IsDefault": false,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "eksctl-eks-sample-cluster2-cluster/VPC"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "eksctl-eks-sample-cluster2-cluster"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:ap-northeast-1:416817624313:stack/eksctl-eks-sample-cluster2-cluster/a65f17a0-903f-11e9-8ad6-0ad7850b06a8"
+                },
+                {
+                    "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+                    "Value": "eks-sample-cluster2"
+                },
+                {
+                    "Key": "alpha.eksctl.io/cluster-name",
+                    "Value": "eks-sample-cluster2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "VPC"
+                }
+            ],
+            "VpcId": "vpc-0372cb49d9c3bdc5d"
+        },
+        {
+            "CidrBlock": "172.31.0.0/16",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-e79fd58e",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "DhcpOptionsId": "dopt-7d780e19",
+            "InstanceTenancy": "default",
+            "IsDefault": true,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lambda-s3-test"
+                }
+            ],
+            "VpcId": "vpc-4ec1e72a"
+        },
+        {
+            "CidrBlock": "172.32.0.0/16",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-8a96a5e3",
+                    "CidrBlock": "172.32.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "DhcpOptionsId": "dopt-7d780e19",
+            "InstanceTenancy": "default",
+            "IsDefault": false,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "noin"
+                }
+            ],
+            "VpcId": "vpc-b0eae7d4"
+        }
+    ]
+}

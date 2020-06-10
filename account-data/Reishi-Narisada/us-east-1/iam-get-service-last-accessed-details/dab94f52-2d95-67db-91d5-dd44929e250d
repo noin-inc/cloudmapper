@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:12.096000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:10.890000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-01-21T21:44:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/cm-policymaintainer",
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

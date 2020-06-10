@@ -1,0 +1,54 @@
+{
+    "Rules": [
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/codebuild-notification",
+            "EventBusName": "default",
+            "EventPattern": "{\"source\":[\"aws.codebuild\"],\"detail-type\":[\"CodeBuild Build State Change\"],\"detail\":{\"build-status\":[\"FAILED\",\"IN_PROGRESS\",\"STOPPED\",\"SUCCEEDED\"]}}",
+            "Name": "codebuild-notification",
+            "State": "DISABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/codedeploy-notification",
+            "EventBusName": "default",
+            "EventPattern": "{\"source\":[\"aws.codedeploy\"],\"detail-type\":[\"CodeDeploy Deployment State-change Notification\"],\"detail\":{\"state\":[\"FAILURE\",\"READY\",\"START\",\"STOP\",\"SUCCESS\"],\"application\":[\"noin-web-docker\",\"AppECS-noin-web-production-web\"],\"deploymentGroup\":[\"noin-web-staging\",\"DgpECS-noin-web-production-web\"]}}",
+            "Name": "codedeploy-notification",
+            "State": "DISABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/codepipeline-noinno-latest-193138-rule",
+            "Description": "Amazon CloudWatch Events rule to automatically start your pipeline when a change occurs in the Amazon ECR image tag. Deleting this may prevent changes from being detected in that pipeline. Read more: http://docs.aws.amazon.com/codepipeline/latest/userguide/pipelines-about-starting.html",
+            "EventBusName": "default",
+            "EventPattern": "{\"source\":[\"aws.ecr\"],\"detail\":{\"eventName\":[\"PutImage\"],\"requestParameters\":{\"repositoryName\":[\"noin/noin-web\"],\"imageTag\":[\"latest\"]}}}",
+            "Name": "codepipeline-noinno-latest-193138-rule",
+            "State": "ENABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/ecs-notification",
+            "EventBusName": "default",
+            "EventPattern": "{\"source\":[\"aws.ecs\"],\"detail-type\":[\"ECS Task State Change\"]}",
+            "Name": "ecs-notification",
+            "State": "DISABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/every-hour",
+            "EventBusName": "default",
+            "Name": "every-hour",
+            "ScheduleExpression": "cron(5 0,9,15 * * ? *)",
+            "State": "DISABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/noin-codepipeline",
+            "EventBusName": "default",
+            "EventPattern": "{\"source\":[\"aws.codepipeline\"],\"detail-type\":[\"CodePipeline Stage Execution State Change\"]}",
+            "Name": "noin-codepipeline",
+            "State": "ENABLED"
+        },
+        {
+            "Arn": "arn:aws:events:ap-northeast-1:416817624313:rule/sendgrid-notification",
+            "EventBusName": "default",
+            "Name": "sendgrid-notification",
+            "ScheduleExpression": "cron(5 15 * * ? *)",
+            "State": "ENABLED"
+        }
+    ]
+}

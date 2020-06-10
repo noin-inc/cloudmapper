@@ -1,0 +1,65 @@
+{
+    "DeliveryStreamDescription": {
+        "CreateTimestamp": "2017-10-01T03:02:22.659000+09:00",
+        "DeliveryStreamARN": "arn:aws:firehose:ap-northeast-1:416817624313:deliverystream/production-actionlog-backup-firehose",
+        "DeliveryStreamName": "production-actionlog-backup-firehose",
+        "DeliveryStreamStatus": "ACTIVE",
+        "DeliveryStreamType": "KinesisStreamAsSource",
+        "Destinations": [
+            {
+                "DestinationId": "destinationId-000000000001",
+                "ExtendedS3DestinationDescription": {
+                    "BucketARN": "arn:aws:s3:::actionlog.production.noin.tv",
+                    "BufferingHints": {
+                        "IntervalInSeconds": 60,
+                        "SizeInMBs": 5
+                    },
+                    "CloudWatchLoggingOptions": {
+                        "Enabled": true,
+                        "LogGroupName": "/aws/kinesisfirehose/production-actionlog-backup-firehose",
+                        "LogStreamName": "S3Delivery"
+                    },
+                    "CompressionFormat": "GZIP",
+                    "EncryptionConfiguration": {
+                        "NoEncryptionConfig": "NoEncryption"
+                    },
+                    "Prefix": "backup/",
+                    "ProcessingConfiguration": {
+                        "Enabled": false,
+                        "Processors": []
+                    },
+                    "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_production",
+                    "S3BackupMode": "Disabled"
+                },
+                "S3DestinationDescription": {
+                    "BucketARN": "arn:aws:s3:::actionlog.production.noin.tv",
+                    "BufferingHints": {
+                        "IntervalInSeconds": 60,
+                        "SizeInMBs": 5
+                    },
+                    "CloudWatchLoggingOptions": {
+                        "Enabled": true,
+                        "LogGroupName": "/aws/kinesisfirehose/production-actionlog-backup-firehose",
+                        "LogStreamName": "S3Delivery"
+                    },
+                    "CompressionFormat": "GZIP",
+                    "EncryptionConfiguration": {
+                        "NoEncryptionConfig": "NoEncryption"
+                    },
+                    "Prefix": "backup/",
+                    "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_production"
+                }
+            }
+        ],
+        "HasMoreDestinations": false,
+        "LastUpdateTimestamp": "2017-10-06T09:46:05.098000+09:00",
+        "Source": {
+            "KinesisStreamSourceDescription": {
+                "DeliveryStartTimestamp": "2017-10-01T03:02:22.659000+09:00",
+                "KinesisStreamARN": "arn:aws:kinesis:ap-northeast-1:416817624313:stream/production-actionlog-kinesis",
+                "RoleARN": "arn:aws:iam::416817624313:role/firehose_delivery_role_production"
+            }
+        },
+        "VersionId": "2"
+    }
+}

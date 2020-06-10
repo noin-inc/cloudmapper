@@ -1,0 +1,57 @@
+{
+    "failures": [],
+    "tasks": [
+        {
+            "attachments": [],
+            "clusterArn": "arn:aws:ecs:ap-northeast-1:416817624313:cluster/noin-web-staging-ecs",
+            "connectivity": "CONNECTED",
+            "connectivityAt": "2020-06-09T14:29:00.872000+09:00",
+            "containerInstanceArn": "arn:aws:ecs:ap-northeast-1:416817624313:container-instance/32726d85-b64b-4fb8-8a88-7dd51212ac83",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-northeast-1:416817624313:container/d829d775-a5da-47b6-ac10-7af4e7467526",
+                    "cpu": "0",
+                    "healthStatus": "HEALTHY",
+                    "image": "416817624313.dkr.ecr.ap-northeast-1.amazonaws.com/noin/noin-web:latest",
+                    "lastStatus": "RUNNING",
+                    "memoryReservation": "1024",
+                    "name": "noin-web-container",
+                    "networkBindings": [
+                        {
+                            "bindIP": "0.0.0.0",
+                            "containerPort": 3001,
+                            "hostPort": 32809,
+                            "protocol": "tcp"
+                        }
+                    ],
+                    "networkInterfaces": [],
+                    "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/b0ef74cc-e385-4c2f-b035-6b4242e4e5ef"
+                }
+            ],
+            "cpu": "0",
+            "createdAt": "2020-06-09T14:29:00.872000+09:00",
+            "desiredStatus": "RUNNING",
+            "group": "service:web",
+            "healthStatus": "HEALTHY",
+            "lastStatus": "RUNNING",
+            "launchType": "EC2",
+            "memory": "1024",
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "name": "noin-web-container"
+                    }
+                ],
+                "inferenceAcceleratorOverrides": []
+            },
+            "pullStartedAt": "2020-06-09T14:29:01.796000+09:00",
+            "pullStoppedAt": "2020-06-09T14:29:43.796000+09:00",
+            "startedAt": "2020-06-09T14:29:44.796000+09:00",
+            "startedBy": "ecs-svc/2237034096863256240",
+            "tags": [],
+            "taskArn": "arn:aws:ecs:ap-northeast-1:416817624313:task/b0ef74cc-e385-4c2f-b035-6b4242e4e5ef",
+            "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:416817624313:task-definition/noin-web-staging-ecs-task-definition:643",
+            "version": 2
+        }
+    ]
+}

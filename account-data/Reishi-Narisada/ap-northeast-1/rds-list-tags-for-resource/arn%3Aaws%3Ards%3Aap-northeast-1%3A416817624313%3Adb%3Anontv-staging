@@ -1,0 +1,12 @@
+{
+    "TagList": [
+        {
+            "Key": "workload-type",
+            "Value": "\u305d\u306e\u4ed6"
+        },
+        {
+            "Key": "mackerel",
+            "Value": "off"
+        }
+    ]
+}

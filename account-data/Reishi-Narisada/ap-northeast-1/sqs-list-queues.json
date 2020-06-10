@@ -1,0 +1,6 @@
+{
+    "QueueUrls": [
+        "https://ap-northeast-1.queue.amazonaws.com/416817624313/noin-actionlog-queue-production.fifo",
+        "https://ap-northeast-1.queue.amazonaws.com/416817624313/noin-actionlog-queue-staging.fifo"
+    ]
+}

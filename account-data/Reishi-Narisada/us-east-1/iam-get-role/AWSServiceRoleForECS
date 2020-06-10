@@ -1,0 +1,22 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ecs.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2019-06-16T19:51:14+00:00",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/ecs.amazonaws.com/",
+        "RoleId": "AROAWCDCEGT4RKE3X3ON5",
+        "RoleName": "AWSServiceRoleForECS"
+    }
+}

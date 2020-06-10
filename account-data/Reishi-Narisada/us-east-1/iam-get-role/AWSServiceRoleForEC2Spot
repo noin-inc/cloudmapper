@@ -1,0 +1,23 @@
+{
+    "Role": {
+        "Arn": "arn:aws:iam::416817624313:role/aws-service-role/spot.amazonaws.com/AWSServiceRoleForEC2Spot",
+        "AssumeRolePolicyDocument": {
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "spot.amazonaws.com"
+                    }
+                }
+            ],
+            "Version": "2012-10-17"
+        },
+        "CreateDate": "2018-01-14T14:28:01+00:00",
+        "Description": "Default EC2 Spot Service Linked Role",
+        "MaxSessionDuration": 3600,
+        "Path": "/aws-service-role/spot.amazonaws.com/",
+        "RoleId": "AROAJL7SUXNBX6FE2DKOA",
+        "RoleName": "AWSServiceRoleForEC2Spot"
+    }
+}

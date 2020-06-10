@@ -1,0 +1,64 @@
+{
+    "Subnets": [
+        {
+            "AssignIpv6AddressOnCreation": false,
+            "AvailabilityZone": "us-west-2d",
+            "AvailabilityZoneId": "usw2-az4",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.48.0/20",
+            "DefaultForAz": true,
+            "Ipv6CidrBlockAssociationSet": [],
+            "MapPublicIpOnLaunch": true,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "SubnetArn": "arn:aws:ec2:us-west-2:416817624313:subnet/subnet-b04f0998",
+            "SubnetId": "subnet-b04f0998",
+            "VpcId": "vpc-1e299978"
+        },
+        {
+            "AssignIpv6AddressOnCreation": false,
+            "AvailabilityZone": "us-west-2c",
+            "AvailabilityZoneId": "usw2-az3",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.0.0/20",
+            "DefaultForAz": true,
+            "Ipv6CidrBlockAssociationSet": [],
+            "MapPublicIpOnLaunch": true,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "SubnetArn": "arn:aws:ec2:us-west-2:416817624313:subnet/subnet-89bd22d2",
+            "SubnetId": "subnet-89bd22d2",
+            "VpcId": "vpc-1e299978"
+        },
+        {
+            "AssignIpv6AddressOnCreation": false,
+            "AvailabilityZone": "us-west-2a",
+            "AvailabilityZoneId": "usw2-az2",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.32.0/20",
+            "DefaultForAz": true,
+            "Ipv6CidrBlockAssociationSet": [],
+            "MapPublicIpOnLaunch": true,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "SubnetArn": "arn:aws:ec2:us-west-2:416817624313:subnet/subnet-b825c1f0",
+            "SubnetId": "subnet-b825c1f0",
+            "VpcId": "vpc-1e299978"
+        },
+        {
+            "AssignIpv6AddressOnCreation": false,
+            "AvailabilityZone": "us-west-2b",
+            "AvailabilityZoneId": "usw2-az1",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.16.0/20",
+            "DefaultForAz": true,
+            "Ipv6CidrBlockAssociationSet": [],
+            "MapPublicIpOnLaunch": true,
+            "OwnerId": "416817624313",
+            "State": "available",
+            "SubnetArn": "arn:aws:ec2:us-west-2:416817624313:subnet/subnet-caeb29ac",
+            "SubnetId": "subnet-caeb29ac",
+            "VpcId": "vpc-1e299978"
+        }
+    ]
+}

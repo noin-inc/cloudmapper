@@ -1,0 +1,14 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:12.166000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:11.983000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2018-12-04T12:25:00+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/CodeDeployDemo-EC2-Instance-Profile",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        }
+    ]
+}

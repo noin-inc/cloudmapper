@@ -1,0 +1,4 @@
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"lambda-9142c9e1-ba8b-4b1b-85da-498f337a6c99\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"events.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:athena-table-repair\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:events:ap-northeast-1:416817624313:rule/every-hour\"}}},{\"Sid\":\"AWSEvents_every-hour_88c5dd9d-2123-4dc7-abe3-0e7476921daa\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"events.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:ap-northeast-1:416817624313:function:athena-table-repair\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:events:ap-northeast-1:416817624313:rule/every-hour\"}}}]}",
+    "RevisionId": "4389d378-a6bf-4720-83ad-65fe5dff0793"
+}

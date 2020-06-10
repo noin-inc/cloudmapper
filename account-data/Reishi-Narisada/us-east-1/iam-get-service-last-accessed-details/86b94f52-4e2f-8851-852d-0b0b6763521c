@@ -1,0 +1,62 @@
+{
+    "JobCompletionDate": "2020-06-10T14:31:27.774000+00:00",
+    "JobCreationDate": "2020-06-10T14:31:27.583000+00:00",
+    "JobStatus": "COMPLETED",
+    "ServicesLastAccessed": [
+        {
+            "LastAuthenticated": "2020-05-20T09:02:46+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "ServiceName": "Amazon Athena",
+            "ServiceNamespace": "athena",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon CloudWatch",
+            "ServiceNamespace": "cloudwatch",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-20T09:02:42+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "ServiceName": "AWS Glue",
+            "ServiceNamespace": "glue",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "AWS Identity and Access Management",
+            "ServiceNamespace": "iam",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "ServiceName": "AWS Lake Formation",
+            "ServiceNamespace": "lakeformation",
+            "TotalAuthenticatedEntities": 0
+        },
+        {
+            "LastAuthenticated": "2020-05-20T10:50:42+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "ServiceNamespace": "logs",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-20T10:50:33+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "ServiceName": "Amazon Personalize",
+            "ServiceNamespace": "personalize",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "LastAuthenticated": "2020-05-20T09:04:50+00:00",
+            "LastAuthenticatedEntity": "arn:aws:iam::416817624313:role/noin-personalize-workflow-dev",
+            "ServiceName": "Amazon S3",
+            "ServiceNamespace": "s3",
+            "TotalAuthenticatedEntities": 1
+        },
+        {
+            "ServiceName": "Amazon SNS",
+            "ServiceNamespace": "sns",
+            "TotalAuthenticatedEntities": 0
+        }
+    ]
+}

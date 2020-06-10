@@ -1,0 +1,609 @@
+{
+    "DBInstances": [
+        {
+            "AllocatedStorage": 50,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": false,
+            "AvailabilityZone": "ap-northeast-1a",
+            "BackupRetentionPeriod": 7,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": true,
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:noin-corp-prod",
+            "DBInstanceClass": "db.t2.medium",
+            "DBInstanceIdentifier": "noin-corp-prod",
+            "DBInstanceStatus": "available",
+            "DBName": "noincorp",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.mysql5.7",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "noin private subnet group",
+                "DBSubnetGroupName": "noin-private",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-504aee19",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-47b9a61f",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-b0eae7d4"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-6DXQ6S624QC56AIZ4JHVZII5JQ",
+            "DeletionProtection": true,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "noin-corp-prod.c10cazagrsgd.ap-northeast-1.rds.amazonaws.com",
+                "HostedZoneId": "Z24O6O9L7SGTNB",
+                "Port": 3306
+            },
+            "Engine": "mysql",
+            "EngineVersion": "5.7.22",
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:ap-northeast-1:416817624313:log-group:RDSOSMetrics:log-stream:db-6DXQ6S624QC56AIZ4JHVZII5JQ",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-06-04T15:00:18.557000+00:00",
+            "KmsKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "LatestRestorableTime": "2020-06-10T14:40:00+00:00",
+            "LicenseModel": "general-public-license",
+            "MasterUsername": "root",
+            "MonitoringInterval": 60,
+            "MonitoringRoleArn": "arn:aws:iam::416817624313:role/rds-monitoring-role",
+            "MultiAZ": false,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-5-7",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "PreferredBackupWindow": "15:51-16:21",
+            "PreferredMaintenanceWindow": "tue:20:00-tue:20:30",
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "StorageEncrypted": true,
+            "StorageType": "gp2",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-0307da9f12907eb35"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 100,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": false,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 14,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:noin-production",
+            "DBInstanceClass": "db.t3.xlarge",
+            "DBInstanceIdentifier": "noin-production",
+            "DBInstanceStatus": "available",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "noin",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "noin private subnet group",
+                "DBSubnetGroupName": "noin-private",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-504aee19",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-47b9a61f",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-b0eae7d4"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-ONZWTN7HWO2DX26K2OZNB7VMC4",
+            "DeletionProtection": true,
+            "DomainMemberships": [],
+            "EnabledCloudwatchLogsExports": [
+                "audit",
+                "error",
+                "general",
+                "slowquery"
+            ],
+            "Endpoint": {
+                "Address": "noin-production.c10cazagrsgd.ap-northeast-1.rds.amazonaws.com",
+                "HostedZoneId": "Z24O6O9L7SGTNB",
+                "Port": 3306
+            },
+            "Engine": "mysql",
+            "EngineVersion": "5.6.43",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-06-16T21:54:51.778000+00:00",
+            "KmsKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "LatestRestorableTime": "2020-06-10T14:40:00+00:00",
+            "LicenseModel": "general-public-license",
+            "MasterUsername": "noin_backend",
+            "MonitoringInterval": 0,
+            "MultiAZ": true,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-5-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "PerformanceInsightsRetentionPeriod": 731,
+            "PreferredBackupWindow": "18:00-18:30",
+            "PreferredMaintenanceWindow": "tue:20:00-tue:20:30",
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [
+                "noin-production-rep-001"
+            ],
+            "SecondaryAvailabilityZone": "ap-northeast-1a",
+            "StorageEncrypted": true,
+            "StorageType": "gp2",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-7c89a11a"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 1,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": true,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 7,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBClusterIdentifier": "noin-production-2019-12-21-12-14-22",
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:noin-production-2019-12-21-12-14-22",
+            "DBInstanceClass": "db.r5.large",
+            "DBInstanceIdentifier": "noin-production-2019-12-21-12-14-22",
+            "DBInstanceStatus": "available",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.docdb3.6",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "noin private subnet group",
+                "DBSubnetGroupName": "noin-private",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-504aee19",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-47b9a61f",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-b0eae7d4"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-QZA6POKRSOZB6NFBAE7TMGIYZQ",
+            "DeletionProtection": false,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "noin-production-2019-12-21-12-14-22.c10cazagrsgd.ap-northeast-1.docdb.amazonaws.com",
+                "HostedZoneId": "Z153P62A5O49IU",
+                "Port": 27017
+            },
+            "Engine": "docdb",
+            "EngineVersion": "3.6.0",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-12-21T12:22:33.165000+00:00",
+            "KmsKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "LicenseModel": "na",
+            "MasterUsername": "noin",
+            "MonitoringInterval": 0,
+            "MultiAZ": false,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:docdb-3-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": false,
+            "PreferredBackupWindow": "18:00-18:30",
+            "PreferredMaintenanceWindow": "mon:19:00-mon:19:30",
+            "PromotionTier": 1,
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "StorageEncrypted": true,
+            "StorageType": "aurora",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-03fd8460f1bbe317a"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 100,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": false,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 0,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:noin-production-rep-001",
+            "DBInstanceClass": "db.t3.medium",
+            "DBInstanceIdentifier": "noin-production-rep-001",
+            "DBInstanceStatus": "available",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "noin",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "noin private subnet group",
+                "DBSubnetGroupName": "noin-private",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-504aee19",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-47b9a61f",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-b0eae7d4"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-ZYLXM6DO3YAHK6B5ZIKKKHUBQA",
+            "DeletionProtection": false,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "noin-production-rep-001.c10cazagrsgd.ap-northeast-1.rds.amazonaws.com",
+                "HostedZoneId": "Z24O6O9L7SGTNB",
+                "Port": 3306
+            },
+            "Engine": "mysql",
+            "EngineVersion": "5.6.43",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-06-23T20:01:56.109000+00:00",
+            "KmsKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "LicenseModel": "general-public-license",
+            "MasterUsername": "noin_backend",
+            "MonitoringInterval": 0,
+            "MultiAZ": true,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-5-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "PerformanceInsightsRetentionPeriod": 731,
+            "PreferredBackupWindow": "18:00-18:30",
+            "PreferredMaintenanceWindow": "tue:20:00-tue:20:30",
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "ReadReplicaSourceDBInstanceIdentifier": "noin-production",
+            "SecondaryAvailabilityZone": "ap-northeast-1a",
+            "StatusInfos": [
+                {
+                    "Normal": true,
+                    "Status": "replicating",
+                    "StatusType": "read replication"
+                }
+            ],
+            "StorageEncrypted": true,
+            "StorageType": "gp2",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-7c89a11a"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 1,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": true,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 1,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBClusterIdentifier": "noin-staging-2019-12-21-10-39-14",
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:noin-staging-2019-12-21-10-39-14",
+            "DBInstanceClass": "db.r5.large",
+            "DBInstanceIdentifier": "noin-staging-2019-12-21-10-39-14",
+            "DBInstanceStatus": "available",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.docdb3.6",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "default",
+                "DBSubnetGroupName": "default",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-4d669404",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-7ce2d424",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-4ec1e72a"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-R62UQXBLIQUY6QVXDOZJVWJ5YU",
+            "DeletionProtection": false,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "noin-staging-2019-12-21-10-39-14.c10cazagrsgd.ap-northeast-1.docdb.amazonaws.com",
+                "HostedZoneId": "Z153P62A5O49IU",
+                "Port": 27017
+            },
+            "Engine": "docdb",
+            "EngineVersion": "3.6.0",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-12-21T10:45:59.201000+00:00",
+            "KmsKeyId": "arn:aws:kms:ap-northeast-1:416817624313:key/f70c542e-295f-4e09-a995-c208de9af8e9",
+            "LicenseModel": "na",
+            "MasterUsername": "staging",
+            "MonitoringInterval": 0,
+            "MultiAZ": false,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:docdb-3-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": false,
+            "PreferredBackupWindow": "00:00-00:30",
+            "PreferredMaintenanceWindow": "tue:18:58-tue:19:28",
+            "PromotionTier": 1,
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "StorageEncrypted": true,
+            "StorageType": "aurora",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-014b07944815efc50"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 10,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": false,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 3,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:nontv-staging",
+            "DBInstanceClass": "db.t2.micro",
+            "DBInstanceIdentifier": "nontv-staging",
+            "DBInstanceStatus": "available",
+            "DBName": "nontv_backend_staging",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "nontv",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "default",
+                "DBSubnetGroupName": "default",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-4d669404",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-7ce2d424",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-4ec1e72a"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-EDNNVJ3GUXAU24KVMHMPE32SWQ",
+            "DeletionProtection": true,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "nontv-staging.c10cazagrsgd.ap-northeast-1.rds.amazonaws.com",
+                "HostedZoneId": "Z24O6O9L7SGTNB",
+                "Port": 3306
+            },
+            "Engine": "mysql",
+            "EngineVersion": "5.6.43",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2017-09-03T23:44:18.416000+00:00",
+            "LatestRestorableTime": "2020-06-10T14:40:00+00:00",
+            "LicenseModel": "general-public-license",
+            "MasterUsername": "root",
+            "MonitoringInterval": 0,
+            "MultiAZ": true,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-5-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": false,
+            "PreferredBackupWindow": "15:00-15:30",
+            "PreferredMaintenanceWindow": "sat:18:44-sat:19:14",
+            "PubliclyAccessible": false,
+            "ReadReplicaDBInstanceIdentifiers": [
+                "nontv-staging-rep-001"
+            ],
+            "SecondaryAvailabilityZone": "ap-northeast-1a",
+            "StorageEncrypted": false,
+            "StorageType": "gp2",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-d94e09bf"
+                }
+            ]
+        },
+        {
+            "AllocatedStorage": 10,
+            "AssociatedRoles": [],
+            "AutoMinorVersionUpgrade": false,
+            "AvailabilityZone": "ap-northeast-1c",
+            "BackupRetentionPeriod": 0,
+            "CACertificateIdentifier": "rds-ca-2019",
+            "CopyTagsToSnapshot": false,
+            "DBInstanceArn": "arn:aws:rds:ap-northeast-1:416817624313:db:nontv-staging-rep-001",
+            "DBInstanceClass": "db.t2.micro",
+            "DBInstanceIdentifier": "nontv-staging-rep-001",
+            "DBInstanceStatus": "available",
+            "DBName": "nontv_backend_staging",
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "nontv",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "DBSecurityGroups": [],
+            "DBSubnetGroup": {
+                "DBSubnetGroupDescription": "default",
+                "DBSubnetGroupName": "default",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1a"
+                        },
+                        "SubnetIdentifier": "subnet-4d669404",
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-northeast-1c"
+                        },
+                        "SubnetIdentifier": "subnet-7ce2d424",
+                        "SubnetStatus": "Active"
+                    }
+                ],
+                "VpcId": "vpc-4ec1e72a"
+            },
+            "DbInstancePort": 0,
+            "DbiResourceId": "db-F4JYX5IA7KNKQXAYNRGUM3TPCY",
+            "DeletionProtection": false,
+            "DomainMemberships": [],
+            "Endpoint": {
+                "Address": "nontv-staging-rep-001.c10cazagrsgd.ap-northeast-1.rds.amazonaws.com",
+                "HostedZoneId": "Z24O6O9L7SGTNB",
+                "Port": 3306
+            },
+            "Engine": "mysql",
+            "EngineVersion": "5.6.43",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "InstanceCreateTime": "2019-07-02T01:55:15.207000+00:00",
+            "LicenseModel": "general-public-license",
+            "MasterUsername": "root",
+            "MonitoringInterval": 0,
+            "MultiAZ": false,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-5-6",
+                    "Status": "in-sync"
+                }
+            ],
+            "PendingModifiedValues": {},
+            "PerformanceInsightsEnabled": false,
+            "PreferredBackupWindow": "15:00-15:30",
+            "PreferredMaintenanceWindow": "sat:18:44-sat:19:14",
+            "PubliclyAccessible": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "ReadReplicaSourceDBInstanceIdentifier": "nontv-staging",
+            "StatusInfos": [
+                {
+                    "Normal": true,
+                    "Status": "replicating",
+                    "StatusType": "read replication"
+                }
+            ],
+            "StorageEncrypted": false,
+            "StorageType": "gp2",
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-d94e09bf"
+                }
+            ]
+        }
+    ]
+}

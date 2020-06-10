@@ -1,0 +1,8 @@
+{
+    "TagDescriptions": [
+        {
+            "ResourceArn": "arn:aws:elasticloadbalancing:ap-northeast-1:416817624313:loadbalancer/app/noin-web-staging-nginx/c7a2037dc740a176",
+            "Tags": []
+        }
+    ]
+}
